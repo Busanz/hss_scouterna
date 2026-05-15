@@ -5,6 +5,7 @@ export default function Home() {
     <div className="flex flex-col bg-blue-400">
       <Headersection />
       <Footersection />
+      <p>Testing staging branch</p>
     </div>
   );
 }
