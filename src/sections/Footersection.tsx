@@ -7,9 +7,9 @@ const FooterSection = () => {
 
   return (
     <>
-      <footer className="w-[1440px] h-[637px] bg-[#003660] text-white font-[Montserrat] font-normal">
+      <footer className="w-full h-[637px] bg-[#003660] text-white font-[Montserrat] font-normal">
 
-        <div className="w-full mx-auto px-[60px] pt-[40px] pb-[40px]">
+        <div className="max-w-[1440px] mx-auto px-[60px] pt-[40px] pb-[40px]">
           <h3 className="text-[48px] font-normal mb-[20px]">Gå direkt till</h3>
 
           <nav>
