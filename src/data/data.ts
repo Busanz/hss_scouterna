@@ -1,3 +1,5 @@
+import type { QuickLinkType, SocialLinkType } from '../types/types'
+
 export const navLinks = [
   {
     label: 'Bli scout',
@@ -22,5 +24,49 @@ export const navLinks = [
   {
     label: 'FAQ',
     href: '/faq',
+  },
+];
+
+export const quickLinks: QuickLinkType[] = [
+  {
+    label: 'Bli scout',
+    image: '/images/footer/quicklinks/bliscout.svg',
+    href: '/bli-scout'
+  },
+
+  { label: 'Avdelningar', 
+    image: '/images/footer/quicklinks/avdelningar.svg', 
+    href: '/avdelningar' 
+  },
+  { label: 'Sjöscout', 
+    image: '/images/footer/quicklinks/sjöscout.svg', 
+    href: '/sjoscout' 
+  },
+  { label: 'För föräldrar', 
+    image: '/images/footer/quicklinks/förföräldrar.svg', 
+    href: '/foraldrar' 
+  },
+  { label: 'FAQ', 
+    image: '/images/footer/quicklinks/faq.svg', 
+    href: '/faq' 
+  },
+];
+
+export const socialMediaLinks: SocialLinkType[] = [
+  { label: 'Facebook', 
+    image: '/images/footer/socialmedia/facebook.svg', 
+    href: 'https://facebook.com/' 
+  },
+  { label: 'Instagram', 
+    image: '/images/footer/socialmedia/instagram.svg', 
+    href: 'https://instagram.com/' 
+  },
+  { label: 'LinkedIn', 
+    image: '/images/footer/socialmedia/linkedin.svg', 
+    href: 'https://linkedin.com/' 
+  },
+  { label: 'YouTube', 
+    image: '/images/footer/socialmedia/youtube.svg', 
+    href: 'https://youtube.com/' 
   },
 ];
