@@ -73,5 +73,4 @@ const Footersection = () => {
   </>
 )
 }
-
 export default Footersection;
