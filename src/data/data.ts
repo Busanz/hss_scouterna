@@ -1,4 +1,4 @@
-import { QuickLinkType } from "../types/types"
+import type { QuickLinkType, SocialLinkType } from '../types/types'
 
 export const navLinks = [
   {
@@ -52,4 +52,21 @@ export const quickLinks: QuickLinkType[] = [
   },
 ];
 
-
+export const socialMediaLinks: SocialLinkType[] = [
+  { label: 'Facebook', 
+    image: '/images/footer/socialmedia/facebook.svg', 
+    href: 'https://www.facebook.com/scouterna' 
+  },
+  { label: 'Instagram', 
+    image: '/images/footer/socialmedia/instagram.svg', 
+    href: 'https://www.instagram.com/scouterna/' 
+  },
+  { label: 'LinkedIn', 
+    image: '/images/footer/socialmedia/linkedin.svg', 
+    href: 'https://se.linkedin.com/company/scouterna' 
+  },
+  { label: 'YouTube', 
+    image: '/images/footer/socialmedia/youtube.svg', 
+    href: 'https://www.youtube.com/channel/UCmFut5N4FcfLBJ70AhSJnmw' 
+  },
+];
