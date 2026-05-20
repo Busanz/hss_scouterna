@@ -55,7 +55,7 @@ export const quickLinks: QuickLinkType[] = [
 export const socialMediaLinks: SocialLinkType[] = [
   { label: 'Facebook', 
     image: '/images/footer/socialmedia/facebook.svg', 
-    href: 'https://www.facebook.com/scouterna' 
+    href: 'https://facebook.com/' 
   },
   { label: 'Instagram', 
     image: '/images/footer/socialmedia/instagram.svg', 

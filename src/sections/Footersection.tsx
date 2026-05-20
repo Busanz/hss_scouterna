@@ -10,8 +10,7 @@ const Footersection = () => {
       <footer className="w-full h-[637px] bg-[#003660] text-white font-[Montserrat] font-normal">
 
         <div className="max-w-[1440px] mx-auto px-[60px] pt-[40px] pb-[40px]">
-          <h3 className="text-[48px] font-normal mb-[20px]">Gå direkt till</h3>
-
+          <h4 className="text-[48px] font-normal mb-[20px]">Gå direkt till</h4>
           <nav>
             <div className="flex flex-wrap justify-evenly">
               {quickLinks.map((link: QuickLinkType) => (
@@ -35,25 +34,28 @@ const Footersection = () => {
 
           <div className="grid grid-cols-3 gap-[60px]">
             <div>
-              <h4 className="text-[31px] mb-[16px]">Kontakt</h4>
+              <h5 className="text-[31px] mb-[16px]">Kontakt</h5>
               <p className="text-[20px]">
                 Hässelby Strands Sjöscoutkår
                 <br />
                 e-post :
-                <Link href="mailto:info@hss-scout.org" className="hover:underline">
+                <span className="ml-1">
+                  <Link href="mailto:info@hss-scout.org" className="hover:underline">
                     info@hss-scout.org
-                </Link>
+                  </Link>
+                </span>
               </p>
             </div>
+
             <div>
-              <h4 className="text-[31px] mb-[16px]">Adress</h4>
+              <h5 className="text-[31px] mb-[16px]">Adress</h5>
               <Link href={'/kontakta-oss'} className="text-[20px]  hover:cursor-pointer">
                 Hitta hit
               </Link>
             </div>
 
             <div>
-              <h4 className="text-[31px] mb-[16px]">Följ oss</h4>
+              <h5 className="text-[31px] mb-[16px]">Följ oss</h5>
               <div className="grid grid-cols-2 gap-[8px]">
                 {socialMediaLinks.map((link) => (
                   <div key={link.label}>
@@ -64,6 +66,7 @@ const Footersection = () => {
                   </div>
                 ))}
               </div>
+
             </div>
           </div>
         </div>
