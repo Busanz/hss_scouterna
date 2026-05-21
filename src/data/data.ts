@@ -109,3 +109,51 @@ export const introLinks: IntroLinksType = [
     url: 'lager',
   },
 ];
+
+export const quickLinks: QuickLinkType[] = [
+  {
+    label: 'Bli scout',
+    image: '/img/footer/quicklinks/bliscout.svg',
+    href: '/bli-scout',
+  },
+
+  {
+    label: 'Avdelningar',
+    image: '/img/footer/quicklinks/avdelningar.svg',
+    href: '/avdelningar',
+  },
+  {
+    label: 'Sjöscout',
+    image: '/img/footer/quicklinks/sjöscout.svg',
+    href: '/sjoscout',
+  },
+  {
+    label: 'För föräldrar',
+    image: '/img/footer/quicklinks/förföräldrar.svg',
+    href: '/foraldrar',
+  },
+  { label: 'FAQ', image: '/img/footer/quicklinks/faq.svg', href: '/faq' },
+];
+
+export const socialMediaLinks: SocialLinkType[] = [
+  {
+    label: 'Facebook',
+    image: '/img/footer/socialmedia/facebook.svg',
+    href: 'https://www.facebook.com/scouterna',
+  },
+  {
+    label: 'Instagram',
+    image: '/img/footer/socialmedia/instagram.svg',
+    href: 'https://www.instagram.com/scouterna/',
+  },
+  {
+    label: 'LinkedIn',
+    image: '/img/footer/socialmedia/linkedin.svg',
+    href: 'https://se.linkedin.com/company/scouterna',
+  },
+  {
+    label: 'YouTube',
+    image: '/img/footer/socialmedia/youtube.svg',
+    href: 'https://www.youtube.com/channel/UCmFut5N4FcfLBJ70AhSJnmw',
+  },
+];
