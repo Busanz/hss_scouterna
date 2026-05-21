@@ -50,7 +50,7 @@ const Footersection = () => {
               <p className="text-[20px]">
                 Hässelby Strands Sjöscoutkår
                 <br />
-                e-post :
+                e-post:
                 <span className="ml-1">
                   <Link
                     href="mailto:info@hss-scout.org"
