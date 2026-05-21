@@ -1,7 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
-import { QuickLinkType, SocialLinkType } from '../types/types';
+
 import { quickLinks, socialMediaLinks } from '../data/data';
+import { QuickLinkType, SocialLinkType } from '../types/types';
 
 const Footersection = () => {
   return (
@@ -70,3 +71,5 @@ const Footersection = () => {
   )
 }
 export default Footersection;
+
+

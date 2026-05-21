@@ -3,6 +3,9 @@ import type { QuickLinkType, SocialLinkType } from '../types/types'
 import type { NavLinksType, IntroLinksType } from '@/types/types';
 
 export const navLinks: NavLinksType = [
+
+
+
   {
     label: 'Bli scout',
     href: '/bli-scout',
@@ -28,6 +31,33 @@ export const navLinks: NavLinksType = [
     href: '/faq',
   },
 ];
+
+export const quickLinks: QuickLinkType[] = [
+  {
+    label: 'Bli scout',
+    image: '/images/footer/quicklinks/bliscout.svg',
+    href: '/bli-scout'
+  },
+
+  { label: 'Avdelningar', 
+    image: '/images/footer/quicklinks/avdelningar.svg', 
+    href: '/avdelningar' 
+  },
+  { label: 'Sjöscout', 
+    image: '/images/footer/quicklinks/sjöscout.svg', 
+    href: '/sjoscout' 
+  },
+  { label: 'För föräldrar', 
+    image: '/images/footer/quicklinks/förföräldrar.svg', 
+    href: '/foraldrar' 
+  },
+  { label: 'FAQ', 
+    image: '/images/footer/quicklinks/faq.svg', 
+    href: '/faq' 
+  },
+];
+
+
 
 export const introLinks: IntroLinksType = [
   {
@@ -62,30 +92,6 @@ export const introLinks: IntroLinksType = [
   },
 ];
 
-export const quickLinks: QuickLinkType[] = [
-  {
-    label: 'Bli scout',
-    image: '/images/footer/quicklinks/bliscout.svg',
-    href: '/bli-scout'
-  },
-
-  { label: 'Avdelningar', 
-    image: '/images/footer/quicklinks/avdelningar.svg', 
-    href: '/avdelningar' 
-  },
-  { label: 'Sjöscout', 
-    image: '/images/footer/quicklinks/sjöscout.svg', 
-    href: '/sjoscout' 
-  },
-  { label: 'För föräldrar', 
-    image: '/images/footer/quicklinks/förföräldrar.svg', 
-    href: '/foraldrar' 
-  },
-  { label: 'FAQ', 
-    image: '/images/footer/quicklinks/faq.svg', 
-    href: '/faq' 
-  },
-];
 
 export const socialMediaLinks: SocialLinkType[] = [
   { label: 'Facebook', 
