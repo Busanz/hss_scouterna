@@ -1,8 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { QuickLinkType } from '../types/types';
 import { quickLinks, socialMediaLinks } from '../data/data';
-import { QuickLinkType, SocialLinkType } from '../types/types';
+import { QuickLinkType } from '../types/types';
 
 const Footersection = () => {
   return (
@@ -101,5 +100,3 @@ const Footersection = () => {
   );
 };
 export default Footersection;
-
-
