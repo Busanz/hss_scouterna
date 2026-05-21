@@ -6,7 +6,6 @@ export default function Home() {
     <div className="flex flex-col w-full h-full justify-center">
       <Headersection />
       <Introsection />
-      {/* <Footersection /> */}
     </div>
   );
 }
