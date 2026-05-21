@@ -1,20 +1,20 @@
-import Values from "@/components/Values"
+import Values from '@/components/Values';
 
 const OurCommitments = () => {
-    return(
-        <>
-            <section className="bg-[#003660] px-5 pb-15 mb-30 md:px-30">
-                <div className="my-16">
-                    <h1 className="text-center text-3xl text-[#ffffff] mt-8 font-[Montserrat]">
-                        Våra engagemang
-                    </h1>
-                    <div className="mx-auto my-8 h-px bg-[#76cef4]/50"></div>
-                </div>
+  return (
+    <section className="flex flex-col w-full h-full items-center py-20">
+      <div className="flex flex-col w-full max-w-360 rounded-sm bg-primary">
+        <div className="flex flex-col w-full my-16">
+          <h1 className="text-center text-text-primary mt-8">
+            Våra engagemang
+          </h1>
+          <hr className="flex-1 my-8 h-[0.5px border-text-primary" />
+        </div>
 
-                <Values />
-            </section>
-        </>
-    )
-}
+        <Values />
+      </div>
+    </section>
+  );
+};
 
-export default OurCommitments
+export default OurCommitments;

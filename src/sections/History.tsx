@@ -1,20 +1,19 @@
-import Story from "@/components/Story"
-import OldBoats from "@/components/OldBoats"
+import Story from '@/components/Story';
+import OldBoats from '@/components/OldBoats';
 
 const History = () => {
-    return (
-        <>
-            <div className="my-16">
-                <h1 className="text-center text-3xl mt-8 font-[Montserrat]">
-                    Historia
-                </h1>
-                <div className="mx-auto my-8 h-px w-[90%] md:w-[80%] bg-[#76Cff4]"></div>            
-                <Story />
+  return (
+    <section className="flex flex-col w-full h-full items-center">
+      <div className="flex flex-col w-full max-w-360 pt-20">
+        <h1 className="text-center text-3xl mt-8 text-text-secondary">
+          Historia
+        </h1>
+        <hr className="my-8 border-primary" />
+        <Story />
+        <OldBoats />
+      </div>
+    </section>
+  );
+};
 
-                <OldBoats />
-            </div>
-        </>
-    )
-}
-
-export default History
+export default History;
