@@ -8,10 +8,8 @@ const FooterSection = () => {
   return (
     <>
       <footer className="w-full h-[637px] bg-[#003660] text-white font-[Montserrat] font-normal">
-
         <div className="max-w-[1440px] mx-auto px-[60px] pt-[40px] pb-[40px]">
           <h3 className="text-[48px] font-normal mb-[20px]">Gå direkt till</h3>
-
           <nav>
             <div className="flex flex-wrap justify-evenly">
               {quickLinks.map((link: QuickLinkType) => (
@@ -25,7 +23,6 @@ const FooterSection = () => {
             </div>
           </nav>
         </div>
-
       </footer>
     </>
   )
