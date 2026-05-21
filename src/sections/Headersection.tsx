@@ -4,7 +4,6 @@ import Navbarlinks from '@/components/Navbarlinks';
 
 const Headersection = () => {
   return (
-<<<<<<< HEAD
     <section className="flex flex-col w-full h-full items-center">
       <div className="flex flex-col w-full max-w-360">
         <div className="relative w-40 h-12 items-center pt-1.5 cursor-pointer">
@@ -45,14 +44,5 @@ const Headersection = () => {
     </section>
   );
 };
-=======
-    <>
-      <section>
-        Header section
-      </section>
-    </>
-  )
-}
->>>>>>> feature/11-footer-quicklinks
 
 export default Headersection;
