@@ -47,31 +47,31 @@ export default function FaqSection() {
           </p>
         </div>
 
-        {/* Categories */}
+        
         <div className="flex flex-wrap justify-center gap-3 mb-6">
-          {categories.map((cat) => (
+          {categories.map((category) => (
             <button
-              key={cat}
-              onClick={() => handleSelectCategory(cat)}
+              key={category}
+              onClick={() => handleSelectCategory(category)}
               className={`min-w-32.5 sm:min-w-40 px-4 h-12.5 rounded-2xl text-white text-sm font-semibold cursor-pointer transition-all duration-200 ${
-                activeCategory === cat
+                activeCategory === category
                   ? "bg-[#395374] shadow-lg"
                   : "bg-[#001f3f] hover:bg-[#17395f]"
               }`}
             >
-              {cat}
+              {category}
             </button>
           ))}
         </div>
 
-        {/* Divider */}
+        
         <div className="max-w-4xl mx-auto h-px bg-white/15 mb-4" />
 
         <p className="text-center text-white/40 text-sm mb-6 tracking-wide">
           {activeCategory}
         </p>
 
-        {/* FAQ Grid */}
+      
         <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-rows-8 lg:grid-rows-5 gap-0 sm:divide-x divide-gray-200">
           {filtered.map((item, index) => {
             const isActive = item.question === selectedQuestion;
