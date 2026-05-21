@@ -24,7 +24,7 @@ const Footersection = () => {
             </nav>
           </div>
           <div className="w-full bg-[#002B4D]">
-            <div className="max-w-[1440px] h-[339px] mx-auto px-[60px] py-[30px] ">
+            <div className="max-w-[1440px] h-[339px] mx-auto px-[60px] py-[60px] ">
               <div className="mb-[40px]">
                 <img src="/images/footer/scouterna-footer-logo.svg" alt="Scouterna" className="h-[40px] w-auto " />
               </div>
