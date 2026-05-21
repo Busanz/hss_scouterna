@@ -40,7 +40,7 @@ const Footersection = () => {
               alt="Scouterna"
               width={80}
               height={80}
-              className="h-10 w-auto "
+              className="h-10 w-auto"
             />
           </div>
           <div className="grid grid-cols-3 gap-15">
