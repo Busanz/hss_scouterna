@@ -7,10 +7,7 @@ const Footersection = () => {
   return (
   <>
     <section>
-     
       <footer className="w-full h-[637px] bg-[#003660] text-white font-[Montserrat] font-normal">
-        <img src='/images/footer/curve.svg' alt="" className="h-[27px] w-[1440px] opacity-100" />
-
         <div className="max-w-[1440px] mx-auto px-[60px] py-[30px]">
           <h4 className="text-[48px] mb-[10px]">Gå direkt till</h4>
           <nav>
