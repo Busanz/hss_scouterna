@@ -9,7 +9,8 @@ const Footersection = () => {
     <>
       <section>
         <footer className="w-full h-[637px] bg-[#003660] text-white font-[Montserrat] font-normal">
-          <div className="max-w-[1440px] mx-auto px-[60px] py-[30px]">
+          <img src="/images/footer/curve.svg" alt="curve"className="w-full max-w-full block object-cover"/>
+          <div className="max-w-[1440px] mx-auto px-[60px] py-[60px]">
             <h4 className="text-[48px] mb-[10px]">Gå direkt till</h4>
             <nav>
               <div className="flex flex-wrap justify-evenly">
