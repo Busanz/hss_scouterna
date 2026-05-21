@@ -1,4 +1,3 @@
-
 import History from '@/sections/History';
 import Introsection from '@/sections/Introsection';
 import OurCommitments from '@/sections/OurCommitments';

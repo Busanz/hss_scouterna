@@ -3,7 +3,6 @@ import type { QuickLinkType, SocialLinkType } from '../types/types';
 import type { NavLinksType, IntroLinksType } from '@/types/types';
 
 export const navLinks: NavLinksType = [
-
   {
     label: 'Bli scout',
     href: '/bli-scout',
@@ -77,7 +76,6 @@ export const socialMediaLinks: SocialLinkType[] = [
     href: 'https://www.youtube.com/channel/UCmFut5N4FcfLBJ70AhSJnmw',
   },
 ];
-
 
 export const introLinks: IntroLinksType = [
   {
