@@ -1,13 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-
 import { quickLinks, socialMediaLinks } from '../data/data';
-import { QuickLinkType, SocialLinkType } from '../types/types';
+import { QuickLinkType } from '../types/types';
 
 const Footersection = () => {
   return (
-
     <footer className="flex flex-col w-full h-full max-w-360 items-center rounded-sm bg-primary text-white">
       <div className="flex flex-col w-full items-center py-20">
         <h1 className="pb-10">Gå direkt till</h1>
@@ -91,12 +89,10 @@ const Footersection = () => {
                         className="w-6 h-6"
                       />
                       <span className="text-[20px]">{link.label}</span>
->>>>>>> feature/034-setup-routes-for-menu-bar
                     </Link>
                   </div>
                 ))}
               </div>
-
             </div>
           </div>
         </div>
