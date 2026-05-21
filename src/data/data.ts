@@ -1,5 +1,4 @@
 import type { QuickLinkType, SocialLinkType } from '../types/types';
-
 import type { NavLinksType, IntroLinksType } from '@/types/types';
 
 export const navLinks: NavLinksType = [

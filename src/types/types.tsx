@@ -7,3 +7,4 @@ export type QuickLinkType = {
   href: string;
 };
 export type SocialLinkType = QuickLinkType;
+
