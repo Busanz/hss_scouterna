@@ -1,7 +1,7 @@
 import React from 'react';
 
-const AvdelningarPage = () => {
-  return <div>AvdelningarPage</div>;
+const BliScoutPage = () => {
+  return <div>bli-scoutPage</div>;
 };
 
-export default AvdelningarPage;
+export default BliScoutPage;
