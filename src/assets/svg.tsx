@@ -1,0 +1,45 @@
+export const GlobalSvg = () => {
+  return (
+    <svg
+      width="38"
+      height="38"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className="p-2"
+    >
+      <g clipPath="url(#clip0_699_11)">
+        <path
+          d="M12.7 14.2C11.9 17.3 10.6 19.2 10 20C9.4 19.2 8.1 17.3 7.3 14.2H12.7ZM19.1 14.2C17.8 17 15.2 19.1 12.1 19.8C13.2 18.1 14 16.2 14.4 14.2H19.1ZM0.9 14.2H5.6C6 16.2 6.8 18.1 7.9 19.8C4.8 19.1 2.2 17 0.9 14.2ZM13 12.5H7C6.8 10.8 6.8 9.2 7 7.5H13C13.3 9.2 13.3 10.8 13 12.5ZM5.3 12.5H0.3C0.1 11.7 0 10.9 0 10C0 9.1 0.1 8.3 0.3 7.5H5.3C5.1 9.2 5.1 10.8 5.3 12.5ZM19.7 12.5H14.7C14.9 10.8 14.9 9.2 14.7 7.5H19.7C19.9 8.3 20 9.1 20 10C20 10.9 19.9 11.7 19.7 12.5ZM12.7 5.8H7.3C8.1 2.7 9.4 0.8 10 0C11 1.4 12 3.2 12.7 5.8ZM5.6 5.8H0.9C2.2 3 4.8 0.9 7.9 0.2C6.9 1.8 6.1 3.8 5.6 5.8ZM19.1 5.8H14.4C13.9 3.7 13.1 1.8 12.1 0.2C15.2 0.9 17.8 3 19.1 5.8Z"
+          fill="#001423"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_699_11">
+          <rect width="20" height="20" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};
+
+export const LinkSvg = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="lucide lucide-external-link-icon lucide-external-link"
+    >
+      <path d="M15 3h6v6" />
+      <path d="M10 14 21 3" />
+      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+    </svg>
+  );
+};

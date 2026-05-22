@@ -1,4 +1,7 @@
-export const navLinks = [
+import type { QuickLinkType, SocialLinkType } from '../types/types';
+import type { NavLinksType, IntroLinksType } from '@/types/types';
+
+export const navLinks: NavLinksType = [
   {
     label: 'Bli scout',
     href: '/bli-scout',
@@ -22,5 +25,89 @@ export const navLinks = [
   {
     label: 'FAQ',
     href: '/faq',
+  },
+];
+
+export const introLinks: IntroLinksType = [
+  {
+    label: 'Om HSS',
+    href: '/om-hss',
+    url: 'om_hss',
+  },
+  {
+    label: 'För föräldrar',
+    href: '/for-foraldrar',
+    url: 'for_foraldrar',
+  },
+  {
+    label: 'För ledare',
+    href: '/for-ledare',
+    url: 'for_ledare',
+  },
+  {
+    label: 'Bli scout',
+    href: '/bli-scout',
+    url: 'bli_scout',
+  },
+  {
+    label: 'Avdelningar',
+    href: '/avdelningar',
+    url: 'avdelningar',
+  },
+  {
+    label: 'Läger',
+    href: '/lager',
+    url: 'lager',
+  },
+];
+
+export const quickLinks: QuickLinkType[] = [
+  {
+    label: 'Bli scout',
+    image: '/img/footer/quicklinks/bliscout.svg',
+    href: '/bli-scout',
+  },
+
+  {
+    label: 'Avdelningar',
+    image: '/img/footer/quicklinks/avdelningar.svg',
+    href: '/avdelningar',
+  },
+  {
+    label: 'Sjöscout',
+    image: '/img/footer/quicklinks/sjöscout.svg',
+    href: '/sjöscout',
+  },
+  {
+    label: 'För föräldrar',
+    image: '/img/footer/quicklinks/förföräldrar.svg',
+    href: '/for-foraldrar',
+  },
+  { label: 'FAQ', 
+    image: '/img/footer/quicklinks/faq.svg', 
+    href: '/faq' 
+  },
+];
+
+export const socialMediaLinks: SocialLinkType[] = [
+  {
+    label: 'Facebook',
+    image: '/img/footer/socialmedia/facebook.svg',
+    href: 'https://www.facebook.com/HSSScout',
+  },
+  {
+    label: 'Instagram',
+    image: '/img/footer/socialmedia/instagram.svg',
+    href: 'https://www.instagram.com/hss_scout/',
+  },
+  {
+    label: 'LinkedIn',
+    image: '/img/footer/socialmedia/linkedin.svg',
+    href: 'https://se.linkedin.com/company/scouterna',
+  },
+  {
+    label: 'YouTube',
+    image: '/img/footer/socialmedia/youtube.svg',
+    href: 'https://www.youtube.com/@hasselbystrandssjoscoutkar4026',
   },
 ];
