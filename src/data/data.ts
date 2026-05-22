@@ -76,26 +76,29 @@ export const quickLinks: QuickLinkType[] = [
   {
     label: 'Sjöscout',
     image: '/img/footer/quicklinks/sjöscout.svg',
-    href: '/sjoscout',
+    href: '/sjöscout',
   },
   {
     label: 'För föräldrar',
     image: '/img/footer/quicklinks/förföräldrar.svg',
-    href: '/foraldrar',
+    href: '/for-foraldrar',
   },
-  { label: 'FAQ', image: '/img/footer/quicklinks/faq.svg', href: '/faq' },
+  { label: 'FAQ', 
+    image: '/img/footer/quicklinks/faq.svg', 
+    href: '/faq' 
+  },
 ];
 
 export const socialMediaLinks: SocialLinkType[] = [
   {
     label: 'Facebook',
     image: '/img/footer/socialmedia/facebook.svg',
-    href: 'https://www.facebook.com/scouterna',
+    href: 'https://www.facebook.com/HSSScout',
   },
   {
     label: 'Instagram',
     image: '/img/footer/socialmedia/instagram.svg',
-    href: 'https://www.instagram.com/scouterna/',
+    href: 'https://www.instagram.com/hss_scout/',
   },
   {
     label: 'LinkedIn',
@@ -105,6 +108,6 @@ export const socialMediaLinks: SocialLinkType[] = [
   {
     label: 'YouTube',
     image: '/img/footer/socialmedia/youtube.svg',
-    href: 'https://www.youtube.com/channel/UCmFut5N4FcfLBJ70AhSJnmw',
+    href: 'https://www.youtube.com/@hasselbystrandssjoscoutkar4026',
   },
 ];
