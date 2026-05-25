@@ -19,8 +19,8 @@ const LinkedCard = ({ href, label, url }: LinkedCardProps) => {
             backgroundImage: `url(${url})`,
           }}
         >
-          <div className="absolute flex items-center justify-center left-0 top-4 ">
-            <h3 className="text-xl font-light w-full min-w-40 md:min-w-63 text-text-primary text-start md:text-center px-6 py-2 bg-primary rounded-r-sm">
+          <div className="absolute flex items-center justify-center left-1 top-4 ">
+            <h3 className="sm:text-lg md:text-lg lg:text-lg font-light min-w-40 md:min-w-50 lg:min-w-56 text-text-primary text-start md:text-center px-2 lg:px-3 xl:px-6 py-1 sm:py-2 bg-primary rounded-r-sm">
               {label}
             </h3>
           </div>
