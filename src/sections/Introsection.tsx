@@ -4,8 +4,8 @@ import LinkedCard from '@/components/ui/LinkedCard';
 
 const Introsection = () => {
   return (
-    <section className="flex flex-col w-full h-full items-center justify-center my-10 lg:my-20">
-      <div className="relative grid grid-cols-2 lg:grid-cols-3 lg:grid-rows-3 w-full max-w-360 bg-blue-200 text-text-primary px-4 md:px-6 lg:px-10 py-10 lg:py-20 rounded-sm place-items-center gap-2 md:gap-6 lg:gap-0">
+    <section className="flex flex-col w-full h-full items-center justify-center my-5 md:my-10">
+      <div className="relative grid grid-cols-2 lg:grid-cols-3 lg:grid-rows-3 w-full max-w-360 bg-bg-light text-text-primary px-4 md:px-6 lg:px-10 py-10 lg:py-20 rounded-sm place-items-center gap-2 md:gap-6 lg:gap-0">
         {introLinks.slice(0, 3).map((item, index) => (
           <LinkedCard
             key={index}
