@@ -16,7 +16,7 @@ const LinkedCard = ({ href, label, url }: LinkedCardProps) => {
         <div
           className={`w-full h-full bg-cover bg-center`}
           style={{
-            backgroundImage: `url(/img/intro-section/${url}.png)`,
+            backgroundImage: `url(${url})`,
           }}
         >
           <div className="absolute flex items-center justify-center left-0 top-4 ">
