@@ -5,7 +5,7 @@ const ScoutUniform = () => {
         <>
             <section className="m-4">
                 <div className="p-1 mt-6 sm:px-6 md:px-8">
-                    <h2 className="text-center text-2xl  p-4 sm:text-3xl md:text-4xl">Scout outfit</h2>
+                    <h2 className="text-center text-2xl  p-4 sm:text-xl md:text-2xl">Scout Uniform</h2>
                     <h3 className="text-primary text-center sm:text-lg md:text-xl mt-2">The Scout costume is a way to show that we all belong to the Scouts.</h3>
                 </div>
                 <div className="mx-auto my-8 h-0.5 w-full opacity-90 sm:my-12 bg-text-subtitle" />
