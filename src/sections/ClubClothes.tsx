@@ -9,11 +9,11 @@ const ClubClothes = () => {
         <section className="flex flex-col w-full h-full items-center my-10 lg:my-20">
             <div className="flex flex-col w-full max-w-360 rounded-sm pb-20 bg-primary text-text-primary px-4 md:px-6 lg:px-10 ">
 
-                <h2 className="text-center  text-6xl sm:text-4xl lg:text-5xl pt-6">
+                <h2 className="text-center  text-xl sm:text-xl lg:text-6xl pt-6">
                     Club clothes
                 </h2>
 
-                <div className="mt-6 text-center text-sm text-text-subtitle sm:mt-8 sm:text-xl lg:text-2xl">
+                <div className="mt-6 text-center text-sm text-text-subtitle sm:mt-4 sm:text-lg">
                     <h4 className="mt-2 sm:mt-3">How is HSS different from other scout corps?</h4>
                     <h4 className="mt-2 sm:mt-3">
                         How do you recognize an HSS scout among 2000 other scouts?
@@ -22,7 +22,7 @@ const ClubClothes = () => {
 
                 <div className="mx-auto my-8 h-0.5 w-full sm:my-12 bg-text-subtitle" />
 
-                <p className="mb-10 text-sm font-light leading-relaxed sm:mb-12 sm:text-base lg:text-lg">
+                <p className="mb-10 text-sm sm:mb-12 sm:text-base ">
                     There are few scout corps that have as nice a logo as we do at HSS and
                     therefore we want it to be seen!
                     <br/>
@@ -44,7 +44,7 @@ const ClubClothes = () => {
                             <p className="mt-2 text-right text-sm  sm:text-base">
                                 {product.price}
                             </p>
-                            <p className="mt-1 text-sm  sm:text-xl">
+                            <p className="mt-1 text-sm  sm:text-lg">
                                 {product.name}
                             </p>
                             <p className="mt-1 text-sm text-text-primary sm:text-base">
@@ -54,7 +54,7 @@ const ClubClothes = () => {
                     ))}
                 </div>
 
-                <div className="text-sm sm:text-base lg:text-lg">
+                <div className="text-sm sm:text-base">
                     <p className="mb-6 sm:mb-7">
                         The shirts are easiest to buy at the student union disco in November or at the end of summer in June.
                         <br/>
