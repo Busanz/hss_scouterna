@@ -1,4 +1,5 @@
 import OurBoats from "@/components/OurBoats"
+import { AnchorSvg } from "@/assets/svg"
 
 
 const SeaScout = () => {
@@ -13,9 +14,12 @@ const SeaScout = () => {
                         At vara sjöscout innebär i grunden sammma sak som att vara vanlig scout, 
                         att lära sig genom att göra samarbeta och visa hänsyn, men vattnet är våra framsta klassrum.
                     </p>
-                    <h3 className="text-center text-2xl mt-8 text-[#76cef4]">
-                        Vattnet som fokus
-                    </h3>
+                    <div className="flex items-center justify-center gap-6">
+                        <h3 className="text-center text-2xl mt-8 text-[#76cef4]">
+                            Vattnet som fokus
+                        </h3>
+                        <AnchorSvg />
+                    </div>
                     <hr className="my-8 h-[0.5px] w-full text-[#76cef4]" />
                     <div className=" text-text-primary md:px-20">
                         <p>Den största skillnaden är att aktiviteterna under den varma halvan av året nästan uteslutande sker på sjön.</p>
