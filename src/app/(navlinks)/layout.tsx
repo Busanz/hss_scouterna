@@ -1,5 +1,5 @@
-import Headersection from '@/sections/Headersection';
-import Footersection from '@/sections/Footersection';
+import Headersection from "@/sections/Headersection";
+import Footersection from "@/sections/Footersection";
 
 export default function NavLinksLayout({
   children,
@@ -9,7 +9,7 @@ export default function NavLinksLayout({
   return (
     <div className="flex flex-col w-full items-center px-1 sm:px-2 md:px-4 lg:px-6">
       <Headersection />
-      <main className="flex-1">{children}</main>
+      <main className="w-full">{children}</main>
       <Footersection />
     </div>
   );

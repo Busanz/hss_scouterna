@@ -43,3 +43,25 @@ export const LinkSvg = () => {
     </svg>
   );
 };
+
+export const CurvedBorderTop = () => {
+  return (
+    <svg viewBox="0 0 1440 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M1434.3 0C1246.6 0.101278 999.8 6.88691 694 20.2556C385.1 33.7256 153.8 27.0413 0 0H1440H1434.3Z"
+        fill="white"
+      />
+    </svg>
+  );
+};
+
+export const CurvedBorderBottom = () => {
+  return (
+    <svg viewBox="0 0 1440 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M0 0C153.8 26.7 385.1 33.3 694 20C1002.9 6.7 1251.6 0 1440 0V28H0V0Z"
+        fill="white"
+      />
+    </svg>
+  );
+};
