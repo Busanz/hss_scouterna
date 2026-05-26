@@ -7,9 +7,9 @@ import Image from "next/image";
 const ClubClothes = () => {
     return (
         <section className="flex flex-col w-full h-full items-center my-10 lg:my-20">
-            <div className="flex flex-col w-full max-w-360 rounded-sm pb-20 bg-primary text-text-primary px-4 md:px-6 lg:px-10">
+            <div className="flex flex-col w-full max-w-360 rounded-sm pb-20 bg-primary text-text-primary px-4 md:px-6 lg:px-10 ">
 
-                <h2 className="text-center text-6xl sm:text-4xl lg:text-5xl mt-8">
+                <h2 className="text-center  text-6xl sm:text-4xl lg:text-5xl pt-6">
                     Club clothes
                 </h2>
 
@@ -20,7 +20,7 @@ const ClubClothes = () => {
                     </h4>
                 </div>
 
-                <div className="mx-auto my-8 h-0.5 w-100 sm:my-12 bg-text-subtitle" />
+                <div className="mx-auto my-8 h-0.5 w-full sm:my-12 bg-text-subtitle" />
 
                 <p className="mb-10 text-sm font-light leading-relaxed sm:mb-12 sm:text-base lg:text-lg">
                     There are few scout corps that have as nice a logo as we do at HSS and
@@ -41,13 +41,13 @@ const ClubClothes = () => {
                                     height={250}
                                 />
                             </div>
-                            <p className="mt-2 text-right text-xl font-bold sm:text-2xl">
+                            <p className="mt-2 text-right text-sm  sm:text-2xl">
                                 {product.price}
                             </p>
-                            <h5 className="mt-1 text-base font-bold sm:text-xl">
+                            <p className="mt-1 text-sm  sm:text-xl">
                                 {product.name}
-                            </h5>
-                            <p className="mt-1 text-sm text-text-primary/90 sm:text-base">
+                            </p>
+                            <p className="mt-1 text-sm text-text-primary sm:text-base">
                                 {product.description}
                             </p>
                         </div>
