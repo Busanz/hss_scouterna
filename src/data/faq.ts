@@ -1,4 +1,6 @@
-import { FaqItem } from "@/types/faq";
+import { Category, FaqItem } from "@/types/faq";
+
+export const categories: Category[] = ["Allt", "Policy", "Allmänt", "Övrigt"];
 
 export const faqData: FaqItem[] = [
   {

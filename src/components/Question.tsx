@@ -1,3 +1,4 @@
+import { ArrowDownSvg } from "@/assets/svg";
 import { FaqItem } from "@/types/faq";
 import { useState } from "react";
 
@@ -18,11 +19,11 @@ const Question = ({ question, answer }: FaqItem) => {
                     }`}
       >
         <span className="flex-1">{question}</span>
-        <img
-          src="/img/faq/down-arrow.svg"
-          alt="Expand question"
+        <div
           className={`w-10 h-10 mt-2 mx-auto text-white transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
-        />
+        >
+          <ArrowDownSvg />
+        </div>
       </button>
 
       {isOpen && (

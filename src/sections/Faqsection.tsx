@@ -1,10 +1,9 @@
 "use client";
 import { useMemo, useState } from "react";
 import { Category, FaqItem } from "@/types/faq";
-import { faqData } from "@/data/faq";
+import { categories, faqData } from "@/data/faq";
+import { FaqBorderCurveBottomSvg, FaqBorderCurveTopSvg } from "@/assets/svg";
 import Question from "@/components/Question";
-
-const categories: Category[] = ["Allt", "Policy", "Allmänt", "Övrigt"];
 
 export default function FaqSection() {
   const [activeCategory, setActiveCategory] = useState<Category>("Allt");
@@ -30,12 +29,8 @@ export default function FaqSection() {
 
   return (
     <div className="min-h-screen w-full mt-10 bg-primary">
-      <div className="border-image-top">
-        <img
-          src="/img/faq/card-border-top.svg"
-          alt="FAQ top"
-          className="w-full"
-        />
+      <div className="w-full">
+        <FaqBorderCurveTopSvg />
       </div>
       <div className="w-full min-h-screen px-4 py-8 sm:px-6 lg:px-8 ">
         <div className="text-center mt-6 sm:mt-8 mb-8">
@@ -102,12 +97,8 @@ export default function FaqSection() {
           </p>
         </div>
       </div>
-      <div className="border-image-bottom">
-        <img
-          src="/img/faq/card-border-bottom.svg"
-          alt="FAQ bottom"
-          className="w-full"
-        />
+      <div className="w-full">
+        <FaqBorderCurveBottomSvg />
       </div>
     </div>
   );
