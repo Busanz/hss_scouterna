@@ -16,6 +16,7 @@
   --color-secondary: #fdb614;
   --color-text-primary: #fcf5f5;
   --color-text-secondary: #012b4c;
+  --color-text-subtitle: #76CFF4;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -62,4 +63,17 @@ h2 {
 
 .hide-scrollbar {
   -ms-overflow-style: none;
+}
+
+@layer components {
+  .btn {
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #0000003D;
+  }
+  .btn:hover {
+    box-shadow: 0px 6px 8px 0px #00000052;
+  }
 }
