@@ -7,7 +7,7 @@ const GoodToHave = () => {
                     <h3 className="text-primary text-center sm:text-lg md:text-xl mt-2">Things that are good to have when you've been a member for a while.</h3>
                 </div>
                 <div className="mx-auto my-8 h-0.5 w-full  sm:my-12 bg-text-subtitle" />
-                <div className="color-background pt-2 pl-8" >
+                <div className="color-background pt-2 pl-8 ml-8" >
                     <ul className="list-disc text-black text-sm sm:text-base">
                         <li>Scout uniform (T-shirt, polo shirt, or scout shirt with scarf)</li>
                         <li>Sleeping mat</li>
