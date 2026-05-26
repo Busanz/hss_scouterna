@@ -9,7 +9,7 @@ const OurBoats = () => {
     return (
         <div className="flex flex-col w-full my-16">
             <h2 className="text-shadow-text-secondary text-center">
-                Våra Båtar
+                Våra båtar
             </h2>
             <p className="my-10 mx-5">
                 Kåren äger fem segelbåtar, tio optimistjollar, två 2-kronor, och en snabb följebåt. 
