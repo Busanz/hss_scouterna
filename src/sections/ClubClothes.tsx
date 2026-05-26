@@ -9,7 +9,7 @@ const ClubClothes = () => {
         <section className="flex flex-col w-full h-full items-center my-10 lg:my-20">
             <div className="flex flex-col w-full max-w-360 rounded-sm pb-20 bg-primary text-text-primary px-4 md:px-6 lg:px-10 ">
 
-                <h2 className="text-center  text-xl sm:text-xl lg:text-6xl pt-6">
+                <h2 className="text-center  text-xl sm:text-xl lg:text-3xl pt-6">
                     Club clothes
                 </h2>
 
