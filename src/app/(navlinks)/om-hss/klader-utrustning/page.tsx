@@ -10,4 +10,4 @@ const KladerUtrustning = () => {
         </>
     )
 }
-
+export default KladerUtrustning
