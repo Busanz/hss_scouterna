@@ -41,7 +41,7 @@ const ClubClothes = () => {
                                     height={250}
                                 />
                             </div>
-                            <p className="mt-2 text-right text-sm  sm:text-2xl">
+                            <p className="mt-2 text-right text-sm  sm:text-base">
                                 {product.price}
                             </p>
                             <p className="mt-1 text-sm  sm:text-xl">
