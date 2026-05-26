@@ -74,7 +74,7 @@ export const omHSSLinks: IntroLinksType = [
   },
   {
     label: 'Kläder & Utrustning',
-    href: 'om-hss/klader-utrustning',
+    href: '/om-hss/klader-utrustning',
     url: '/img/om-HSS-section/klader_utrustning.png',
   },
   {
