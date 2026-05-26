@@ -1,3 +1,6 @@
+import OurBoats from "@/components/OurBoats"
+
+
 const SeaScout = () => {
     return (
         <section className="flex flex-col w-full h-full items-center my-10 lg:my-20">
@@ -38,6 +41,7 @@ const SeaScout = () => {
                     </div>
                 </div>
             </div>
+            <OurBoats />
         </section>
     )
 }
