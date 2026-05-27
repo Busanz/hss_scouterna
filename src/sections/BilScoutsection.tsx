@@ -1,11 +1,11 @@
-import { CurvedBorderBottom, CurvedBorderTop } from "@/assets/svg";
+import { CurvedBorderBottomSvg, CurvedBorderTopSvg } from "@/assets/svg";
 
 export default function BilScoutsection() {
   return (
     <section className="flex flex-col w-full h-full items-center justify-center my-10 lg:my-20 px-1 sm:px-2 md:px-4 lg:px-6">
       <div className="flex flex-col w-full h-full items-center justify-center my-10 lg:my-20 bg-primary">
         <div className="w-full">
-          <CurvedBorderTop />
+          <CurvedBorderTopSvg />
         </div>
         <div className="flex flex-col items-center justify-center w-full min-h-screen px-4 py-8 sm:px-6 lg:px-8 gap-10">
           <div className="relative w-full max-w-4xl h-64 rounded-xl overflow-hidden gap-10 p-10">
@@ -36,7 +36,7 @@ export default function BilScoutsection() {
             </p>
 
             <button
-            className="w-35 bg-black/60 hover:bg-secondary-hover 
+              className="w-35 bg-black/60 hover:bg-secondary-hover 
             text-white font-bold py-2 px-4 rounded-2xl cursor-pointer drop-shadow-[0_4px_4px_rgba(0,0,0,0.24)]"
             >
               Gå med!
@@ -44,10 +44,10 @@ export default function BilScoutsection() {
           </div>
         </div>
         <div className="w-full">
-          <CurvedBorderBottom />
+          <CurvedBorderBottomSvg />
         </div>
       </div>
-      
+
       <div className="flex flex-col items-center justify-center w-full min-h-screen px-4 py-8 sm:px-6 lg:px-8 gap-10">
         <div className="w-full max-w-4xl h-64 rounded-xl overflow-hidden gap-10">
           <img
@@ -61,8 +61,7 @@ export default function BilScoutsection() {
             En trygg &amp; inkluderande miljö
           </p>
           <p className="text-xl font-normal text-black my-10">
-             Vi jobbar för att alla ska känna sig trygga och
-            inkluderade på HSS.
+            Vi jobbar för att alla ska känna sig trygga och inkluderade på HSS.
           </p>
 
           <p className="text-xl font-normal text-black my-10">

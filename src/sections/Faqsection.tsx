@@ -2,7 +2,7 @@
 import { useMemo, useState } from "react";
 import { Category, FaqItem } from "@/types/faq";
 import { categories, faqData } from "@/data/faq";
-import { FaqBorderCurveBottomSvg, FaqBorderCurveTopSvg } from "@/assets/svg";
+import { CurvedBorderBottomSvg, CurvedBorderTopSvg } from "@/assets/svg";
 import Question from "@/components/Question";
 
 export default function FaqSection() {
@@ -30,7 +30,7 @@ export default function FaqSection() {
   return (
     <div className="min-h-screen w-full mt-10 bg-primary">
       <div className="w-full">
-        <FaqBorderCurveTopSvg />
+        <CurvedBorderTopSvg />
       </div>
       <div className="w-full min-h-screen px-4 py-8 sm:px-6 lg:px-8 ">
         <div className="text-center mt-6 sm:mt-8 mb-8">
@@ -98,7 +98,7 @@ export default function FaqSection() {
         </div>
       </div>
       <div className="w-full">
-        <FaqBorderCurveBottomSvg />
+        <CurvedBorderBottomSvg />
       </div>
     </div>
   );
