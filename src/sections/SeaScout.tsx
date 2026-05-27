@@ -1,6 +1,12 @@
 import OurBoats from "@/components/OurBoats"
 import { AnchorSvg } from "@/assets/svg"
+import Image from "next/image"
 
+const seaScoutImg = [
+    '/img/ourboats-section/DSCF3070.jpg',
+    '/img/ourboats-section/DSCF1955.jpg',
+    '/img/ourboats-section/DSCF3092.jpg'
+]
 
 const SeaScout = () => {
     return (
@@ -15,13 +21,13 @@ const SeaScout = () => {
                         att lära sig genom att göra samarbeta och visa hänsyn, men vattnet är våra framsta klassrum.
                     </p>
                     <div className="flex items-center justify-center gap-6">
-                        <h3 className="text-center text-2xl mt-8 text-[#76cef4]">
+                        <h3 className="text-center text-text-accent">
                             Vattnet som fokus
                         </h3>
                         <AnchorSvg />
                     </div>
-                    <hr className="my-8 h-[0.5px] w-full text-[#76cef4]" />
-                    <div className=" text-text-primary md:px-20">
+                    <hr className="my-6 h-[0.5px] w-full text-text-accent" />
+                    <div className=" text-text-primary mt-2 md:px-20">
                         <p>Den största skillnaden är att aktiviteterna under den varma halvan av året nästan uteslutande sker på sjön.</p>
                         <ul className="list-disc m-5 md:mx-5">
                             <li>
@@ -37,11 +43,18 @@ const SeaScout = () => {
                                 hur man agerar om någon faller överbord och allmänt "vett på sjön".
                             </li>
                         </ul>
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                            Iusto aliquid rerum voluptatem ab quia vitae ratione aut fugit eveniet id necessitatibus 
-                            totam voluptates asperiores, natus quod delectus minus a accusamus.
-                        </p>
+                        <div className="grid grid-cols-1 m-5 gap-6 sm:grid-cols-3">
+                            {seaScoutImg.map((image, index) => (
+                                <Image
+                                    key={index} 
+                                    src={image}
+                                    alt="båt"
+                                    width={250}
+                                    height={150}
+                                    className="h-auto w-full rounded-[5px]"
+                                />
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>

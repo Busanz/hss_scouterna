@@ -16,7 +16,7 @@ const OurBoats = () => {
                 Många HSS:are har lärt sig att segla på någon av våra båtar. 
                 Allt för att kunna stegra utbildningen på ett utmanande och äventyrligt sätt.
             </p>
-            <div className="grid grid-cols-1 m-5 gap-6 md:grid-cols-2">
+            <div className="grid grid-cols-1 m-5 gap-6 sm:grid-cols-2">
                 {boats.map((image, index) => (
                     <Image
                         key={index}
