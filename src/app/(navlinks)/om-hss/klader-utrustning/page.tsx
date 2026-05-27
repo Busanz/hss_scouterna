@@ -1,10 +1,15 @@
-import React from "react";
 import ScoutUniform from "@/sections/ScoutUniform";
+import ScoutBadges from "@/sections/ScoutBdages";
+import GoodToHave from "@/sections/GoodToHave";
+import ClubClothes from "@/sections/ClubClothes";
 
 const KladerUtrustning = () => {
     return(
         <>  
-            <ScoutUniform />
+          <ClubClothes />
+		      <ScoutUniform />
+		      <ScoutBadges />
+		      <GoodToHave />
         </>
     )
 }
