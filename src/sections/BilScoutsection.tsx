@@ -2,8 +2,8 @@ import { CurvedBorderBottomSvg, CurvedBorderTopSvg } from "@/assets/svg";
 
 export default function BilScoutsection() {
   return (
-    <section className="flex flex-col w-full h-full items-center justify-center my-10 lg:my-20 px-1 sm:px-2 md:px-4 lg:px-6">
-      <div className="flex flex-col w-full h-full items-center justify-center my-10 lg:my-20 bg-primary">
+    <section className="flex flex-col w-full h-full items-center justify-center">
+      <div className="flex flex-col w-full max-w-360 h-full items-center justify-center bg-primary">
         <div className="w-full">
           <CurvedBorderTopSvg />
         </div>
