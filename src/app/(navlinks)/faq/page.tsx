@@ -1,7 +1,8 @@
 import React from 'react';
+import FaqSection from '@/sections/Faqsection';
 
 const FAQPage = () => {
-  return <div>FAQPage</div>;
+  return <FaqSection />;
 };
 
 export default FAQPage;
