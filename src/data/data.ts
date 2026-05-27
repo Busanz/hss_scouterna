@@ -99,7 +99,7 @@ export const quickLinks: QuickLinkType[] = [
   {
     label: 'Sjöscout',
     image: '/img/footer/quicklinks/sjöscout.svg',
-    href: '/sjöscout',
+    href: '/sjoscout',
   },
   {
     label: 'För föräldrar',
