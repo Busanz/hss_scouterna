@@ -79,7 +79,7 @@ export const omHSSLinks: IntroLinksType = [
   },
   {
     label: 'Stadgar & Protokoll',
-    href: '/stadgar_protokoll',
+    href: 'om-hss/stadgar-protokoll',
     url: '/img/om-HSS-section/stadgar_protokoll.png',
   },
 ];
