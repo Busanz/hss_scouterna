@@ -1,10 +1,10 @@
 import React from "react";
-import Scoutbages from "@/sections/ScoutBages";
+import ScoutBadges from "@/sections/ScoutBdages";
 
 const KladerUtrustning = () => {
     return(
         <>  
-           <Scoutbages />
+           <ScoutBadges />
         </>
     )
 }

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const Scoutbages = () => {
+const ScoutBadges = () => {
   return (
     <section className=" mt-4 bg-primary text-text-primary rounded">
       <div className="max-w-360 mx-auto px-4 py-12 sm:px-6 sm:py-16 lg:px-16 lg:py-20">
@@ -49,7 +49,7 @@ const Scoutbages = () => {
           placement and guidelines.
         </p>
 
-        <div className="m-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
+        <div className="m-6 flex flex-col items-start gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
           <div className="btn bg-text-secondary text-text-primary text-center cursor-auto">
             Placement
           </div>
@@ -73,11 +73,14 @@ const Scoutbages = () => {
           className="mt-6 sm:mt-8 w-full max-w-120 h-auto flex justify-center mx-auto"
         />
 
-        <div className="m-6 sm:mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
+        <div className="m-6 sm:mt-8 flex flex-col items-start gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
           <div className="btn bg-text-secondary text-text-primary text-center cursor-auto">
             Lake and Water
           </div>
-          <Link href="#" className="btn bg-text-secondary text-text-primary text-center">
+          <Link href="/pdf/water-scout.pdf" 
+                target= "-blank"
+                rel="noopener noreferrer"
+                className="btn bg-text-secondary text-text-primary text-center">
             Download PDF
           </Link>
         </div>
@@ -90,7 +93,7 @@ const Scoutbages = () => {
           with this link you can see the entire badge collection on the Scouts' website.
         </p>
 
-        <div className="m-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
+        <div className="m-6 flex flex-col items-start gap-3 sm:flex-row sm:flex-wrap sm:gap-4 sm:p-2">
           <div className="btn bg-text-secondary text-text-primary text-center cursor-auto">
             See the entire Badge Collection
           </div>
@@ -98,8 +101,9 @@ const Scoutbages = () => {
             Download PDF
           </Link>
         </div>
+
       </div>
     </section>
   )
 }
-export default Scoutbages;
+export default ScoutBadges;
