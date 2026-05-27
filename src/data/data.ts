@@ -32,32 +32,55 @@ export const introLinks: IntroLinksType = [
   {
     label: 'Om HSS',
     href: '/om-hss',
-    url: 'om_hss',
+    url: '/img/intro-section/om_hss.png',
   },
   {
     label: 'För föräldrar',
     href: '/for-foraldrar',
-    url: 'for_foraldrar',
+    url: '/img/intro-section/for_foraldrar.png',
   },
   {
     label: 'För ledare',
     href: '/for-ledare',
-    url: 'for_ledare',
+    url: '/img/intro-section/for_ledare.png',
   },
   {
     label: 'Bli scout',
     href: '/bli-scout',
-    url: 'bli_scout',
+    url: '/img/intro-section/bli_scout.png',
   },
   {
     label: 'Avdelningar',
     href: '/avdelningar',
-    url: 'avdelningar',
+    url: '/img/intro-section/avdelningar.png',
   },
   {
     label: 'Läger',
     href: '/lager',
-    url: 'lager',
+    url: '/img/intro-section/lager.png',
+  },
+];
+
+export const omHSSLinks: IntroLinksType = [
+  {
+    label: 'Om HSS',
+    href: '/om-hss',
+    url: '/img/om-HSS-section/om_hss.png',
+  },
+  {
+    label: 'Sjöscout',
+    href: '/sjoscout',
+    url: '/img/om-HSS-section/sjoscout.png',
+  },
+  {
+    label: 'Kläder & Utrustning',
+    href: '/klader_utrustning',
+    url: '/img/om-HSS-section/klader_utrustning.png',
+  },
+  {
+    label: 'Stadgar & Protokoll',
+    href: '/stadgar_protokoll',
+    url: '/img/om-HSS-section/stadgar_protokoll.png',
   },
 ];
 
@@ -76,17 +99,14 @@ export const quickLinks: QuickLinkType[] = [
   {
     label: 'Sjöscout',
     image: '/img/footer/quicklinks/sjöscout.svg',
-    href: '/sjöscout',
+    href: '/sjoscout',
   },
   {
     label: 'För föräldrar',
     image: '/img/footer/quicklinks/förföräldrar.svg',
     href: '/for-foraldrar',
   },
-  { label: 'FAQ', 
-    image: '/img/footer/quicklinks/faq.svg', 
-    href: '/faq' 
-  },
+  { label: 'FAQ', image: '/img/footer/quicklinks/faq.svg', href: '/faq' },
 ];
 
 export const socialMediaLinks: SocialLinkType[] = [

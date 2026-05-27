@@ -20,7 +20,7 @@ const Headersection = () => {
             <GlobalSvg />
             <p className="cursor-pointer">EN</p>
           </div>
-          <div className="flex gap-2.5 bg-primary text-white py-1 px-4 rounded-t-sm cursor-pointer">
+          <div className="flex items-center gap-2.5 bg-primary text-white py-0 px-4 rounded-t-sm cursor-pointer">
             <p className="font-light">Anmälan</p>
             <LinkSvg />
           </div>
