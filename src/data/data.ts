@@ -3,6 +3,7 @@ import type {
   NavLinksType,
   IntroLinksType,
   OmHSSLinksType,
+  DepartmentType,
 } from '@/types/types';
 
 export const navLinks: NavLinksType = [
@@ -140,5 +141,37 @@ export const socialMediaLinks: SocialLinkType[] = [
     label: 'YouTube',
     image: '/img/footer/socialmedia/youtube.svg',
     href: 'https://www.youtube.com/@hasselbystrandssjoscoutkar4026',
+  },
+];
+export const departmentLogos: DepartmentType = [
+  {
+    label: 'Sjöhumlor',
+    href: '/sjöhumlor_8_9',
+    url: '/img/departments/sjöhumlor_8_9.svg',
+    des: 'Spårare 8-9 år',
+  },
+  {
+    label: 'Kaparna',
+    href: '/kaparna_10_11',
+    url: '/img/departments/kaparna_10_11.svg',
+    des: 'Upptäckare 10-11 år',
+  },
+  {
+    label: 'Konvojen',
+    href: '/konvojen_12_14',
+    url: '/img/departments/konvojen_12_14.svg',
+    des: 'Äventyrare 12-14 år',
+  },
+  {
+    label: 'Rover',
+    href: '/rover_19_25',
+    url: '/img/departments/rover_19_25.svg',
+    des: 'Utmanare 15+ ',
+  },
+  {
+    label: 'Utmanare',
+    href: '/utmanare_15.svg',
+    url: '/img/departments/utmanare_15.svg',
+    des: 'Rover 19-25 år',
   },
 ];

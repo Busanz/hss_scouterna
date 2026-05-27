@@ -7,7 +7,7 @@ export default function NavLinksLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex flex-col w-full items-center px-1 sm:px-2 md:px-4 lg:px-6">
+    <div className="flex flex-col w-full items-center px-1 sm:px-2 md:px-4 lg:px6">
       <Headersection />
       {children}
       <Footersection />
