@@ -2,7 +2,7 @@
 import { useMemo, useState } from "react";
 import { Category, FaqItem } from "@/types/faq";
 import { categories, faqData } from "@/data/faq";
-import { FaqBorderCurveBottomSvg, FaqBorderCurveTopSvg } from "@/assets/svg";
+import { CurvedBorderBottomSvg, CurvedBorderTopSvg } from "@/assets/svg";
 import Question from "@/components/Question";
 
 export default function FaqSection() {
@@ -28,9 +28,9 @@ export default function FaqSection() {
   };
 
   return (
-    <div className="min-h-screen w-full mt-10 bg-primary">
+    <div className="flex flex-col w-full max-w-360  h-full bg-primary">
       <div className="w-full">
-        <FaqBorderCurveTopSvg />
+        <CurvedBorderTopSvg />
       </div>
       <div className="w-full min-h-screen px-4 py-8 sm:px-6 lg:px-8 ">
         <div className="text-center mt-6 sm:mt-8 mb-8">
@@ -38,7 +38,7 @@ export default function FaqSection() {
             FAQ
           </h1>
 
-          <p className="font-semibold text-lg sm:text-2xl text-[#76CFF4]">
+          <p className="font-semibold text-lg sm:text-2xl text-text-subtitle">
             Här har vi samlat de mest ställda frågorna
           </p>
         </div>
@@ -59,7 +59,7 @@ export default function FaqSection() {
           ))}
         </div>
 
-        <div className="max-w-4xl mx-auto h-px bg-[#76CFF4] mb-4" />
+        <div className="max-w-4xl mx-auto h-px bg-text-subtitle mb-4" />
 
         <p className="text-center text-white text-[25px] mb-6 tracking-wide">
           {activeCategory}
@@ -98,7 +98,7 @@ export default function FaqSection() {
         </div>
       </div>
       <div className="w-full">
-        <FaqBorderCurveBottomSvg />
+        <CurvedBorderBottomSvg />
       </div>
     </div>
   );
