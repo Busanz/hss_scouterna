@@ -36,7 +36,7 @@ export default function BilScoutsection() {
             </p>
 
             <button
-              className="w-35 bg-black/60 hover:bg-secondary-hover 
+            className="w-35 bg-black/60 hover:bg-secondary-hover 
             text-white font-bold py-2 px-4 rounded-2xl cursor-pointer drop-shadow-[0_4px_4px_rgba(0,0,0,0.24)]"
             >
               Gå med!
@@ -47,7 +47,7 @@ export default function BilScoutsection() {
           <CurvedBorderBottom />
         </div>
       </div>
-      {/* Part 2 */}
+      
       <div className="flex flex-col items-center justify-center w-full min-h-screen px-4 py-8 sm:px-6 lg:px-8 gap-10">
         <div className="w-full max-w-4xl h-64 rounded-xl overflow-hidden gap-10">
           <img
@@ -61,7 +61,7 @@ export default function BilScoutsection() {
             En trygg &amp; inkluderande miljö
           </p>
           <p className="text-xl font-normal text-black my-10">
-            Dummytext: Vi jobbar för att alla ska känna sig trygga och
+             Vi jobbar för att alla ska känna sig trygga och
             inkluderade på HSS.
           </p>
 
