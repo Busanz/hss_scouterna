@@ -8,3 +8,10 @@ export type QuickLinkType = {
 };
 export type SocialLinkType = QuickLinkType;
 
+export type ClubClothsType = {
+    name: string,
+    description: string,
+    price: string,
+    image: string,
+    alt: string,
+}
