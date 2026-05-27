@@ -7,14 +7,14 @@ const ContactInfosection = () => {
 
       <h3 className="text-2xl font-semibold mb-4">E-post</h3>
       <p>
-        <span className="font-medium">Address:</span>{" "}
+        <span className="font-medium">Address:</span>
         <a href="mailto:info@hss-scout.org" className="underline" aria-label="Email info@hss-scout.org">
           info@hss-scout.org
         </a>
       </p>
 
       <p>
-        <span className="font-medium">För medlemsärenden:</span>{" "}
+        <span className="font-medium">För medlemsärenden:</span>
         <a href="mailto:register@hss-scout.org" className="underline">
           register@hss-scout.org
         </a>
