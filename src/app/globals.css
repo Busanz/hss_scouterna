@@ -17,6 +17,8 @@
   --color-text-primary: #fcf5f5;
   --color-text-secondary: #012b4c;
   --color-bg-light: #bedbff;
+  --color-text-subtitle: #76CFF4;
+  --color-text-accent: #76cef4;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -52,6 +54,11 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
+h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
@@ -62,4 +69,17 @@ h2 {
 
 .hide-scrollbar {
   -ms-overflow-style: none;
+}
+
+@layer components {
+  .btn {
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #0000003D;
+  }
+  .btn:hover {
+    box-shadow: 0px 6px 8px 0px #00000052;
+  }
 }
