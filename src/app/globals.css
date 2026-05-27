@@ -18,6 +18,7 @@
   --color-text-secondary: #012b4c;
   --color-bg-light: #bedbff;
   --color-text-subtitle: #76CFF4;
+  --color-text-accent: #76cef4;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -51,6 +52,11 @@ h1 {
 h2 {
   font-weight: 300;
   margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
 .hide-scrollbar::-webkit-scrollbar {

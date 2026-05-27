@@ -79,7 +79,7 @@ export const omHSSLinks: IntroLinksType = [
   },
   {
     label: 'Stadgar & Protokoll',
-    href: '/stadgar_protokoll',
+    href: 'om-hss/stadgar-protokoll',
     url: '/img/om-HSS-section/stadgar_protokoll.png',
   },
 ];
@@ -99,7 +99,7 @@ export const quickLinks: QuickLinkType[] = [
   {
     label: 'Sjöscout',
     image: '/img/footer/quicklinks/sjöscout.svg',
-    href: '/sjöscout',
+    href: '/sjoscout',
   },
   {
     label: 'För föräldrar',
