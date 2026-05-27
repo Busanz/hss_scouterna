@@ -16,9 +16,11 @@
   --color-secondary: #fdb614;
   --color-text-primary: #fcf5f5;
   --color-text-secondary: #012b4c;
+  --color-bg-light: #bedbff;
   --color-text-subtitle: #76CFF4;
   --color-text-accent: #76cef4;
 }
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -44,12 +46,10 @@ h6 {
   margin: 0;
 }
 h1 {
-  font-size: 2rem;
   font-weight: 300;
   margin-bottom: 1rem;
 }
 h2 {
-  font-size: 1.75rem;
   font-weight: 300;
   margin-bottom: 0.5rem;
 }

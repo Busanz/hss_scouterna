@@ -11,7 +11,7 @@ const Story = () => {
   return (
     <div>
       <div className="">
-        <h2 className="text-lg my-8 text-text-secondary">Från då till nu</h2>
+        <h1 className="text-lg my-8 text-text-secondary">Från då till nu</h1>
         <p className="sm:text-lg">
           Söndagen den 28 Januari 1968 invigdes Myset.
         </p>

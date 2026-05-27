@@ -4,7 +4,7 @@ const Values = () => {
   return (
     <>
       <div className="px-10">
-        <h2 className="text-[#76CFF4] text-lg my-8 font-semibold">
+        <h2 className="text-[#76CFF4] text-xl sm:text-2xl my-5 pb-3">
           Vad vi gör och våra värderingar
         </h2>
         <p className="text-white">
