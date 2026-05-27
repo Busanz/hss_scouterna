@@ -1,4 +1,5 @@
 import "@/app/globals.css"
+import Link from "next/link"
 
 const ScoutUniform = () => {
     return (
@@ -17,9 +18,11 @@ const ScoutUniform = () => {
                     In the Scout Shop there are different types of scout clothing, where you can read more about them, how they are used and why we have them.
                 </div>
                 <div className="flex justify-center mb-4">
-                    <button className="btn bg-gray-500 rounded-lg p-2 text-white text-bold">
+                    <Link href="https://www.scoutshop.se/"
+                        target="_blank" rel="noopener noreferrer"
+                        className="btn bg-gray-500 rounded-lg p-2 text-white text-bold">
                         To the Scout shop
-                    </button>
+                    </Link>
                 </div>
             </section >
         </>
