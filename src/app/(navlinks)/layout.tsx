@@ -9,7 +9,7 @@ export default function NavLinksLayout({
   return (
     <div className="flex flex-col gap-14 w-full items-center px-1 sm:px-2 md:px-4 lg:px-6">
       <Headersection />
-      <main className="">{children}</main>
+      {children}
       <Footersection />
     </div>
   );

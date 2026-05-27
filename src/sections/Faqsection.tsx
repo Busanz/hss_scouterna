@@ -28,7 +28,7 @@ export default function FaqSection() {
   };
 
   return (
-    <div className="min-h-screen w-full mt-10 bg-primary">
+    <div className="flex flex-col w-full max-w-360  h-full bg-primary">
       <div className="w-full">
         <CurvedBorderTopSvg />
       </div>
@@ -38,7 +38,7 @@ export default function FaqSection() {
             FAQ
           </h1>
 
-          <p className="font-semibold text-lg sm:text-2xl text-[#76CFF4]">
+          <p className="font-semibold text-lg sm:text-2xl text-text-subtitle">
             Här har vi samlat de mest ställda frågorna
           </p>
         </div>
@@ -59,7 +59,7 @@ export default function FaqSection() {
           ))}
         </div>
 
-        <div className="max-w-4xl mx-auto h-px bg-[#76CFF4] mb-4" />
+        <div className="max-w-4xl mx-auto h-px bg-text-subtitle mb-4" />
 
         <p className="text-center text-white text-[25px] mb-6 tracking-wide">
           {activeCategory}
