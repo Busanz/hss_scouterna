@@ -20,7 +20,10 @@ const LinkedCard = ({ href, label, url }: LinkedCardProps) => {
           }}
         >
           <div className="absolute flex items-center justify-center left-0 top-4 ">
-            <h3 className="sm:text-lg md:text-lg lg:text-lg font-light min-w-40 md:min-w-50 lg:min-w-56 text-text-primary text-start md:text-center px-2 lg:px-3 xl:px-6 py-1 sm:py-2 bg-primary rounded-r-sm">
+            <h3
+              className="font-light w-full min-w-40 md:min-w-50 lg:min-w-56 text-text-secondary text-left md:text-center 
+                          px-3 md:px-4 xl:px-6 py-1 sm:py-1.5 text-base sm:text-lg md:text-xl lg:text-2xl rounded-r-sm whitespace-nowrap bg-secondary"
+            >
               {label}
             </h3>
           </div>
