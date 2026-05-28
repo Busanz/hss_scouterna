@@ -3,10 +3,10 @@ import BoatCardRight from './BoatCardRight';
 
 const OldBoats = () => {
   return (
-    <div className="flex flex-col w-full pt-10 max-w-360">
-      <h1 className="text-text-secondary text-xl sm:text-2xl xl:text-3xl pt-10 md:pt-20 pb-5">
+    <div className="flex flex-col w-full max-w-360 mt-5 md:mt-10">
+      <h2 className="text-text-secondary text-xl sm:text-2xl pb-5">
         Våra gamla båtar
-      </h1>
+      </h2>
 
       <div className="ms:text-lg">
         <BoatCardLeft

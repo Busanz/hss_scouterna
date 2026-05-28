@@ -1,5 +1,9 @@
 import type { QuickLinkType, SocialLinkType } from '../types/types';
-import type { NavLinksType, IntroLinksType } from '@/types/types';
+import type {
+  NavLinksType,
+  IntroLinksType,
+  OmHSSLinksType,
+} from '@/types/types';
 
 export const navLinks: NavLinksType = [
   {
@@ -30,14 +34,9 @@ export const navLinks: NavLinksType = [
 
 export const introLinks: IntroLinksType = [
   {
-    label: 'Om HSS',
-    href: '/om-hss',
-    url: '/img/intro-section/om_hss.png',
-  },
-  {
-    label: 'För föräldrar',
-    href: '/for-foraldrar',
-    url: '/img/intro-section/for_foraldrar.png',
+    label: 'Bli scout',
+    href: '/bli-scout',
+    url: '/img/intro-section/bli_scout.png',
   },
   {
     label: 'För ledare',
@@ -45,9 +44,9 @@ export const introLinks: IntroLinksType = [
     url: '/img/intro-section/for_ledare.png',
   },
   {
-    label: 'Bli scout',
-    href: '/bli-scout',
-    url: '/img/intro-section/bli_scout.png',
+    label: 'För föräldrar',
+    href: '/for-foraldrar',
+    url: '/img/intro-section/for_foraldrar.png',
   },
   {
     label: 'Avdelningar',
@@ -59,27 +58,32 @@ export const introLinks: IntroLinksType = [
     href: '/lager',
     url: '/img/intro-section/lager.png',
   },
-];
-
-export const omHSSLinks: IntroLinksType = [
   {
     label: 'Om HSS',
     href: '/om-hss',
-    url: '/img/om-HSS-section/om_hss.png',
+    url: '/img/intro-section/om_hss.png',
   },
+];
+
+export const omHSSLinks: OmHSSLinksType = [
+  // {
+  //   label: 'Om HSS',
+  //   href: '/om-hss',
+  //   url: '/img/om-HSS-section/om_hss.png',
+  // },
   {
     label: 'Sjöscout',
-    href: '/sjoscout',
+    href: 'om-hss//sjoscout',
     url: '/img/om-HSS-section/sjoscout.png',
   },
   {
     label: 'Kläder & Utrustning',
-    href: 'om-hss/klader-utrustning',
+    href: '/om-hss/klader-utrustning',
     url: '/img/om-HSS-section/klader_utrustning.png',
   },
   {
     label: 'Stadgar & Protokoll',
-    href: '/stadgar-protokoll',
+    href: '/om-hss/stadgar-protokoll',
     url: '/img/om-HSS-section/stadgar_protokoll.png',
   },
 ];
