@@ -21,7 +21,7 @@ export default function FaqSection() {
   };
 
   return (
-    <div className="w-full mt-10 md:mt-10 max-w-360 bg-bg-light">
+    <div className="w-full mt-10 md:mt-20 max-w-360 bg-bg-light">
       <div className="w-full">
         <FaqBorderCurveTopSvg />
       </div>
