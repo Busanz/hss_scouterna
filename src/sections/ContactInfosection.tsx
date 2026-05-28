@@ -1,11 +1,18 @@
+'use client';
+
 import Maps from '@/components/Maps';
+import { motion } from 'motion/react';
+import { fadeUpAnimation } from '@/utils/animation';
 
 const ContactInfosection = () => {
   return (
     <div className="flex flex-col w-full max-w-360 h-full bg-bg-light mt-10 md:mt-20 px-4 md:px-6 lg:px-10 py-5 md:py-10 mb-5 md:mb-10 rounded-sm">
-      <h1 className="text-center text-2xl sm:text-3xl lg:text-4xl text-text-secondary px-1 py-5">
+      <motion.h1
+        {...fadeUpAnimation}
+        className="text-center text-2xl sm:text-3xl lg:text-4xl text-text-secondary px-1 py-5"
+      >
         {`Äventyr och kompisar!`}
-      </h1>
+      </motion.h1>
       <p className="text-center sm:text-lg pb-5">
         Har du några funderingar eller behöver du komma i kontakt med oss?
       </p>
