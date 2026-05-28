@@ -1,6 +1,11 @@
+"use client";
 import { CurvedBorderBottomSvg, CurvedBorderTopSvg } from "@/assets/svg";
+import Modal from "@/components/ui/Modal";
+import { useState } from "react";
 
 export default function BilScoutsection() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <section className="flex flex-col w-full h-full items-center justify-center">
       <div className="flex flex-col w-full max-w-360 h-full items-center justify-center bg-primary">
@@ -38,6 +43,7 @@ export default function BilScoutsection() {
             <button
               className="w-35 bg-black/60 hover:bg-secondary-hover 
             text-white font-bold py-2 px-4 rounded-2xl cursor-pointer drop-shadow-[0_4px_4px_rgba(0,0,0,0.24)]"
+              onClick={() => setIsModalOpen(true)}
             >
               Gå med!
             </button>
@@ -69,6 +75,12 @@ export default function BilScoutsection() {
           </p>
         </div>
       </div>
+
+      <Modal
+        url="https://www.scoutnet.se/register/in/group/764"
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
     </section>
   );
 }
