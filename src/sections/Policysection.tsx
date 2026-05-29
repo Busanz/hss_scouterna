@@ -9,9 +9,9 @@ const PolicySection = () => {
       <div className="space-y-4">
         <h3 className="text-xl font-medium">Fotopolicy</h3>
         <p>
-          Vi använder bilder från verksamheten i syfte att marknadsföra
-          scouting och vår kår. Om du eller ditt barn inte vill vara med på
-          bild kan ni meddela oss så tar vi bort eller undviker publicering.
+          Vi fotograferar våra aktiviteter och använder bilderna på vår hemsida och i sociala medier för att göra reklam för vår verksamhet. Vi publicerar aldrig namn på våra scouter.
+          Genom att vara medlem i HSS samtycker man till detta.
+          Om ditt barn av någon anledning inte får vara med på bild så kontakta ledarna så att de får kännedom om det.
         </p>
       </div>
     </div>
