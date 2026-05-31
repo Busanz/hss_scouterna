@@ -1,5 +1,4 @@
 "use client";
-import { CurvedBorderBottomSvg, CurvedBorderTopSvg } from "@/assets/svg";
 import Modal from "@/components/ui/Modal";
 import { useState } from "react";
 
@@ -9,9 +8,6 @@ export default function BilScoutsection() {
   return (
     <section className="flex flex-col w-full h-full items-center justify-center">
       <div className="flex flex-col w-full max-w-360 h-full items-center justify-center bg-primary">
-        <div className="w-full">
-          <CurvedBorderTopSvg />
-        </div>
         <div className="flex flex-col items-center justify-center w-full min-h-screen px-4 py-8 sm:px-6 lg:px-8 gap-10">
           <div className="relative w-full max-w-4xl h-64 rounded-xl overflow-hidden gap-10 p-10">
             <img
@@ -48,9 +44,6 @@ export default function BilScoutsection() {
               Gå med!
             </button>
           </div>
-        </div>
-        <div className="w-full">
-          <CurvedBorderBottomSvg />
         </div>
       </div>
 
