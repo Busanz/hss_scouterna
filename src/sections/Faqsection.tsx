@@ -23,7 +23,7 @@ export default function FaqSection() {
   };
 
   return (
-    <div className="flex flex-col w-full max-w-360  h-full my-5 md:my-10 bg-primary">
+    <section className="flex flex-col w-full max-w-360  h-full my-5 md:my-10 bg-primary">
       <div className="w-full min-h-screen px-4 py-8 sm:px-6 lg:px-8 ">
         <div className="text-center mt-6 sm:mt-8 mb-8">
           <h1 className="text-white text-4xl sm:text-5xl font-bold tracking-widest mb-3">
@@ -82,13 +82,13 @@ export default function FaqSection() {
             Behöver du svar på något annat?{" "}
             <a
               href="#"
-              className="font-semibold underline underline-offset-2 text-white hover:text-white transition-colors duration-200"
+              className="font-semibold underline underline-offset-2 text-white hover:text-white"
             >
               Kontakta oss
             </a>
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -11,8 +11,7 @@ const Question = ({ question, answer }: FaqItem) => {
         onClick={() => setIsOpen(!isOpen)}
         className={`flex relative z-10 items-center w-full 
                     min-h-15 px-4 py-2 text-sm font-semibold
-                    text-white text-center transition-all 
-                    duration-200 shadow-md cursor-pointer ${
+                    text-white cursor-pointer ${
                       isOpen
                         ? "bg-[#5591C4] rounded-t-2xl"
                         : "bg-[#395374] hover:brightness-110 rounded-2xl"
