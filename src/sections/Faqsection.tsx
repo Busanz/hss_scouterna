@@ -1,37 +1,29 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { Category, FaqItem } from "@/types/faq";
 import { categories, faqData } from "@/data/faq";
-import { CurvedBorderBottomSvg, CurvedBorderTopSvg } from "@/assets/svg";
 import Question from "@/components/Question";
 
 export default function FaqSection() {
   const [activeCategory, setActiveCategory] = useState<Category>("Allt");
-  const [questions, setQuestions] = useState<FaqItem[]>(faqData);
 
-  const divideInto3Cols = (arr: FaqItem[]) => {
-    const size = Math.ceil(arr.length / 3);
-    return [arr.slice(0, size), arr.slice(size, size * 2), arr.slice(size * 2)];
+  const divideQuestionsIntoColumns = (arr: FaqItem[]) => {
+    const itemsPerColumn = Math.ceil(arr.length / 2);
+    return [arr.slice(0, itemsPerColumn), arr.slice(itemsPerColumn)];
   };
 
-  const columns = useMemo(() => {
-    return divideInto3Cols(questions);
-  }, [questions]);
+  const questions = faqData.filter((item) => {
+    return activeCategory === "Allt" || item.category === activeCategory;
+  });
+
+  const columns = divideQuestionsIntoColumns(questions);
 
   const handleSelectCategory = (category: Category) => {
     setActiveCategory(category);
-    setQuestions(
-      category === "Allt"
-        ? faqData
-        : faqData.filter((item) => item.category === category),
-    );
   };
 
   return (
-    <div className="flex flex-col w-full max-w-360  h-full bg-primary">
-      <div className="w-full">
-        <CurvedBorderTopSvg />
-      </div>
+    <div className="flex flex-col w-full max-w-360  h-full my-5 md:my-10 bg-primary">
       <div className="w-full min-h-screen px-4 py-8 sm:px-6 lg:px-8 ">
         <div className="text-center mt-6 sm:mt-8 mb-8">
           <h1 className="text-white text-4xl sm:text-5xl font-bold tracking-widest mb-3">
@@ -48,7 +40,7 @@ export default function FaqSection() {
             <button
               key={category}
               onClick={() => handleSelectCategory(category)}
-              className={`min-w-32.5 sm:min-w-40 px-4 h-12.5 rounded-2xl text-white text-sm font-semibold cursor-pointer transition-all duration-200 ${
+              className={`min-w-32.5 sm:min-w-40 px-4 h-12.5 rounded-2xl text-white text-sm font-semibold cursor-pointer ${
                 activeCategory === category
                   ? "bg-[#395374] shadow-lg rounded-xl"
                   : "bg-[#001f3f] hover:bg-[#17395f]"
@@ -65,7 +57,7 @@ export default function FaqSection() {
           {activeCategory}
         </p>
 
-        <div className="min-h-full p-8">
+        <div className="min-h-full">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:divide-x md:divide-[#76CFF4]">
             {columns.map((colItems, colIndex) => (
               <div
@@ -96,9 +88,6 @@ export default function FaqSection() {
             </a>
           </p>
         </div>
-      </div>
-      <div className="w-full">
-        <CurvedBorderBottomSvg />
       </div>
     </div>
   );
