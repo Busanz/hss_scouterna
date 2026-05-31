@@ -1,7 +1,6 @@
-import React from 'react';
+import ContactInfosection from '@/sections/ContactInfosection';
 
 const KontaktaOssPage = () => {
-  return <div>KontaktaOssPage</div>;
+  return <ContactInfosection />;
 };
-
 export default KontaktaOssPage;
