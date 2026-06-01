@@ -1,9 +1,10 @@
 import Image from 'next/image';
+import { MapPin } from "lucide-react";
 
 type LocationCardProps = {
   image: string;
   title: string;
-  icon: string;
+  icon: React.ReactNode;
   description: string;
   extra?: string;
   mapLink: string;
@@ -21,7 +22,7 @@ const LocationCard = ({
     <details className="group bg-background rounded-md shadow-md p-4 md:p-6">
       <summary className="flex items-center justify-between cursor-pointer list-none">
         <div className="flex items-center gap-3">
-          <span className="text-2xl">{icon}</span>
+          {icon}
           <h3 className="text-xl md:text-2xl font-semibold text-text-secondary">
             {title}
           </h3>
@@ -53,9 +54,20 @@ const LocationCard = ({
             href={mapLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn bg-primary text-text-primary hover:opacity-90 mt-4 inline-flex items-center gap-2"
+            className="group btn bg-primary text-text-primary hover:opacity-90 mt-4 inline-flex items-center gap-2"
           >
-            🗺️ Öppna i Google Maps
+            <span
+              className="
+              w-6 h-6 flex items-center justify-center
+              text-blue-100
+              transition-all duration-300
+              group-hover:scale-110 group-hover:rotate-3 group-hover:animate-pulse
+              group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]
+            "     
+            >
+              <MapPin className="w-5 h-5" />
+            </span>
+          Öppna i Google Maps
           </a>
         </div>
       </div>
