@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const TryggaMoten = () => {
     return (
-              <div className="flex flex-col pt-20 lg:flex-row gap-3 md:gap-8 lg:gap-14">
+              <div className="flex flex-col pt-20 lg:flex-row gap-8 md:gap-10 lg:gap-14">
                 <div className="flex flex-col justify-start flex-1/2 order-2 lg:order-1">
                     <h1 className=" text-xl sm:text-2xl md:text-3xl">
                         För föräldrar
@@ -15,7 +15,6 @@ const TryggaMoten = () => {
                         <a  className="my-5 px-4 py-2 w-fit rounded-sm text-white bg-primary hover:bg-secondary hover:text-primary"
                             href="https://www.scouterna.se/trygga-moten/"
                             target="_blank"
-                            rel="noopener noreferrer"
                         >
                             Läs mer om Trygga Möten
                         </a>
