@@ -8,35 +8,32 @@ type LinkedCardProps = {
   href: string;
   label: string;
   url: string;
+  description?: string;
 };
 
-const LinkedCard = ({ href, label, url }: LinkedCardProps) => {
+const LinkedCard = ({ href, label, url, description }: LinkedCardProps) => {
   return (
-    <Link
-      href={href}
-      className="flex flex-col w-full max-w-105 h-fit items-center z-10 cursor-pointer rounded-sm"
+    <motion.div
+      {...fadeUpAnimation}
+      className="flex flex-col w-full max-w-105 h-full px-5 py-3 md:py-5 z-10 cursor-pointer bg-background rounded-sm"
     >
-      <div className="relative w-full aspect-video overflow-hidden max-w-105 rounded-sm">
-        <div
-          className={`w-full h-full bg-cover bg-center`}
-          style={{
-            backgroundImage: `url(${url})`,
-          }}
-        >
-          <motion.div
-            {...fadeUpAnimation}
-            className="absolute flex items-center justify-center left-0 top-4 "
-          >
-            <h3
-              className="font-light w-full min-w-40 md:min-w-50 lg:min-w-56 text-text-secondary text-left md:text-center 
-                          px-3 md:px-4 xl:px-6 py-1 sm:py-1.5 text-base sm:text-lg md:text-xl lg:text-2xl rounded-r-sm whitespace-nowrap bg-secondary"
-            >
-              {label}
-            </h3>
-          </motion.div>
+      <Link href={href}>
+        <h2 className="font-light w-full min-w-40 md:min-w-50 lg:min-w-56 text-text-secondary text-left  text-xl lg:text-2xl whitespace-nowrap">
+          {label}
+        </h2>
+        <div className="relative w-full aspect-video overflow-hidden max-w-105 pb-3">
+          <div
+            className={`w-full h-full bg-cover bg-center rounded-sm`}
+            style={{
+              backgroundImage: `url(${url})`,
+            }}
+          ></div>
         </div>
-      </div>
-    </Link>
+        {description && (
+          <p className="text-text-secondary text-lg">{description}</p>
+        )}
+      </Link>
+    </motion.div>
   );
 };
 

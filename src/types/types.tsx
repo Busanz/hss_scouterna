@@ -2,6 +2,13 @@ type IntroLink = {
   label: string;
   href: string;
   url: string;
+  description?: string;
+};
+
+type OmHSSLinks = {
+  label: string;
+  href: string;
+  url: string;
 };
 
 type ClubCloths = {
@@ -32,5 +39,5 @@ type DepartmentLink = IntroLink & {
 };
 
 export type DepartmentType = DepartmentLink[];
-export type OmHSSLinksType = IntroLink[];
+export type OmHSSLinksType = OmHSSLinks[];
 export type ClubClothsType = ClubCloths[];
