@@ -1,13 +1,14 @@
-import { CurvedBorderBottomSvg, CurvedBorderTopSvg } from "@/assets/svg";
+"use client";
+import Modal from "@/components/ui/Modal";
+import { useState } from "react";
 
 export default function BilScoutsection() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
-    <section className="flex flex-col w-full h-full items-center justify-center">
+    <section className="flex flex-col w-full h-full my-5 md:my-10 items-center justify-center">
       <div className="flex flex-col w-full max-w-360 h-full items-center justify-center bg-primary">
-        <div className="w-full">
-          <CurvedBorderTopSvg />
-        </div>
-        <div className="flex flex-col items-center justify-center w-full min-h-screen px-4 py-8 sm:px-6 lg:px-8 gap-10">
+        <div className="flex flex-col items-center justify-center w-full px-4 py-8 sm:px-6 lg:px-8 gap-10">
           <div className="relative w-full max-w-4xl h-64 rounded-xl overflow-hidden gap-10 p-10">
             <img
               src="/img/bil-scout/bilscout.svg"
@@ -29,7 +30,7 @@ export default function BilScoutsection() {
               intresse till HSS.
             </p>
 
-            <p className="text-xl font-normal text-white">
+            <p className="text-xl font-normal text-white items-center">
               Oavsett om du är 8 år eller 100 år är du välkommen. För att anmäla
               dig till kölistan fyller du in en intresseanmälan nedan. Vi
               kontaktar dig när det blir en plats ledig.
@@ -38,17 +39,15 @@ export default function BilScoutsection() {
             <button
               className="w-35 bg-black/60 hover:bg-secondary-hover 
             text-white font-bold py-2 px-4 rounded-2xl cursor-pointer drop-shadow-[0_4px_4px_rgba(0,0,0,0.24)]"
+              onClick={() => setIsModalOpen(true)}
             >
               Gå med!
             </button>
           </div>
         </div>
-        <div className="w-full">
-          <CurvedBorderBottomSvg />
-        </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center w-full min-h-screen px-4 py-8 sm:px-6 lg:px-8 gap-10">
+      <div className="flex flex-col items-center justify-center w-full px-4 py-8 sm:px-6 lg:px-8 gap-10">
         <div className="w-full max-w-4xl h-64 rounded-xl overflow-hidden gap-10">
           <img
             src="/img/bil-scout/bilscout2.svg"
@@ -60,15 +59,24 @@ export default function BilScoutsection() {
           <p className="text-2xl font-normal text-black my-10 text-center tracking-wide">
             En trygg &amp; inkluderande miljö
           </p>
-          <p className="text-xl font-normal text-black my-10">
+          <p className="text-xl font-normal text-black my-5 text-center">
             Vi jobbar för att alla ska känna sig trygga och inkluderade på HSS.
+            Vår verksamhet bygger på gemenskap, glädje och ömsesidig respekt.
+            Oavsett vem du är, din bakgrund eller dina förutsättningar, ska du
+            alltid känna dig välkommen och sedd hos oss.
           </p>
 
-          <p className="text-xl font-normal text-black my-10">
+          <p className="text-xl font-normal text-black my-5 text-center">
             Mer information och fyll på content här, lorem ipsum.
           </p>
         </div>
       </div>
+
+      <Modal
+        url="https://www.scoutnet.se/register/in/group/764"
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
     </section>
   );
 }
