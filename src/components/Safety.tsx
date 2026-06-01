@@ -8,7 +8,7 @@ const Safety = () => {
                 alt="Image boats and scouts"
                 width={350}
                 height={270}
-                className="w-full h-auto w-1/2 order-1 rounded-sm"
+                className="w-1/2 h-auto order-1 rounded-sm"
             />
             <div className="flex flex-col justify-start w-full lg:w-1/2 order-2 lg:order-1">
                 <h2 className=" text-xl sm:text-2xl md:text-3xl">
