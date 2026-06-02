@@ -93,7 +93,7 @@ const GdprSection = () => {
 
        <div className="mt-8">
           <a
-            href="/gdpr_begaran.pdf"
+            href="../../pdf/gdpr_begaran.pdf"
             download
             className="inline-block w-full md:w-auto bg-text-secondary text-text-primary font-medium px-5 py-3 rounded-md shadow hover:bg-text-subtitle transition"
           >
