@@ -1,7 +1,7 @@
-import React from 'react';
+import BilScoutsection from "@/sections/BilScoutsection";
 
 const BliScoutPage = () => {
-  return <div>bli-scoutPage</div>;
+  return <BilScoutsection />;
 };
 
 export default BliScoutPage;
