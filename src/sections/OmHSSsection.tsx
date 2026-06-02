@@ -15,7 +15,7 @@ const OmHSSsection = () => {
         >
           {`Hässelby Strands Sjöscoutkår (HSS)`}
         </motion.h1>
-        <div className="relative grid grid-cols-1 md:grid-cols-3 w-full max-w-360 bg-bg-light text-text-primary px-4 md:px-6 lg:px-10 rounded-sm place-items-center gap-2 md:gap-6 lg:gap-2">
+        <div className="relative grid grid-cols-1 md:grid-cols-3 place-items-center w-full max-w-360 text-text-primary px-4 md:px-6 lg:px-10 rounded-sm gap-2 md:gap-6 lg:gap-2">
           {omHSSLinks.map((item, index) => (
             <LinkedCard
               key={index}

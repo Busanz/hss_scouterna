@@ -6,7 +6,6 @@ import { QuickLinkType,SocialLinkType } from '../types/types';
 const Footersection = () => {
   return (
     <footer className="flex flex-col w-full h-full max-w-360 items-center rounded-sm bg-primary text-white">
-      <img src="/img/footer/curve.svg" alt="" className="w-full h-auto" />
       <div className="flex flex-col w-full items-center py-10 sm:py-14 lg:py-20">
         <h2 className="pb-6 sm:pb-8 lg:pb-10 text-2xl sm:text-3xl lg:text-4xl">
           Gå direkt till
