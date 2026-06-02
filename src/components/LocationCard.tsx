@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { MapPin } from "lucide-react";
+import { ChevronDown } from 'lucide-react';
 
 type LocationCardProps = {
   image: string;
@@ -28,7 +29,7 @@ const LocationCard = ({
           </h3>
         </div>
         <span className="text-sm text-text-secondary group-open:rotate-180 transition-transform">
-          ▼
+          {<ChevronDown />}
         </span>
       </summary>
 

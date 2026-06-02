@@ -59,7 +59,7 @@ const ContactInfosection = () => {
                 transition-all duration-300
                 group-hover:scale-110 group-hover:rotate-3 group-hover:animate-pulse
                 group-hover:drop-shadow-[0_0_10px_rgba(30,144,255,0.6)]
-              "             
+              "
               >
                 <MapPin className="w-6 h-6" />
               </span>Hitta oss
