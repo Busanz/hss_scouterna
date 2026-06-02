@@ -16,7 +16,10 @@
   --color-secondary: #fdb614;
   --color-text-primary: #fcf5f5;
   --color-text-secondary: #012b4c;
+  --color-bg-light: #bedbff;
+  --color-text-subtitle: #76cff4;
 }
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -29,7 +32,7 @@ body {
   padding: 0;
   font-family: var(--font-geist-sans);
   font-weight: 300;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   line-height: 2;
 }
 
@@ -42,12 +45,10 @@ h6 {
   margin: 0;
 }
 h1 {
-  font-size: 2rem;
   font-weight: 300;
   margin-bottom: 1rem;
 }
 h2 {
-  font-size: 1.75rem;
   font-weight: 300;
   margin-bottom: 0.5rem;
 }
@@ -62,4 +63,17 @@ h2 {
 
 .hide-scrollbar {
   -ms-overflow-style: none;
+}
+
+@layer components {
+  .btn {
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #0000003d;
+  }
+  .btn:hover {
+    box-shadow: 0px 6px 8px 0px #00000052;
+  }
 }

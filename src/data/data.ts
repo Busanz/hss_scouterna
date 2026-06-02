@@ -1,5 +1,9 @@
 import type { QuickLinkType, SocialLinkType } from '../types/types';
-import type { NavLinksType, IntroLinksType } from '@/types/types';
+import type {
+  NavLinksType,
+  IntroLinksType,
+  OmHSSLinksType,
+} from '@/types/types';
 
 export const navLinks: NavLinksType = [
   {
@@ -30,34 +34,57 @@ export const navLinks: NavLinksType = [
 
 export const introLinks: IntroLinksType = [
   {
-    label: 'Om HSS',
-    href: '/om-hss',
-    url: 'om_hss',
-  },
-  {
-    label: 'För föräldrar',
-    href: '/for-foraldrar',
-    url: 'for_foraldrar',
+    label: 'Bli scout',
+    href: '/bli-scout',
+    url: '/img/intro-section/bli_scout.png',
   },
   {
     label: 'För ledare',
     href: '/for-ledare',
-    url: 'for_ledare',
+    url: '/img/intro-section/for_ledare.png',
   },
   {
-    label: 'Bli scout',
-    href: '/bli-scout',
-    url: 'bli_scout',
+    label: 'För föräldrar',
+    href: '/for-foraldrar',
+    url: '/img/intro-section/for_foraldrar.png',
   },
   {
     label: 'Avdelningar',
     href: '/avdelningar',
-    url: 'avdelningar',
+    url: '/img/intro-section/avdelningar.png',
   },
   {
     label: 'Läger',
     href: '/lager',
-    url: 'lager',
+    url: '/img/intro-section/lager.png',
+  },
+  {
+    label: 'Om HSS',
+    href: '/om-hss',
+    url: '/img/intro-section/om_hss.png',
+  },
+];
+
+export const omHSSLinks: OmHSSLinksType = [
+  // {
+  //   label: 'Om HSS',
+  //   href: '/om-hss',
+  //   url: '/img/om-HSS-section/om_hss.png',
+  // },
+  {
+    label: 'Sjöscout',
+    href: 'om-hss//sjoscout',
+    url: '/img/om-HSS-section/sjoscout.png',
+  },
+  {
+    label: 'Kläder & Utrustning',
+    href: '/om-hss/klader-utrustning',
+    url: '/img/om-HSS-section/klader_utrustning.png',
+  },
+  {
+    label: 'Stadgar & Protokoll',
+    href: '/om-hss/stadgar-protokoll',
+    url: '/img/om-HSS-section/stadgar_protokoll.png',
   },
 ];
 
@@ -76,17 +103,14 @@ export const quickLinks: QuickLinkType[] = [
   {
     label: 'Sjöscout',
     image: '/img/footer/quicklinks/sjöscout.svg',
-    href: '/sjöscout',
+    href: '/sjoscout',
   },
   {
     label: 'För föräldrar',
     image: '/img/footer/quicklinks/förföräldrar.svg',
     href: '/for-foraldrar',
   },
-  { label: 'FAQ', 
-    image: '/img/footer/quicklinks/faq.svg', 
-    href: '/faq' 
-  },
+  { label: 'FAQ', image: '/img/footer/quicklinks/faq.svg', href: '/faq' },
 ];
 
 export const socialMediaLinks: SocialLinkType[] = [

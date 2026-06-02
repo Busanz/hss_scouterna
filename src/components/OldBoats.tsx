@@ -3,8 +3,8 @@ import BoatCardRight from './BoatCardRight';
 
 const OldBoats = () => {
   return (
-    <div className="flex flex-col w-full pt-10 max-w-360">
-      <h2 className="text-text-secondary text-lg mt-16 pb-10 font-semibold md:mt-24">
+    <div className="flex flex-col w-full max-w-360 mt-5 md:mt-10">
+      <h2 className="text-text-secondary text-xl sm:text-2xl pb-5">
         Våra gamla båtar
       </h2>
 
