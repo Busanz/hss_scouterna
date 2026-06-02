@@ -1,7 +1,6 @@
 import Image from 'next/image';
-import { GlobalSvg } from '@/assets/svg';
 import Navbarlinks from '@/components/Navbarlinks';
-import { IoMdArrowDropdown } from 'react-icons/io';
+import LanguageBar from '@/components/LanguageBar';
 
 const Headersection = () => {
   return (
@@ -18,14 +17,7 @@ const Headersection = () => {
               loading="eager"
             />
           </div>
-          <div className="flex h-fit items-center">
-            <GlobalSvg />
-            <p className="cursor-pointer">EN</p>
-            <IoMdArrowDropdown
-              size={20}
-              className="active:text-secondary hover:text-secondary"
-            />
-          </div>
+          <LanguageBar />
         </div>
       </div>
       <div className="flex flex-col w-full max-w-360 h-full min-h-6 sm:min-h-6 md:min-h-90 items-center justify-between bg-primary sm:bg-[url(/img/header-section/hero_bg_img.png)] sm:bg-cover sm:bg-center rounded-sm">
