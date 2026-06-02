@@ -14,10 +14,10 @@ export const navLinks: NavLinksType = [
     label: 'Avdelningar',
     href: '/avdelningar',
   },
-  {
-    label: 'Året i HSS',
-    href: '/aret-i-hss',
-  },
+  // {
+  //   label: 'Året i HSS',
+  //   href: '/aret-i-hss',
+  // },
   {
     label: 'Om HSS',
     href: '/om-hss',
@@ -36,13 +36,13 @@ export const introLinks: IntroLinksType = [
   {
     label: 'Bli scout',
     href: '/bli-scout',
-    url: '/img/intro-section/bli_scout.png',
+    url: '/img/intro-section/for_ledare.png',
     description: 'Upplev äventyr, segling och nya vänner välkommen till HSS!',
   },
   {
     label: 'För ledare',
     href: '/for-ledare',
-    url: '/img/intro-section/for_ledare.png',
+    url: '/img/intro-section/bli_scout.png',
     description: 'Resurser och utbildning för dig som leder vår verksamhet.',
   },
   {
@@ -110,7 +110,7 @@ export const quickLinks: QuickLinkType[] = [
   {
     label: 'Sjöscout',
     image: '/img/footer/quicklinks/sjöscout.svg',
-    href: '/sjoscout',
+    href: '/om-hss/sjoscout',
   },
   {
     label: 'För föräldrar',
