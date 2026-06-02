@@ -1,123 +1,106 @@
 const GdprSection = () => {
   return (
-    <section className="w-full max-w-360 py-16 px-6 md:px-12 text-text-secondary">
+    <section className="w-full py-12 px-6 md:px-12 bg-text-subtitle text-text-secondary">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-xl sm:text-2xl my-5">GDPR</h2>
 
-        <p className="mb-6 text-DarkBlue-100">
-          GDPR kräver att vi informerar våra medlemmar om att vi samlar in
-          personuppgifter, vilka uppgifter det gäller och varför vi gör det.
+        <h2 className="text-3xl font-semibold mb-8">GDPR</h2>
+
+        <p className="leading-relaxed mb-6">
+          GDPR kräver att vi talar om för våra medlemmar att vi samlar in uppgifter, vilka uppgifter vi samlar in och varför vi gör det.
         </p>
 
-        <h3 className="text-xl font-medium mt-8">Scoutnet</h3>
-        <p className="mt-2 text-DarkBlue-100">
-          Scoutnet är Scouternas gemensamma medlemsregister. Där lagras följande
-          uppgifter om varje medlem:
+        <h3 className="text-2xl font-semibold mb-4">Scoutnet</h3>
+
+        <p className="leading-relaxed mb-4">
+          Scoutnet är Scouternas gemensamma medlemsregister och där samlar vi följande information om varje medlem:
         </p>
 
-        <ul className="list-disc ml-6 mt-4 space-y-1 text-#003660-100">
+        <ul className="list-disc ml-6 space-y-1 mb-6">
           <li>Namn*</li>
           <li>Personnummer*</li>
           <li>Adress*</li>
-          <li>
-            Telefonnummer* (minst ett nummer till föräldrar för omyndig scout,
-            och frivilligt till scout)
-          </li>
-          <li>
-            E-postadress* (minst en adress till föräldrar för omyndig scout, och
-            frivilligt till scout)
-          </li>
+          <li>Telefonnummer*</li>
+          <li>E-postadress*</li>
           <li>Avdelning</li>
           <li>Patrull</li>
           <li>Startdatum i kåren</li>
           <li>Medlemsavgift</li>
-          <li>Ev om förälder har roll i kåren*</li>
-          <li>Ev om syskon är medlemmar i kåren*</li>
-          <li>Genomförda utbildningar (främst för ledare)</li>
-          <li>Roll i kåren (endast för ledare)</li>
+          <li>Ev. om föräldrar har roll i kåren*</li>
+          <li>Ev. om syskon är medlemmar i kåren*</li>
+          <li>Genomförda utbildningar</li>
+          <li>Roll i kåren</li>
           <li>Eventuella utmärkelser</li>
         </ul>
 
-        <p className="mt-4 text-DarkBlue-100">
-          * Dessa uppgifter samlas även in för barn i anmälningsregistret
-          (kölistan), som är en del av Scoutnet. Uppgifter om syskon och
-          föräldrar används för att kunna ge syskonförtur och prioritera barn
-          vars föräldrar har en roll i kåren.
+        <p className="leading-relaxed mb-6">
+          *Dessa uppgifter samlas även in för barn i anmälningsregistret (kölistan). Informationen om syskon och föräldrar används för syskonförtur och prioritering.
         </p>
 
-        <h4 className="text-lg font-medium mt-6">Syfte med insamlingen</h4>
-        <ul className="list-disc ml-6 mt-2 space-y-1 text-#003660-100">
-          <li>Att veta vilka våra medlemmar är</li>
-          <li>Att kunna nå ut med information</li>
-          <li>Närvaroregistrering</li>
-          <li>Se avdelnings- och patrulltillhörighet</li>
-          <li>Fakturering</li>
-        </ul>
-
-        <p className="mt-4 text-#003660-100">
-          Vi registrerar aldrig hälsouppgifter i Scoutnet.
+        <p className="leading-relaxed mb-6">
+          Syftet med uppgiftssamlingen i Scoutnet är att veta vilka våra medlemmar är, kunna nå ut med information, närvaroregistrering, avdelnings- och patrulltillhörighet samt fakturering. Vi skriver aldrig in hälsouppgifter i Scoutnet.
         </p>
 
-        <h4 className="text-lg font-medium mt-6">Åtkomst och hantering</h4>
-        <p className="mt-2 text-DarkBlue-100">
-          Ledare och styrelse kan ta ut rapporter ur registret. Ingen utanför
-          HSS har tillgång till matrikeln och den kan inte laddas ned från
-          hemsidan. All e-postkorrespondens som innehåller medlemsuppgifter
-          raderas efter att uppgifterna lagts in i Scoutnet.
+        <p className="leading-relaxed mb-6">
+          Ledare och styrelse kan ta ut rapporter, men inga personer utanför HSS har tillgång till matrikeln. Uppgifter delas med kommunen för närvarorapportering. När en medlem avslutar sitt medlemskap raderas uppgifterna från HSS:s vy.
         </p>
 
-        <h4 className="text-lg font-medium mt-6">Delning av uppgifter</h4>
-        <p className="mt-2 text-DarkBlue-100">
-          Relevanta uppgifter delas med kommunen i samband med
-          närvarorapportering, för att vi ska kunna få bidrag till verksamheten.
+        <p className="leading-relaxed mb-10">
+          Försäkringsbolaget kräver att uppgifter sparas i upp till tio år.
         </p>
 
-        <h4 className="text-lg font-medium mt-6">När medlemskap avslutas</h4>
-        <p className="mt-2 text-DarkBlue-100">
-          När en medlem avslutar sitt medlemskap försvinner alla uppgifter från
-          HSS:s vy i Scoutnet. Uppgifterna finns dock kvar i systemet, men
-          endast ett fåtal anställda på Scouternas kansli kan se dem.
-          Försäkringsbolaget kräver att uppgifter sparas i upp till tio år,
-          vilket motsvarar tiden då ersättning kan begäras för ett
-          försäkringsärende.
-        </p>
-
-        <h3 className="text-xl font-medium mt-10">
-          Insamling av uppgifter vid hajker och läger
+        <h3 className="text-2xl font-semibold mb-4">
+          Insamling av uppgifter i samband med hajker och läger
         </h3>
 
-        <p className="mt-2 text-DarkBlue-100">
-          Anmälan sker via mejl eller webbformulär. Då samlas följande in:
+        <p className="leading-relaxed mb-4">
+          Anmälning sker via mejl eller webbformulär. Namn och telefonnummer till föräldrar samlas in av ledaren.
         </p>
 
-        <ul className="list-disc ml-6 mt-4 space-y-1 text-#003660-100">
-          <li>Namn på scout</li>
-          <li>Telefonnummer till föräldrar under hajken</li>
-          <li>Specialkost</li>
-          <li>Allergier</li>
-          <li>Hälsouppgifter</li>
-          <li>Övrig relevant information</li>
+        <p className="leading-relaxed mb-4">
+          Vid hajker och läger samlar vi även in:
+        </p>
+
+        <ul className="list-disc ml-6 space-y-1 mb-6">
+          <li>matrelaterad information (t.ex. allergier)</li>
+          <li>hälsouppgifter relevanta för planering och genomförande</li>
         </ul>
 
-        <h4 className="text-lg font-medium mt-6">Syfte</h4>
-        <p className="mt-2 text-DarkBlue-100">
-          Syftet är att kunna planera mat, hantera allergier, säkerställa
-          medicinering och ge ledarna kännedom om rädslor, diagnoser eller andra
-          viktiga förhållanden. Informationen används även för att snabbt kunna
-          kontakta föräldrar.
+        <p className="leading-relaxed mb-6">
+          Exempel: allergier, medicinering, sömnsvårigheter, rädslor, diagnoser eller annat som ledarna behöver känna till för att kunna stödja barnet.
         </p>
 
-        <p className="mt-4 text-DarkBlue-100">
-          All information förvaras ansvarsfullt under aktiviteten och är endast
-          tillgänglig för ledarna på berörd avdelning. Efter avslutad hajk eller
-          läger raderas/kastas all information direkt.
+        <p className="leading-relaxed mb-10">
+          Uppgifterna förvaras ansvarsfullt under aktiviteten och raderas direkt efteråt.
         </p>
 
-        <h3 className="text-xl font-medium mt-10">Övrigt</h3>
-        <p className="mt-2 text-DarkBlue-100">
-          På HSS webbplats används cookies för att analysera besökarnas
-          beteende. Läs mer om GDPR inom scouterna på Scouternas hemsida.
+        <h3 className="text-2xl font-semibold mb-4">Övrigt</h3>
+
+        <p className="leading-relaxed mb-6">
+          På HSS webbplats används eventuellt cookies för att analysera besökarens beteende.
         </p>
+
+        <p className="leading-relaxed mb-10">
+          Läs mer om GDPR inom scouterna på{" "}
+          <a
+            href="https://www.scouterna.se"
+            className="underline hover:text-text-subtitle-200"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            scouternas hemsida
+          </a>.
+        </p>
+
+       <div className="mt-8">
+          <a
+            href="/gdpr_begaran.pdf"
+            download
+            className="inline-block w-full md:w-auto bg-text-secondary text-text-primary font-medium px-5 py-3 rounded-md shadow hover:bg-text-subtitle transition"
+          >
+            Ladda ner GDPR-blanketten (PDF)
+          </a>
+        </div>
+
       </div>
     </section>
   );
