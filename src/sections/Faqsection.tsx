@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Category, FaqItem } from "@/types/faq";
 import { categories, faqData } from "@/data/faq";
 import Question from "@/components/Question";
+import Link from "next/link";
 
 export default function FaqSection() {
   const [activeCategory, setActiveCategory] = useState<Category>("Allt");
@@ -80,12 +81,12 @@ export default function FaqSection() {
         <div className="text-center mt-10">
           <p className="text-white text-sm">
             Behöver du svar på något annat?{" "}
-            <a
-              href="#"
+            <Link
+              href="/kontakta-oss"
               className="font-semibold underline underline-offset-2 text-white hover:text-white"
             >
               Kontakta oss
-            </a>
+            </Link>
           </p>
         </div>
       </div>
