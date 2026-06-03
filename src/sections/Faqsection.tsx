@@ -23,7 +23,7 @@ export default function FaqSection() {
   };
 
   return (
-    <section className="flex flex-col w-full max-w-360  h-full my-5 md:my-10 bg-primary">
+    <section className="flex flex-col w-full max-w-360  h-full my-5 sm:my-10 md:my-20 bg-primary">
       <div className="w-full min-h-screen px-4 py-8 sm:px-6 lg:px-8 ">
         <div className="text-center mt-6 sm:mt-8 mb-8">
           <h1 className="text-white text-4xl sm:text-5xl font-bold tracking-widest mb-3">
@@ -40,9 +40,9 @@ export default function FaqSection() {
             <button
               key={category}
               onClick={() => handleSelectCategory(category)}
-              className={`min-w-32.5 sm:min-w-40 px-4 h-12.5 rounded-2xl text-white text-sm font-semibold cursor-pointer ${
+              className={`min-w-32.5 sm:min-w-40 px-4 h-12.5 rounded-sm text-white text-sm font-semibold cursor-pointer ${
                 activeCategory === category
-                  ? "bg-[#395374] shadow-lg rounded-xl"
+                  ? "bg-[#395374] shadow-lg rounded-sm"
                   : "bg-[#001f3f] hover:bg-[#17395f]"
               }`}
             >

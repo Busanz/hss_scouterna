@@ -13,8 +13,8 @@ const Question = ({ question, answer }: FaqItem) => {
                     min-h-15 px-4 py-2 text-sm font-semibold
                     text-white cursor-pointer ${
                       isOpen
-                        ? "bg-[#5591C4] rounded-t-2xl"
-                        : "bg-[#395374] hover:brightness-110 rounded-2xl"
+                        ? "bg-[#5591C4] rounded-t-sm"
+                        : "bg-[#395374] hover:brightness-110 rounded-sm"
                     }`}
       >
         <span className="flex-1">{question}</span>
@@ -26,7 +26,7 @@ const Question = ({ question, answer }: FaqItem) => {
       </button>
 
       {isOpen && (
-        <div className=" bg-border border-[#5591c4] border-2 -mt-2 p-5 sm:p-6 text-white shadow-xl backdrop-blur-sm rounded-b-2xl">
+        <div className=" bg-border border-[#5591c4] border-2 -mt-2 p-5 sm:p-6 text-white shadow-xl backdrop-blur-sm rounded-b-sm">
           {answer}
         </div>
       )}
