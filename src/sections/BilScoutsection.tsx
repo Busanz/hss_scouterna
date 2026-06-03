@@ -55,10 +55,10 @@ export default function BilScoutsection() {
           />
         </div>
         <div className="flex flex-col justify-center items-center w-full max-w-4xl px-4 sm:px-6 lg:px-8">
-          <p className="text-xl font-normal text-primary text-center tracking-wide">
+          <p className="text-xl font-bold text-primary text-center tracking-wide">
             En trygg &amp; inkluderande miljö
           </p>
-          <p className="text-l font-normal text-primary my-5 text-center">
+          <p className="text-l font-normal text-primary my-5">
             Vi jobbar för att alla ska känna sig trygga och inkluderade på HSS.
             Vår verksamhet bygger på gemenskap, glädje och ömsesidig respekt.
           </p>
