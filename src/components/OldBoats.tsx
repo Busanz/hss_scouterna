@@ -16,7 +16,7 @@ const OldBoats = () => {
           description="Ingalunda var en Plymsnäcka byggd på Neglingevarvet gissningsvis på 20- eller 30-talet. Hon köptes 1961 av Drakarna, som hade fått skrota hennes systerfartyg Någorlunda. Hon förde 16 kvadratmeter segel på en gaffelrigg. Hon var byggd på planka och lade sig villigt trots att pikhornet inte var särdeles hög över vattnet. Hon finns förevigad på kort. Hon var den första av kårens båtar som försågs med motor, det var 1963. Samma år fick också Rubinen motor. De flesta av båtarna var således motorlösa långt in på 70-talet."
         />
         <BoatCardRight
-          image="/img/history/boats.jpg"
+          image="/img/history/oldBoat.jpg"
           name="Båtnamn: "
           years="I HSS ägo: xxxx-xxxx"
           description="Ingalunda var en Plymsnäcka byggd på Neglingevarvet gissningsvis på 20- eller 30-talet. Hon köptes 1961 av Drakarna, som hade fått skrota hennes systerfartyg Någorlunda. Hon förde 16 kvadratmeter segel på en gaffelrigg. Hon var byggd på planka och lade sig villigt trots att pikhornet inte var särdeles hög över vattnet. Hon finns förevigad på kort. Hon var den första av kårens båtar som försågs med motor, det var 1963. Samma år fick också Rubinen motor. De flesta av båtarna var således motorlösa långt in på 70-talet."
