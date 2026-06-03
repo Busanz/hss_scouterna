@@ -17,7 +17,7 @@ const BoatCardLeft = ({ image, name, years, description }: BoatCardProps) => {
             alt={name}
             width={350}
             height={270}
-            className="h-auto w-full max-w-xl object-cover"
+            className="h-auto w-full max-w-xl object-cover rounded-sm"
           />
         </div>
 
