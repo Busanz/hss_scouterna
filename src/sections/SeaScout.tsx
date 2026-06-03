@@ -23,7 +23,7 @@ const SeaScout = () => {
           >
             Sjöscout
           </motion.h1>
-          <p className="w-full text-text-primary sm:text-lg max-w-6xl text-center pb-10">
+          <p className="w-full text-text-primary sm:text-lg max-w-6xl pb-10">
             At vara sjöscout innebär i grunden sammma sak som att vara vanlig
             scout, att lära sig genom att göra samarbeta och visa hänsyn, men
             vattnet är våra framsta klassrum.
