@@ -7,25 +7,24 @@ const ClubClothes = () => {
     <section className="flex flex-col w-full h-full items-center my-10 lg:my-20">
       <div className="flex flex-col w-full max-w-360 rounded-sm pb-20 bg-primary text-text-primary px-4 md:px-6 lg:px-10 ">
         <h2 className="text-center  text-xl sm:text-xl lg:text-3xl pt-6">
-          Club clothes
+          Klubbkläder
         </h2>
 
         <div className="mt-6 text-center text-sm text-text-subtitle sm:mt-4 sm:text-lg">
           <h4 className="mt-2 sm:mt-3">
-            How is HSS different from other scout corps?
+            Hur skiljer sig HSS från andra scoutkårer?
           </h4>
           <h4 className="mt-2 sm:mt-3">
-            How do you recognize an HSS scout among 2000 other scouts?
+            Hur känner man igen en HSS-scout bland 2000 andra scouter?
           </h4>
         </div>
 
         <div className="mx-auto my-8 h-0.5 w-full sm:my-12 bg-text-subtitle" />
 
         <p className="mb-10 text-sm sm:mb-12 sm:text-base ">
-          There are few scout corps that have as nice a logo as we do at HSS and
-          therefore we want it to be seen!
+          Det finns få scoutkårer som har en lika snygg logga som vi på HSS och därför vill vi att den ska synas!
           <br />
-          Below you will find all our products that are printed with our logo.
+          Nedan hittar ni alla våra produkter som är tryckt med vår logga.
         </p>
 
         <div className="mb-12 grid grid-cols-1 gap-5 min-[480px]:grid-cols-2 sm:gap-6 lg:grid-cols-4 lg:gap-7">
@@ -53,10 +52,9 @@ const ClubClothes = () => {
 
         <div className="text-sm sm:text-base">
           <p className="mb-6 sm:mb-7">
-            The shirts are easiest to buy at the student union disco in November
-            or at the end of summer in June.
+            Tröjorna köps enklast på kårdiscot i november eller på sommaravslutningen i juni.
             <br />
-            You can of course also email{' '}
+            Du kan självklart också mejla{' '}
             <Link
               href="mailto:hsstrojan@hss-scout.org"
               className="font-bold text-text-primary hover:underline"
@@ -65,11 +63,10 @@ const ClubClothes = () => {
             </Link>
           </p>
           <p>
-            <span className="font-bold">OBS!</span> Remember that when an
-            HSS-shirt has served its purpose, it should be discarded and not
-            left for clothing collection.
+            <span className="font-bold">OBS!</span>
+             Tänk på att när en HSS-tröja har tjänat ut skall den slängas och inte lämnas till klädinsamling. 
             <br />
-            HSS-shirts are for members of HSS and no one else!
+            HSS-tröjor är till för medlemmar i HSS och ingen annan!
           </p>
         </div>
       </div>
