@@ -1,15 +1,14 @@
 'use client';
 
 import { motion } from 'motion/react';
-import { Mail, MapPin, Building, TreePine, Sailboat } from "lucide-react"
+import { Mail, MapPin, Building, TreePine, Sailboat } from 'lucide-react';
 import { fadeUpAnimation } from '@/utils/animation';
 import LocationCard from '@/components/LocationCard';
 import StaticMap from '@/components/Maps';
 
 const ContactInfosection = () => {
   return (
-    <div className="flex flex-col w-full max-w-360 h-full bg-primary text-text-primary mt-10 md:mt-20 px-4 md:px-6 lg:px-10 py-5 md:py-10 mb-5 md:mb-10 rounded-sm">
-
+    <div className="flex flex-col w-full max-w-360 h-full bg-primary text-text-primary my-10 md:my-20 px-4 md:px-6 lg:px-10 py-5 md:py-10  rounded-sm">
       <motion.h1
         {...fadeUpAnimation}
         className="text-center text-2xl sm:text-3xl lg:text-4xl text-text-primary px-1 py-5"
@@ -17,13 +16,12 @@ const ContactInfosection = () => {
         Äventyr och kompisar!
       </motion.h1>
 
-      <h2 className="text-center md:text-xl font-semibold sm:text-lg pb-5">
+      <h2 className="text-center text-xl sm:text-2xl pb-5 font-light">
         Har du några funderingar eller behöver du komma i kontakt med oss?
       </h2>
 
       <div className="flex flex-col lg:flex-row gap-6 lg:gap-10 xl:gap-14">
         <div className="flex-1 min-h-0 space-y-6">
-        
           <div className="bg-background rounded-md shadow-md p-4 md:p-5 lg:p-10 flex flex-col gap-5">
             <StaticMap src="/img/maps/hss-map.jpg" alt="HSS map" />
             <h3 className="text-xl md:text-2xl font-semibold flex items-center gap-2 text-text-secondary">
@@ -36,27 +34,32 @@ const ContactInfosection = () => {
               "
               >
                 <MapPin className="w-6 h-6" />
-              </span>Hitta oss
+              </span>
+              Hitta oss
             </h3>
-            <p className="text-sm md:text-base text-text-secondary">
-              Våra lokaler ligger vid Hässelby Strandbad och i skogen mellan Lövsta och Gåseborg.
+            <p className="sm:text-lg text-text-secondary">
+              Våra lokaler ligger vid Hässelby Strandbad och i skogen mellan
+              Lövsta och Gåseborg.
             </p>
             <a
               href="https://maps.app.goo.gl/UnkzfdoqAYyeze3c8"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn bg-primary text-text-primary hover:opacity-90 inline-flex items-center gap-2"
+              className="btn bg-primary text-text-primary hover:opacity-90 inline-flex items-center gap-2 rounded-sm"
             >
-              <Building className="w-6 h-6" /> Hässelby Strands Sjöscoutkår i Google Maps
+              <Building className="w-6 h-6" /> Hässelby Strands Sjöscoutkår i
+              Google Maps
             </a>
           </div>
         </div>
 
         <div className="flex-1 space-y-6">
-
           <div className="bg-background text-text-secondary rounded-md shadow-md p-4 md:p-5 lg:p-6">
             <h3 className="text-2xl font-semibold pb-5 flex items-center gap-2">
-              <span aria-hidden="true"><Mail className="w-6 h-6" /></span>E-post
+              <span aria-hidden="true">
+                <Mail className="w-6 h-6" />
+              </span>
+              E-post
             </h3>
 
             <p className="mb-2">
@@ -81,7 +84,7 @@ const ContactInfosection = () => {
             </p>
           </div>
 
-          <p className="text-base md:text-lg font-light">
+          <p className="sm:text-lg pb-5 font-light">
             Trevliga lokaler är en grundförutsättning för bra möten. Våra
             lokaler kan du läsa om genom att följa länkarna nedan.
           </p>
