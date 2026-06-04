@@ -18,15 +18,15 @@ const Story = () => {
           Söndagen den 28 Januari 1968 invigdes Myset.
         </p>
         <p className="sm:text-lg">
-          Under tre år hade då HSS's Föräldraförening arbetat på stugan.
+          {`Under tre år hade då HSS's Föräldraförening arbetat på stugan.`}
         </p>
         <br />
         <p className="sm:text-lg w-full max-w-5xl">
-          Bygget kostade nära 50.000 kr, dessa pengar hade samlats in på basarer
+          {`Bygget kostade nära 50.000 kr, dessa pengar hade samlats in på basarer
           och lotterier. På invigningsdagen närvarade nära 400 förväntansfulla
           scouter och föräldrar. De fick bevittna när FF&rsquos ordförande Agne
-          Stavegren formellt lämnade över nyckeln till HSS's ordförande
-          Lennart Carlbom.
+          Stavegren formellt lämnade över nyckeln till HSS's ordförande Lennart
+          Carlbom.`}
         </p>
       </div>
 
