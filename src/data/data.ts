@@ -37,13 +37,13 @@ export const introLinks: IntroLinksType = [
   {
     label: 'Bli scout',
     href: '/bli-scout',
-    url: '/img/intro-section/for_ledare.png',
+    url: '/img/intro-section/bli_scout.png',
     description: 'Upplev äventyr, segling och nya vänner välkommen till HSS!',
   },
   {
     label: 'För ledare',
     href: '/for-ledare',
-    url: '/img/intro-section/bli_scout.png',
+    url: '/img/intro-section/for_ledare.png',
     description: 'Resurser och utbildning för dig som leder vår verksamhet.',
   },
   {
