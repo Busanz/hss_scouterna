@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import Navbarlinks from '@/components/Navbarlinks';
 import LanguageBar from '@/components/LanguageBar';
@@ -9,6 +11,7 @@ const Headersection = () => {
         <div className="flex w-full h-full justify-between md:justify-end items-center px-4">
           <div
             className="relative w-40 h-12 items-center pt-1.5 md:mx-10 cursor-pointer"
+            onClick={() => window.open('https://www.scouterna.se/', '_blank')}
             tabIndex={0}
           >
             <Image
