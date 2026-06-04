@@ -2,11 +2,11 @@ const ProtokollSection = () => {
   return (
     <section className="w-full max-w-360 py-16 px-6 md:px-12 mb-10 md:mb-20 text-text-secondary bg-text-primary">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-xl sm:text-2xl my-5">Protokoll & Stadgar</h2>
+        <h2 className="text-2xl font-semibold mb-4">Protokoll & Stadgar</h2>
 
         <div className="space-y-6">
           <div>
-            <h3 className="text-xl font-medium">Kårstämma</h3>
+            <h3 className="text-xl font-semibold mb-4">Kårstämma</h3>
             <ul className="list-disc ml-6 space-y-1">
               <li>2020-04-20</li>
               <li>2020-05-15</li>
@@ -15,7 +15,7 @@ const ProtokollSection = () => {
           </div>
 
           <div>
-            <h3 className="text-xl font-medium">Styrelsemöten</h3>
+            <h3 className="text-xl font-semibold mb-4">Styrelsemöten</h3>
             <ul className="list-disc ml-6 space-y-1">
               <li>2020-04-20</li>
               <li>2020-05-15</li>
