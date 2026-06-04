@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Safety = () => {
     return (
-        <div className="flex flex-col py-10 lg:py-20 lg:flex-row gap-8 md:gap-10 lg:gap-14">                      
+        <div className="flex flex-col lg:flex-row gap-8 md:gap-10 lg:gap-14 my-5 sm:my-10 md:my-20">                      
             <Image
                 src="/img/ourboats-section/DSCF1955.jpg"
                 alt="Image boats and scouts"
