@@ -10,7 +10,7 @@ const historyImages = [
 const Story = () => {
   return (
     <div>
-      <div className="">
+      <div className="px-4 md:px-0">
         <h2 className="text-xl sm:text-2xl pb-5 text-text-secondary">
           Från då till nu
         </h2>
