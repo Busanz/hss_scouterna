@@ -19,6 +19,7 @@
   /* --color-bg-light: #bedbff; */
   --color-bg-light: #92caf155;
   --color-text-subtitle: #76cff4;
+  --color-text-link: #2893f8;
 }
 
 @media (prefers-color-scheme: dark) {
