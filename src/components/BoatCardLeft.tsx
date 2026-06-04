@@ -17,11 +17,11 @@ const BoatCardLeft = ({ image, name, years, description }: BoatCardProps) => {
             alt={name}
             width={350}
             height={270}
-            className="h-auto w-full max-w-xl object-cover"
+            className="h-auto w-full max-w-xl object-cover rounded-sm"
           />
         </div>
 
-        <div className="max-w-3xl pr-10">
+        <div className="max-w-3xl px-4 md:px-0 pr-10">
           <p className="font-semibold text-text-secondary">{name}</p>
           <p className="font-semibold text-text-secondary">{years}</p>
           <p className="mt-6 font-semibold">

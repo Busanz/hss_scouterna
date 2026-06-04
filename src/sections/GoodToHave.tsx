@@ -1,26 +1,30 @@
 const GoodToHave = () => {
     return (
-        <>
-            <section className="m-4">
-                <div className="p-4 mb-5 sm:px-6 md:px-8">
-                    <h2 className="text-center text-2xl p-4 mb-4 sm:text-3xl md:text-4xl">Good To Have</h2>
-                    <h3 className="text-primary text-center sm:text-lg md:text-xl mt-2">Things that are good to have when you've been a member for a while.</h3>
+        <section className="flex flex-col w-full h-full items-center mb-5 sm:mb-10 md:mb-20">
+            <div className="flex flex-col w-full max-w-360 px-4 md:px-6 lg:px-10">
+                <div className="sm:px-6 md:px-8">
+                    <h2 className="text-center text-2xl sm:text-3xl lg:text-4xl pb-4">
+                        Bra att ha
+                    </h2>
                 </div>
-                <div className="mx-auto my-8 h-0.5 w-full  sm:my-12 bg-text-subtitle" />
-                <div className="color-background pt-2 pl-8 ml-8" >
+                <hr className="mx-auto h-px w-full opacity-90 bg-text-subtitle" />
+                <h3 className="text-primary sm:text-lg md:text-xl py-6">
+                    Saker som är bra att ha när du varit medlem ett tag
+                </h3>
+                <div className="color-background px-4" >
                     <ul className="list-disc text-black text-sm sm:text-base">
-                        <li>Scout uniform (T-shirt, polo shirt, or scout shirt with scarf)</li>
-                        <li>Sleeping mat</li>
-                        <li>Sleeping bag</li>
-                        <li>A pair of hiking shoes, boots or ankle boots</li>
-                        <li>Cutlery</li>
-                        <li>A non-slip plate or bowl to eat from</li>
-                        <li>Water bottle</li>
-                        <li>Rainwear</li>
+                        <li>Scoutdräkt (T-shirt, piké, eller scoutskjorta med halsduk)</li>
+                        <li>Liggunderlag</li>
+                        <li>Sovsäck</li>
+                        <li>Ett par vandringsskor, stövlar eller kängor</li>
+                        <li>Matbestick</li>
+                        <li>Oöm tallrik eller kåsa att äta från</li>
+                        <li>Vattenflaska</li>
+                        <li>Regnkläder</li>
                     </ul>
                 </div>
-            </section>
-        </>
+            </div>
+        </section>
     )
 }
 export default GoodToHave;
