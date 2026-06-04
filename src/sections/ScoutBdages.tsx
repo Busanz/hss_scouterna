@@ -3,27 +3,28 @@ import Link from "next/link";
 
 const ScoutBadges = () => {
   return (
-    <section className=" mt-4 bg-primary text-text-primary rounded">
-      <div className="max-w-360 mx-auto px-4 py-12 sm:px-6 sm:py-16 lg:px-16 lg:py-20">
-        <h2 className="text-center text-2xl sm:text-4xl lg:text-3xl">
-          Scout badges
+    <section className="flex flex-col w-full h-full items-center my-5 sm:my-10 md:my-20">
+      <div className="flex flex-col w-full max-w-360 rounded-sm pb-10 bg-primary text-text-primary px-4 md:px-6 lg:px-10">
+        <h2 className="text-center text-2xl sm:text-3xl lg:text-4xl pt-5 pb-3 md:pt-8 md:pb-3">
+          Scoutmärken
         </h2>
-        <p className="text-center text-text-subtitle mt-2 text-lg">
-          Badges that tell a story.
-        </p>
-
-        <p className="mt-8 sm:mt-12 text-base ">
-          The Scout badge system is a support to help leaders and scouts plan and implement the Scout program and thereby encourage personal development.
+        <hr className="mx-auto h-px w-full bg-text-subtitle" />
+        <div className="text-text-subtitle sm:text-lg md:text-xl py-5">
+          <p>
+            Märken som berättar en historia
+          </p>
+        </div>
+        <p>
+          Scouternas märkessystem är ett stöd för att hjälpa ledare och scouter att planera och genomföra scoutprogrammet och därigenom uppmuntra den personliga utvecklingen. 
           <br />
-          After a completed project, a certain term or when scouts have learned something together, a badge or another symbol functions as a memory.
+          Efter ett genomfört projekt, en viss termin eller när scouterna lärt sig något tillsammans fungerar ett märke eller någon annan symbol som ett minne.
         </p>
-        <p className="mt-4 sm:mt-6 text-base">
-          On this way, the badge or symbol is much more than the fabric itself, it is a story that helps you remember all the adventures and what you have learned on the way.
+        <p>
+          På det sättet är märket eller symbolen så mycket mer än själva tygbiten, det är en historia som hjälper dig att minnas allla äventyr och vad du har lärt dig på vägen.
         </p>
 
-        <hr className="mt-8 mb-6 sm:mt-12 sm:mb-8 border-text-primary" />
-        <h3 className="text-text-subtitle mb-4 sm:mb-6 text-sm sm:text-2xl">
-          All badges have their place
+        <h3 className="text-text-subtitle sm:text-lg md:text-xl py-5">
+          Alla märken har sin plats
         </h3>
 
         <div className="flex flex-col items-center gap-6 lg:flex-row lg:gap-8">
@@ -44,25 +45,25 @@ const ScoutBadges = () => {
         </div>
 
         <p className="mt-8 sm:mt-10 text-base ">
-          There are specific places for each badge on the Scout uniform, above is
-          an overall guide on placement. Visit the link below to read more about
-          placement and guidelines.
+          Det finns specifika platser för varje märke på scoutskjortan,
+          ovan är övergripande guide på placeringar. 
+          Besök nedan länk för att läsa mer om placeringar och riktlinjer. 
         </p>
 
-        <div className="m-6 flex flex-col items-start gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
+        <div className="my-6 flex flex-col items-start gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
           <div className="btn bg-text-secondary text-text-primary text-center cursor-auto">
-            Placement
+            Placering
           </div>
-          <Link href="#" className="btn bg-text-secondary text-text-primary text-center">
-            Download PDF
+          <Link href="#" className="btn bg-text-secondary text-text-primary text-center hover:bg-secondary hover:text-primary">
+            Ladda ner PDF
           </Link>
         </div>
 
-        <h3 className="text-text-subtitle mt-12 sm:mt-16 mb-4 sm:mb-6 text-base sm:text-2xl">
-          Specific badges for sea scouts
+        <h3 className="text-text-subtitle sm:text-lg md:text-xl py-5">
+          Specifika märken för sjöscouter
         </h3>
-        <p className="text-base">
-          Dummytext: As a Sea Scout, we have specific badges, .
+        <p>
+          Som Sjöscout har vi specifika märken.
         </p>
 
         <Image
@@ -73,32 +74,32 @@ const ScoutBadges = () => {
           className="mt-6 sm:mt-8 w-full max-w-120 h-auto flex justify-center mx-auto"
         />
 
-        <div className="m-6 sm:mt-8 flex flex-col items-start gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
+        <div className="my-6 sm:mt-8 flex flex-col items-start gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
           <div className="btn bg-text-secondary text-text-primary text-center cursor-auto">
-            Lake and Water
+            Sjö och Vatten
           </div>
           <Link href="/pdf/water-scout.pdf" 
                 target= "-blank"
                 rel="noopener noreferrer"
-                className="btn bg-text-secondary text-text-primary text-center">
-            Download PDF
+                className="btn bg-text-secondary text-text-primary text-center hover:bg-secondary hover:text-primary">
+            Ladda ner PDF
           </Link>
         </div>
 
-        <h3 className="text-text-subtitle mt-12 sm:mt-16 mb-4 sm:mb-6 text-base sm:text-2xl">
-          All Scout Badges
+        <h3 className="text-text-subtitle sm:text-lg md:text-xl py-5">
+          Alla scoutmärken
         </h3>
-        <p className="text-base">
-          There are many different badges, participation badges can be seen on the troop page,
-          with this link you can see the entire badge collection on the Scouts' website.
+        <p>
+          Det finns massor med olika märken, deltagandemärken ser man på avdelnings-sidan, 
+          med denna länk kan man se hela märkesbanken på scouternas hemsida.
         </p>
 
-        <div className="m-6 flex flex-col items-start gap-3 sm:flex-row sm:flex-wrap sm:gap-4 sm:p-2">
+        <div className="my-6 flex flex-col items-start gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
           <div className="btn bg-text-secondary text-text-primary text-center cursor-auto">
-            See the entire Badge Collection
+            Se hela Märkesbanken
           </div>
-          <Link href="#" className="btn bg-text-secondary text-text-primary text-center">
-            Download PDF
+          <Link href="#" className="btn bg-text-secondary text-text-primary text-center hover:bg-secondary hover:text-primary">
+            Ladda ner PDF
           </Link>
         </div>
 
