@@ -1,13 +1,17 @@
 const GoodToHave = () => {
     return (
-        <>
-            <section className="m-4">
-                <div className="p-4 mb-5 sm:px-6 md:px-8">
-                    <h2 className="text-center text-2xl p-4 mb-4 sm:text-3xl md:text-4xl">Bra att ha</h2>
-                    <h3 className="text-primary text-center sm:text-lg md:text-xl mt-2">Saker som är bra att ha när du varit medlem ett tag</h3>
+        <section className="flex flex-col w-full h-full items-center mb-5 sm:mb-10 md:mb-20">
+            <div className="flex flex-col w-full max-w-360 px-4 md:px-6 lg:px-10">
+                <div className="sm:px-6 md:px-8">
+                    <h2 className="text-center text-2xl sm:text-3xl lg:text-4xl pb-4">
+                        Bra att ha
+                    </h2>
                 </div>
-                <div className="mx-auto my-8 h-0.5 w-full  sm:my-12 bg-text-subtitle" />
-                <div className="color-background pt-2 pl-8 ml-8" >
+                <hr className="mx-auto h-px w-full opacity-90 bg-text-subtitle" />
+                <h3 className="text-primary sm:text-lg md:text-xl py-6">
+                    Saker som är bra att ha när du varit medlem ett tag
+                </h3>
+                <div className="color-background px-4" >
                     <ul className="list-disc text-black text-sm sm:text-base">
                         <li>Scoutdräkt (T-shirt, piké, eller scoutskjorta med halsduk)</li>
                         <li>Liggunderlag</li>
@@ -19,8 +23,8 @@ const GoodToHave = () => {
                         <li>Regnkläder</li>
                     </ul>
                 </div>
-            </section>
-        </>
+            </div>
+        </section>
     )
 }
 export default GoodToHave;
