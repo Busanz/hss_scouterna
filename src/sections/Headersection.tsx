@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import { GlobalSvg } from '@/assets/svg';
 import Navbarlinks from '@/components/Navbarlinks';
@@ -8,7 +10,10 @@ const Headersection = () => {
     <section className="flex flex-col w-full h-full items-center">
       <div className="relative flex flex-col w-full  max-w-360">
         <div className="flex w-full h-full justify-between md:justify-end items-center px-4">
-          <div className="relative w-40 h-12 items-center pt-1.5 md:mx-10 cursor-pointer">
+          <div
+            className="relative w-40 h-12 items-center pt-1.5 md:mx-10 cursor-pointer"
+            onClick={() => window.open('https://www.scouterna.se/', '_blank')}
+          >
             <Image
               src={'/img/header-section/scouterna-log.png'}
               alt="Souterna logga"

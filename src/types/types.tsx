@@ -41,3 +41,23 @@ type DepartmentLink = IntroLink & {
 export type DepartmentType = DepartmentLink[];
 export type OmHSSLinksType = OmHSSLinks[];
 export type ClubClothsType = ClubCloths[];
+
+export type DepartmentIntroType = {
+  id: number;
+  image: string;
+  title: string;
+  subtitle: string;
+  description: string;
+  details?: {
+    when: string;
+    where: string;
+    age: string;
+    formerName: string;
+  };
+  color: string;
+  moreDetails?: {
+    title: string;
+    description: string;
+    image: string;
+  };
+};
