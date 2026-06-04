@@ -55,4 +55,9 @@ export type DepartmentIntroType = {
     formerName: string;
   };
   color: string;
+  moreDetails?: {
+    title: string;
+    description: string;
+    image: string;
+  };
 };

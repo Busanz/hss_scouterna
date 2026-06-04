@@ -1,37 +1,36 @@
-'use client';
+import React from 'react';
 
 type Props = {
-  varient: 'primary' | 'secondary';
+  variant: 'primary' | 'secondary';
   ctaText: string;
   onClick?: () => void;
   textColor?: string;
   bgColor: string;
-  scrollToTop?: boolean;
 };
 
 const CTASelector = ({
-  varient = 'primary',
+  variant = 'primary',
   onClick,
   ctaText,
   textColor,
   bgColor,
 }: Props) => {
-  const baseStyle = 'transition duration-300 rounded-sm z-50 w-full min-w-5';
+  const baseStyle =
+    'py-3 px-7 rounded-sm z-50 w-full max-w-50 font-light text-lg cursor-pointer block text-center';
 
-  const varients = {
-    primary: `px-[28px] py-2 hover:bg-[#FEC55D]/70 transition`,
-    secondary: `border border-[0.5px] py-[12px] px-[30px] text-lg hover:bg-[#E2F7ED] hover:text-[#1A5D3A] hover:border-transparent transition ${
-      textColor ? textColor : 'text-white'
+  const variants = {
+    primary:
+      'bg-[var(--btn-color)] border border-[var(--btn-color)] hover:bg-transparent transition duration-300',
+    secondary: `transition-all duration-300 hover:text-text-subtitle hover:underline hover:underline-offset-3 ${
+      textColor ? 'text-[#2893F8]' : textColor
     }`,
   };
-  const handleClick = () => {
-    onClick?.();
-  };
+
   return (
     <button
-      className={`${baseStyle} ${varients[varient]}`}
-      style={{ backgroundColor: bgColor }}
-      onClick={handleClick}
+      onClick={onClick}
+      className={`${baseStyle} ${variants[variant]}`}
+      style={{ '--btn-color': bgColor } as React.CSSProperties}
     >
       {ctaText}
     </button>
