@@ -1,16 +1,19 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import clothes from '@/data/clothes';
+import { H2Icon } from '@heroicons/react/16/solid';
 
 const ClubClothes = () => {
   return (
-    <section className="flex flex-col w-full h-full items-center my-10 lg:my-20">
-      <div className="flex flex-col w-full max-w-360 rounded-sm pb-20 bg-primary text-text-primary px-4 md:px-6 lg:px-10 ">
-        <h2 className="text-center  text-xl sm:text-xl lg:text-3xl pt-6">
+    <section className="flex flex-col w-full h-full items-center my-5 sm:my-10 md:my-20">
+      <div className="flex flex-col w-full max-w-360 rounded-sm pb-10 bg-primary text-text-primary px-4 md:px-6 lg:px-10">
+        <h1 className="text-center text-2xl sm:text-3xl lg:text-4xl pt-5 pb-3 md:pt-8 md:pb-3">
           Klubbkläder
-        </h2>
+        </h1>
 
-        <div className="mt-6 text-center text-sm text-text-subtitle sm:mt-4 sm:text-lg">
+        <hr className="mx-auto h-px w-full bg-text-subtitle" />
+
+        <div className="my-6 text-sm text-text-subtitle sm:text-lg">
           <h4 className="mt-2 sm:mt-3">
             Hur skiljer sig HSS från andra scoutkårer?
           </h4>
@@ -18,8 +21,6 @@ const ClubClothes = () => {
             Hur känner man igen en HSS-scout bland 2000 andra scouter?
           </h4>
         </div>
-
-        <div className="mx-auto my-8 h-0.5 w-full sm:my-12 bg-text-subtitle" />
 
         <p className="mb-10 text-sm sm:mb-12 sm:text-base ">
           Det finns få scoutkårer som har en lika snygg logga som vi på HSS och därför vill vi att den ska synas!
