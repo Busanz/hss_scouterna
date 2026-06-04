@@ -10,7 +10,7 @@ const Safety = () => {
                 height={270}
                 className="w-full flex-1/2 h-auto order-1 rounded-sm"
             />
-            <div className="flex flex-col justify-start w-full lg:w-1/2 order-2 lg:order-1">
+            <div className="flex flex-col justify-start w-full lg:w-1/2 order-2 px-4 md:px-0 lg:order-1">
                 <h2 className=" text-xl sm:text-2xl md:text-3xl">
                     Säkerhet and information
                 </h2>

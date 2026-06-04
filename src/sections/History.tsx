@@ -14,7 +14,6 @@ const History = () => {
           <hr className="mb-5 md:mb-10 border-primary" />
           <Story />
         </div>
-
         <OldBoats />
       </div>
     </section>

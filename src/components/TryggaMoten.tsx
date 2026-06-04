@@ -3,7 +3,7 @@ import Image from "next/image"
 const TryggaMoten = () => {
     return (
               <div className="flex flex-col pt-20 lg:flex-row gap-8 md:gap-10 lg:gap-14">
-                <div className="flex flex-col justify-start flex-1/2 order-2 lg:order-1">
+                <div className="flex flex-col justify-start flex-1/2 order-2 px-4 md:px-0 lg:order-1">
                     <h1 className=" text-xl sm:text-2xl md:text-3xl">
                         För föräldrar
                     </h1>
