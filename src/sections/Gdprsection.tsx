@@ -3,7 +3,7 @@ const GdprSection = () => {
     <section className="w-full max-w-360 py-12 px-6 md:px-12 bg-primary text-text-primary">
       <div className="max-w-4xl mx-auto">
 
-        <h2 className="text-2xl font-semibold mb-4">GDPR</h2>
+        <h3 className="text-xl font-semibold mb-4">GDPR</h3>
 
         <p className="leading-relaxed mb-6">
           GDPR kräver att vi talar om för våra medlemmar att vi samlar in uppgifter, vilka uppgifter vi samlar in och varför vi gör det.
@@ -95,7 +95,7 @@ const GdprSection = () => {
           <a
             href="/gdpr_begaran.pdf"
             download
-            className="inline-block w-full md:w-auto bg-text-secondary text-text-primary font-medium px-5 py-3 rounded-md shadow hover:bg-text-subtitle transition"
+            className="inline-block w-full md:w-auto bg-text-subtitle text-text-primary font-medium px-5 py-3 rounded-md shadow hover:bg-text-secondary transition"
           >
             Ladda ner GDPR-blanketten (PDF)
           </a>
