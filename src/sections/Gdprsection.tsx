@@ -108,8 +108,9 @@ const GdprSection = () => {
 
         <div className="mt-8">
           <a
-            href="/gdpr_begaran.pdf"
-            download
+            href="/pdf/gdpr_begaran.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block w-full text-text-link hover:underline underline-offset-4 decoration-0"
           >
             Ladda ner GDPR-blanketten (PDF)
