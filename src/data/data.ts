@@ -122,26 +122,26 @@ export const quickLinks: QuickLinkType[] = [
 ];
 
 export const socialMediaLinks: SocialLinkType[] = [
-  {
-    label: 'Facebook',
-    image: '/img/footer/socialmedia/facebook.svg',
-    href: 'https://www.facebook.com/HSSScout',
-  },
+  // {
+  //   label: 'Facebook',
+  //   image: '/img/footer/socialmedia/facebook.svg',
+  //   href: 'https://www.facebook.com/HSSScout',
+  // },
   {
     label: 'Instagram',
     image: '/img/footer/socialmedia/instagram.svg',
     href: 'https://www.instagram.com/hss_scout/',
   },
-  {
-    label: 'LinkedIn',
-    image: '/img/footer/socialmedia/linkedin.svg',
-    href: 'https://se.linkedin.com/company/scouterna',
-  },
-  {
-    label: 'YouTube',
-    image: '/img/footer/socialmedia/youtube.svg',
-    href: 'https://www.youtube.com/@hasselbystrandssjoscoutkar4026',
-  },
+  // {
+  //   label: 'LinkedIn',
+  //   image: '/img/footer/socialmedia/linkedin.svg',
+  //   href: 'https://se.linkedin.com/company/scouterna',
+  // },
+  // {
+  //   label: 'YouTube',
+  //   image: '/img/footer/socialmedia/youtube.svg',
+  //   href: 'https://www.youtube.com/@hasselbystrandssjoscoutkar4026',
+  // },
 ];
 export const departmentLogos: DepartmentType = [
   {
@@ -170,9 +170,9 @@ export const departmentLogos: DepartmentType = [
     des: ' Utmanare 15-18',
   },
   {
-    label: 'Rover',
-    href: '/rover_19_25',
-    url: '/img/departments/rover_19_25.svg',
-    des: 'Rover 19-25 år',
+    label: 'Familjescouting',
+    href: '/familjescouting',
+    url: '/img/departments/familjescouting.svg',
+    des: 'Barn under 8 år',
   },
 ];
