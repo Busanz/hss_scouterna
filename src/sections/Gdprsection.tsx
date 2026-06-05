@@ -1,6 +1,6 @@
 const GdprSection = () => {
   return (
-    <section className="w-full py-12 px-6 md:px-12 bg-text-subtitle text-text-secondary">
+    <section className="w-full py-12 px-6 md:px-12 bg-primary text-text-primary">
       <div className="max-w-4xl mx-auto">
 
         <h2 className="text-3xl font-semibold mb-8">GDPR</h2>
@@ -9,13 +9,13 @@ const GdprSection = () => {
           GDPR kräver att vi talar om för våra medlemmar att vi samlar in uppgifter, vilka uppgifter vi samlar in och varför vi gör det.
         </p>
 
-        <h3 className="text-2xl font-semibold mb-4">Scoutnet</h3>
+        <h3 className="text-2xl font-semibold pb-5">Scoutnet</h3>
 
         <p className="leading-relaxed mb-4">
           Scoutnet är Scouternas gemensamma medlemsregister och där samlar vi följande information om varje medlem:
         </p>
 
-        <ul className="list-disc ml-6 space-y-1 mb-6">
+        <ul className="columns-2 list-disc ml-6 space-y-1 mb-6">
           <li>Namn*</li>
           <li>Personnummer*</li>
           <li>Adress*</li>
@@ -48,7 +48,7 @@ const GdprSection = () => {
           Försäkringsbolaget kräver att uppgifter sparas i upp till tio år.
         </p>
 
-        <h3 className="text-2xl font-semibold mb-4">
+        <h3 className="text-2xl font-semibold pb-5">
           Insamling av uppgifter i samband med hajker och läger
         </h3>
 
@@ -73,7 +73,7 @@ const GdprSection = () => {
           Uppgifterna förvaras ansvarsfullt under aktiviteten och raderas direkt efteråt.
         </p>
 
-        <h3 className="text-2xl font-semibold mb-4">Övrigt</h3>
+        <h3 className="text-2xl font-semibold pb-5">Övrigt</h3>
 
         <p className="leading-relaxed mb-6">
           På HSS webbplats används eventuellt cookies för att analysera besökarens beteende.
@@ -91,9 +91,9 @@ const GdprSection = () => {
           </a>.
         </p>
 
-       <div className="mt-8">
+        <div className="mt-8">
           <a
-            href="/gdpr_begaran.pdf"
+            href="/pdf/gdpr_begaran.pdf"
             download
             className="inline-block w-full md:w-auto bg-text-secondary text-text-primary font-medium px-5 py-3 rounded-md shadow hover:bg-text-subtitle transition"
           >
