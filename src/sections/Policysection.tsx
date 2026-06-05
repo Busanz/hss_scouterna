@@ -5,7 +5,7 @@ const PolicySection = () => {
         <h1 className="text-center text-xl sm:text-2xl my-5">Policys</h1>
 
         <div className="space-y-4">
-          <h3 className="text-xl font-medium pb-5">Fotopolicy</h3>
+          <h2 className="text-xl font-medium pb-5">Fotopolicy</h2>
           <p>
             Vi använder bilder från verksamheten i syfte att marknadsföra scouting och vår kår. Om du eller ditt barn inte vill vara med på bild kan ni meddela oss så tar vi bort eller undviker publicering.
           </p>

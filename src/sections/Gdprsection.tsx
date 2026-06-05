@@ -3,13 +3,13 @@ const GdprSection = () => {
     <section className="w-full py-12 px-6 md:px-12 bg-primary text-text-primary">
       <div className="max-w-4xl mx-auto">
 
-        <h2 className="text-3xl font-semibold mb-8">GDPR</h2>
+        <h2 className="text-xl font-medium pb-5">GDPR</h2>
 
         <p className="leading-relaxed mb-6">
           GDPR kräver att vi talar om för våra medlemmar att vi samlar in uppgifter, vilka uppgifter vi samlar in och varför vi gör det.
         </p>
 
-        <h3 className="text-2xl font-semibold pb-5">Scoutnet</h3>
+        <h3 className="text-xl font-medium pb-5">Scoutnet</h3>
 
         <p className="leading-relaxed mb-4">
           Scoutnet är Scouternas gemensamma medlemsregister och där samlar vi följande information om varje medlem:
@@ -48,7 +48,7 @@ const GdprSection = () => {
           Försäkringsbolaget kräver att uppgifter sparas i upp till tio år.
         </p>
 
-        <h3 className="text-2xl font-semibold pb-5">
+        <h3 className="text-xl font-medium pb-5">
           Insamling av uppgifter i samband med hajker och läger
         </h3>
 
@@ -73,7 +73,7 @@ const GdprSection = () => {
           Uppgifterna förvaras ansvarsfullt under aktiviteten och raderas direkt efteråt.
         </p>
 
-        <h3 className="text-2xl font-semibold pb-5">Övrigt</h3>
+        <h3 className="text-xl font-medium pb-5">Övrigt</h3>
 
         <p className="leading-relaxed mb-6">
           På HSS webbplats används eventuellt cookies för att analysera besökarens beteende.
