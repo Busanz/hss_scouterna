@@ -7,14 +7,25 @@ const Lager = () => {
                 <h1 className=" text-xl sm:text-2xl md:text-3xl">
                     Läger
                 </h1>
-                <p className="my-5 sm:text-lg">
-                  På våra läger får scouterna uppleva äventyr, gemenskap och friluftsliv på riktigt. Här tränar vi samarbete, ansvar och problemlösning samtidigt som vi har roligt, upptäcker naturen, lär oss nya saker och skapar minnen tillsammans.
+                <p className="my-5 sm:text-lg leading-relaxed">
+                    Läger är årets absoluta höjdpunkt för hela kåren. Varje sommar packar vi
+                    ryggsäckarna, lämnar vardagen bakom oss och ger oss ut på äventyr
+                    tillsammans. Det är dagar fyllda av gemenskap, skratt, lägerbål, nya
+                    utmaningar och minnen som stannar kvar långt efter att tältet är
+                    nedpackat.
                 </p>
+
+                <p className="my-5 sm:text-lg leading-relaxed">
+                    Genom åren har HSS deltagit i många fantastiska läger och eskadrar –
+                    både stora och små. Här kan du läsa om tidigare äventyr, inspireras och
+                    kanske minnas tillbaka om du själv varit med.
+                </p>
+
                     <a  className="my-5 px-4 py-2 w-fit rounded-sm text-white bg-primary hover:bg-secondary hover:text-primary"
-                        href="https://www.scouterna.se/aventyr-och-lager/arrangemang-i-sverige/lokala-hajker-och-lager/"
+                    href="https://hss.scout.se/lager/"
                         target="_blank"
                     >
-                        Läs mer
+                        Läs om tidigare läger
                     </a>  
             </div>
         
