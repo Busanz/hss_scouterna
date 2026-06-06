@@ -30,6 +30,7 @@ const CourseTrygga = () => {
                     target="_blank"
                 >
                     Utbildning Trygga möten
+             {/* testing */}
                 </a>  
             </div>
         </section>
