@@ -16,12 +16,12 @@ const CourseTrygga = () => {
                 <h2 className=" text-xl sm:text-2xl md:text-3xl">
                     Trygga möten
                 </h2>
-                <div className="my-5 sm:text-lg space-y-3">
-                    <p>
+                <div className="my-5 space-y-3">
+                    <p className="sm:text-lg/relaxed">
                         För att säkerställa att vår egen verksamhet är trygg för barn och unga finns denna webbaserad ledarutbildning. Genom den utbildas scoutledare i hur man skapar en trygg miljö för barn och ungdomar,
                         hur man förebygger övergrepp och hur man beter sig om man tror att någon far illa.
                     </p>
-                    <p>
+                    <p className="sm:text-lg/relaxed">
                         Sedan 2013 är det obligatoriskt för alla scoutledare att genomgå utbildningen vart tredje år.
                     </p>
                 </div>

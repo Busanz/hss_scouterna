@@ -7,54 +7,54 @@ const CourseHss = () => {
                 <h2 className=" text-xl sm:text-2xl md:text-3xl">
                     ALU - Allmän LedarUtbildning
                 </h2>
-                <div className="my-5 sm:text-lg space-y-3">
-                    <p>
+                <div className="my-5 space-y-3">
+                    <p className="sm:text-lg/relaxed">
                         ALU är scouternas egna ledarutbildning. Du som fyllt 18 år och har varit assistent på 
                         någon avdelning under minst ett år bör gå kursen.
                     </p>
-                    <p>
+                    <p className="sm:text-lg/relaxed">
                         Det finns olika typer av ALU kurser. En helvecka på sommaren eller den tredelade kursen där 
                         man går tre helger under tiden oktober, februari och maj.
                     </p>
-                    <p>
+                    <p className="sm:text-lg/relaxed">
                         Om du har en gedigen scoutbakgrund i HSS så finns det en 
                         risk att kursen inte ger full behållning, då man redan kan mycket.
                     </p>
-                    <p>
+                    <p className="sm:text-lg/relaxed">
                         Programmet är inriktat på landverksamheten och tar inte upp 
                         problemställningar runt sjöverksamhet.
                     </p>
                 </div>
-                <div  className="my-5 sm:text-lg space-y-3">
-                    <p>
+                <div  className="my-5 space-y-3">
+                    <p className="sm:text-lg/relaxed">
                         Personliga erfarenheter av kursen:
                     </p>
                     <ul className="list-disc m-5 md:mx-5 sm:text-lg pb-5">
-                        <li className="pb-3">
+                        <li className="pb-3 text-lg/relaxed">
                             Ypperligt bra att binda nya kontakter med andra kårer/ledare
                         </li>
-                        <li className="pb-3">
+                        <li className="pb-3 text-lg/relaxed">
                             Intressant att höra om andra kårers problemställningar och program
                         </li>
-                        <li className="pb-3">
+                        <li className="pb-3 text-lg/relaxed">
                             Många intressanta och väl genomförda programidéer
                         </li>
-                        <li className="pb-3">
+                        <li className="pb-3 text-lg/relaxed">
                             Bra att reflektera runt scoutrörelsen
                         </li>
-                        <li className="pb-3">
+                        <li className="pb-3 text-lg/relaxed">
                             Roligt att se nya platser
                         </li>
-                        <li className="pb-3">
+                        <li className="pb-3 text-lg/relaxed">
                             Skönt att vara scout
                         </li>
-                        <li className="pb-3">
+                        <li className="pb-3 text-lg/relaxed">
                             Trevlig och mysig stämmning
                         </li>
-                        <li className="pb-3">
+                        <li className="pb-3 text-lg/relaxed">
                             Bra att få höra om scoutingens ideologi och historia
                         </li>
-                        <li className="pb-3">
+                        <li className="pb-3 text-lg/relaxed">
                             Perfekt startkurs för nya föräldrar som är på väg att bli ledare
                         </li>
                     </ul>
@@ -65,29 +65,29 @@ const CourseHss = () => {
                     <h2 className="text-xl sm:text-2xl md:text-3xl">
                         SjöLU - SjöLedarUtbildning
                     </h2>
-                    <div className="my-5 sm:text-lg space-y-3">
-                        <p>
+                    <div className="my-5 space-y-3">
+                        <p className="sm:text-lg/relaxed">
                             En mycket bra kurs som ger handfast tips på programaktiviteter för oss sjöscouter.
                         </p>
                         <div>
-                            <p>
+                            <p className="sm:text-lg/relaxed">
                                 Skulle du vilja ha sjöprogramtips att ta hem till avdelningen?
                             </p>
-                            <p>
+                            <p className="sm:text-lg/relaxed">
                                 Skulle du vilja känna dig säkrare som sjöscoutledare?
                             </p>
-                            <p>
+                            <p className="sm:text-lg/relaxed">
                                 Vill du samtidigt åka på seglingshajk i Stockholms vackra höstskärgård?
                             </p>
                         </div>
                     </div>
-                    <div className="my-5 sm:text-lg space-y-3">
-                        <p>
+                    <div className="my-5 space-y-3">
+                        <p className="sm:text-lg/relaxed">
                             Målet är att deltagarna ska bli bättre sjöscoutledare. Det sker genom att de indelas i patruller och får prova på sjöprogrampass, 
                             för att själva kunna gå hem och genomföra dem på avdelningarna.
                             Dessutom ökas ledarnas självförtroende genom att de lär sig om säkerhetsregler och förbundets stöd.
                         </p>
-                        <p>
+                        <p className="sm:text-lg/relaxed">
                             Kursen brukar hållas en helg i slutet av september.
                         </p>
                     </div>
