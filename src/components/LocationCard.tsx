@@ -20,7 +20,7 @@ const LocationCard = ({
   mapLink,
 }: LocationCardProps) => {
   return (
-    <details className="group bg-background rounded-md shadow-md p-4 md:p-6">
+    <details className="group bg-background text-text-secondary rounded-md shadow-md p-4 md:p-6">
       <summary className="flex items-center justify-between cursor-pointer list-none">
         <div className="flex items-center gap-3">
           {icon}
