@@ -1,8 +1,15 @@
+import LagerHistorySection from "@/sections/LagerHistorysection"
 import LagerSection from "@/sections/Lagersection"
 
 const LagerPage = () => {
   return (
-  <LagerSection />
+    <>
+      <LagerSection />
+
+      <div id="tidigare-lager">
+        <LagerHistorySection />
+      </div>
+    </>
   )
 }
 
