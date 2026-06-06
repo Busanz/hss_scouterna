@@ -93,24 +93,24 @@ export const departmentsIntro = [
   },
   {
     id: 4,
-    image: '/img/departments/intro/rover.png',
-    title: 'Rover',
-    subtitle: 'Roverscouterna - Utmana dina egna gränser!',
+    image: '/img/departments/intro/familjescouting.png',
+    title: 'Familjescouting',
+    subtitle: 'Familjescouting - Äventyr för hela familjen!',
     description:
-      'När du blir Rover (från 19 år) öppnas en ny typ av scouting där du själv väljer riktning. Här bygger du vidare på dina erfarenheter, utvecklar ditt ledarskap och tar dig an projekt, äventyr och utmaningar som betyder något för dig. Tillsammans med andra roverscouter skapar ni er egen väg framåt och växer både som individer och grupp.',
-    // buttonLable: 'Vill ni bygga framtiden tillsammans med oss?',
+      'Genom Familjescouting får barn under åtta år tillsammans med en eller flera vuxna på ett roligt och lekfullt sätt möta scouting. Barn och vuxen deltar tillsammans i verksamheten och aktiviteterna passar både stor och liten. Det är relationen mellan barnet och den vuxne som står i centrum och steget till att senare börja som Spårarscouter blir inte långt!',
     details: {
-      when: 'Ej fastställd / varierar',
+      when: 'Varierar per kår',
       where: 'Ruffen, Hässelby Strandbad',
-      age: 'Från 19 år',
-      formerName: 'Tidigare kallat Roverscout.',
+      age: 'Under 8 år (tillsammans med en vuxen)',
+      formerName:
+        'Den vuxna deltagaren kan vara en förälder, mor- eller farförälder, släkting eller en annan person som barnet känner sig tryggt med.',
     },
-    color: '#EBE827',
+    color: '#602281', // adjust to your brand color for this section
     moreDetails: {
-      title: 'Deltagandemärken för Spårarscouter',
+      title: 'Märken för Familjescouter',
       description:
-        'Rovers deltagandemärken, Utmaningarna, är större projekt som ni i patrullen planerar och genomför tillsammans för att utmana er själva eller er omgivning. Boken Våga utmana ger tips och råd. Här är några exempel på vad ni kan utmana er med!',
-      image: '/img/departments/intro-more/badge_rover.png',
+        'Familjescouter har egna runda tillhörighetsmärken som kan sättas fast på valfritt plagg eller accessoar. Märkena finns i olika färgkombinationer och är ett sätt att skapa samhörighet i gruppen utan att behöva ha speciella kläder eller annan utrustning.',
+      image: '/img/departments/intro-more/badge_familjescouting.png',
     },
   },
 ];

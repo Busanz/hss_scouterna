@@ -2,9 +2,10 @@
 
 import Image from 'next/image';
 import type { DepartmentIntroType } from '@/types/types';
-import CTASelector from './ui/CTASelector';
+// import CTASelector from './ui/CTASelector';
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
+import { Button } from '@headlessui/react';
 
 type DepartmentHeaderProps = {
   department: DepartmentIntroType;
@@ -50,30 +51,32 @@ const DepartmentIntro = ({ department }: DepartmentHeaderProps) => {
             </p>
           </div>
         )}
-        <div className="flex pb-5 md:pb-10">
-          <CTASelector
-            variant="primary"
+        <div
+          className="flex pb-5 md:pb-10 gap-3 md:gap-6"
+          style={
+            { '--department-color': department.color } as React.CSSProperties
+          }
+        >
+          <Button
+            className="w-full max-w-50 text-lg md:text-xl text-text-primary font-medium px-6 py-3 border rounded-sm bg-(--department-color) hover:bg-(--department-color)/90 border-(--department-color) cursor-pointer"
             onClick={() => {
-              console.log(department.title);
               window.open(
                 'https://www.scoutnet.se/register/in/group/764',
                 '_blank',
               );
             }}
-            ctaText="Intresseanmälan"
-            textColor="#000"
-            bgColor={department.color}
-          />
+          >
+            Intresseanmälan
+          </Button>
 
-          <CTASelector
-            variant="secondary"
+          <Button
+            className="w-full text-lg md:text-xl text-(--department-color) font-medium px-6 py-3 border  rounded-sm border-(--department-color) hover:bg-(--department-color)/20 max-w-50 cursor-pointer"
             onClick={() => {
               handleClick();
             }}
-            ctaText={isReadMore ? 'Läs mindre' : 'Läs mer'}
-            textColor={'#2893F8'}
-            bgColor={'#2893F800'}
-          />
+          >
+            {isReadMore ? 'Läs mindre' : 'Läs mer'}
+          </Button>
         </div>
 
         <AnimatePresence initial={false}>

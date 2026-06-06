@@ -12,7 +12,7 @@ const CTASelector = ({
   variant = 'primary',
   onClick,
   ctaText,
-  textColor,
+  textColor = 'var(--color-text-primary)',
   bgColor,
 }: Props) => {
   const baseStyle =
@@ -22,7 +22,7 @@ const CTASelector = ({
     primary:
       'bg-[var(--btn-color)] border border-[var(--btn-color)] hover:bg-transparent transition duration-300',
     secondary: `transition-all duration-300 hover:text-text-subtitle hover:underline hover:underline-offset-3 ${
-      textColor ? 'text-[#2893F8]' : textColor
+      textColor ? textColor : 'text-[#fff]'
     }`,
   };
 
