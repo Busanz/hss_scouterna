@@ -63,7 +63,7 @@ export const AnchorSvg = () => {
 export const ArrowDownSvg = () => {
   return (
     <svg
-      fill="#ffffff"
+      fill="#003660"
       version="1.1"
       id="Layer_1"
       xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ export const ArrowDownSvg = () => {
       viewBox="0 0 100 100"
       enableBackground="new 0 0 100 100"
       xmlSpace="preserve"
-      stroke="#ffffff"
+      stroke="#003660"
     >
       <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g

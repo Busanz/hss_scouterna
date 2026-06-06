@@ -41,3 +41,12 @@ type DepartmentLink = IntroLink & {
 export type DepartmentType = DepartmentLink[];
 export type OmHSSLinksType = OmHSSLinks[];
 export type ClubClothsType = ClubCloths[];
+
+export type CategoryType = 'Allt' | 'Policy' | 'Allmänt' | 'Övrigt';
+
+export type FaqItemType = {
+  question: string;
+  answer: string;
+  category: CategoryType;
+  showAnswer?: boolean;
+};
