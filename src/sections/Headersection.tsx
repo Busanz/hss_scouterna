@@ -1,36 +1,36 @@
+'use client';
+
 import Image from 'next/image';
-import { GlobalSvg, LinkSvg } from '@/assets/svg';
 import Navbarlinks from '@/components/Navbarlinks';
+import LanguageBar from '@/components/LanguageBar';
 
 const Headersection = () => {
   return (
     <section className="flex flex-col w-full h-full items-center">
-      <div className="flex flex-col w-full max-w-360">
-        <div className="relative w-40 h-12 items-center pt-1.5 cursor-pointer">
-          <Image
-            src={'/img/header-section/scouterna-log.png'}
-            alt="Souterna logga"
-            fill
-            sizes="340px"
-            className="object-contain"
-          />
-        </div>
-        <div className="flex items-center justify-center gap-5">
-          <div className="flex h-fit items-center ml-auto">
-            <GlobalSvg />
-            <p className="cursor-pointer">EN</p>
+      <div className="relative flex flex-col w-full  max-w-360">
+        <div className="flex w-full h-full justify-between md:justify-end items-center px-4">
+          <div
+            className="relative w-40 h-12 items-center pt-1.5 md:mx-10 cursor-pointer"
+            tabIndex={0}
+            onClick={() => window.open('https://www.scouterna.se/', '_blank')}
+          >
+            <Image
+              src={'/img/header-section/scouterna-log.png'}
+              alt="Souterna logga"
+              fill
+              sizes="340px"
+              className="object-contain"
+              loading="eager"
+            />
           </div>
-          <div className="flex items-center gap-2.5 bg-primary text-white py-0 px-4 rounded-t-sm cursor-pointer">
-            <p className="font-light">Anmälan</p>
-            <LinkSvg />
-          </div>
+          <LanguageBar />
         </div>
       </div>
-      <div className="flex flex-col w-full max-w-360 h-fit min-h-60 sm:min-h-90 items-center justify-between bg-primary bg-[url(/img/header-section/hero_bg_img.png)] bg-cover bg-center rounded-sm">
+      <div className="flex flex-col w-full max-w-360 h-full min-h-6 sm:min-h-6 md:min-h-90 items-center justify-between bg-primary sm:bg-[url(/img/header-section/hero_bg_img.png)] sm:bg-cover sm:bg-center rounded-sm">
         <h1 className="text-2xl font-bold text-center hidden">
           Hässelby Strands Sjöscoutkår
         </h1>
-        <div className="relative w-32 sm:w-64 md:w-96 lg:w-120 h-28 mt-10">
+        <div className="relative w-32 sm:w-64 md:w-96 lg:w-120 h-28 mt-10 hidden sm:block">
           <Image
             src={'/img/header-section/hss_logo_vit.png'}
             alt="Souterna logga"

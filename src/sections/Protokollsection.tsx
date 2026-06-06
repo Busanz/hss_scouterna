@@ -6,7 +6,7 @@ const ProtokollSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
-            <h3 className="text-xl font-medium">Kårstämma</h3>
+            <h3 className="text-xl font-medium pb-5">Kårstämma</h3>
             <ul className="list-disc ml-6 space-y-1">
               <li>2020-04-20</li>
               <li>2020-05-15</li>
@@ -15,7 +15,7 @@ const ProtokollSection = () => {
           </div>
 
           <div>
-            <h3 className="text-xl font-medium">Styrelsemöten</h3>
+            <h3 className="text-xl font-medium pb-5">Styrelsemöten</h3>
             <ul className="list-disc ml-6 space-y-1">
               <li>2020-04-20</li>
               <li>2020-05-15</li>

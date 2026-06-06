@@ -10,22 +10,10 @@ export const faqData: FaqItem[] = [
     category: "Policy",
   },
   {
-    question: "Varför har vi en scoutdräkt?",
-    answer:
-      "Scoutdräkten skapar gemenskap och visar att vi är en del av kåren, samt är praktisk vid aktiviteter.",
-    category: "Allmänt",
-  },
-  {
     question: "Hur blir jag ledare?",
     answer:
       "Kontakta oss så berättar vi mer om utbildning, introduktion och hur du kan engagera dig.",
     category: "Allmänt",
-  },
-  {
-    question: "Hur ändrar jag kontaktuppgifter?",
-    answer:
-      "Du kan uppdatera kontaktuppgifter via medlemssystemet eller genom att kontakta kansliet.",
-    category: "Policy",
   },
   {
     question: "Hur ändrar jag fakturaadress?",
@@ -58,18 +46,6 @@ export const faqData: FaqItem[] = [
     category: "Övrigt",
   },
   {
-    question: "Hur finansieras kåren?",
-    answer:
-      "Vår verksamhet finansieras genom medlemsavgifter, bidrag och sponsring.",
-    category: "Övrigt",
-  },
-  {
-    question: "Vad händer vid dåligt väder?",
-    answer:
-      "Vid dåligt väder anpassar vi aktiviteterna eller flyttar dem till en inomhusplats.",
-    category: "Övrigt",
-  },
-  {
     question: "Har ni GDPR-policy?",
     answer:
       "Ja, vi följer GDPR och hanterar personuppgifter på ett säkert och korrekt sätt.",
@@ -81,16 +57,10 @@ export const faqData: FaqItem[] = [
       "Du kan kontakta oss via e-post, telefon eller besöka kansliet under öppettider.",
     category: "Övrigt",
   },
-
   {
     question: "Hur hanteras avbokningar och återbetalningar?",
     answer:
       "Vid avbokning kan återbetalning ske enligt våra riktlinjer beroende på aktivitet och tidpunkt för avbokningen.",
     category: "Policy",
-  },
-  {
-    question: "Vad behöver jag ta med mig?",
-    answer: "Ta med kläder efter väder, vattenflaska och ett glatt humör.",
-    category: "Allmänt",
   },
 ];

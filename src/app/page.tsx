@@ -1,6 +1,5 @@
 import Headersection from '@/sections/Headersection';
 import Footersection from '@/sections/Footersection';
-
 import Introsection from '@/sections/Introsection';
 
 export default function Home() {
