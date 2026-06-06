@@ -1,5 +1,4 @@
-import Lager from "@/components/Lager"
-
+import Lager from '@/components/Lager';
 
 const LagerSection = () => {
   return (
@@ -8,7 +7,7 @@ const LagerSection = () => {
         <Lager />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default LagerSection
+export default LagerSection;
