@@ -1,7 +1,7 @@
 'use client';
 
 import { introLinks } from '@/data/data';
-// import Image from 'next/image';
+import Image from 'next/image';
 import LinkedCard from '@/components/ui/LinkedCard';
 import { motion } from 'motion/react';
 import { fadeUpAnimation } from '@/utils/animation';
