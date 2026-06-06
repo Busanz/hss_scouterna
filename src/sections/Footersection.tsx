@@ -3,14 +3,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { quickLinks, socialMediaLinks } from '../data/data';
-<<<<<<< HEAD
-import { QuickLinkType,SocialLinkType } from '../types/types';
-=======
 import { QuickLinkType, SocialLinkType } from '../types/types';
 import { motion } from 'motion/react';
 import { fadeUpAnimation } from '@/utils/animation';
 import { SlSocialInstagram } from 'react-icons/sl';
->>>>>>> fix/062-department-section
 
 const Footersection = () => {
   return (
@@ -90,7 +86,7 @@ const Footersection = () => {
                 Följ oss
               </h2>
               <div className="grid grid-cols-2 gap-2">
-                {socialMediaLinks.map((link:SocialLinkType) => (
+                {socialMediaLinks.map((link: SocialLinkType) => (
                   <Link
                     key={link.label}
                     href={link.href}
@@ -118,7 +114,7 @@ const Footersection = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
 export default Footersection;
