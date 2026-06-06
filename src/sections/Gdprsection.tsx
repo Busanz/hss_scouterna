@@ -1,6 +1,6 @@
 const GdprSection = () => {
   return (
-    <section className="flex flex-col w-full items-center px-6 md:px-12 text-text-primary rounded-sm">
+    <section className="flex flex-col w-full items-center text-text-primary rounded-sm">
       <div className="flex flex-col bg-primary max-w-360 px-4 md:px-6 lg:px-10 py-5 md:py-10 rounded-sm">
         <h3 className="text-xl font-semibold pb-5">GDPR</h3>
 
