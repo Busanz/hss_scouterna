@@ -8,10 +8,10 @@ import { fadeUpAnimation } from '@/utils/animation';
 const OmHSSsection = () => {
   return (
     <div className="flex flex-col w-full h-full items-center justify-center my-5 md:my-10">
-      <div className="flex flex-col items-center w-full h-full pb-5 md:pb-10 rounded-sm text-text-primary bg-bg-light">
+      <div className="flex flex-col items-center w-full h-full pb-10 md:pb-20 rounded-sm text-text-primary bg-primary">
         <motion.h1
           {...fadeUpAnimation}
-          className="text-center text-2xl sm:text-3xl lg:text-4xl mt-8 text-text-secondary px-1 py-5 md:py-10"
+          className="text-center text-2xl sm:text-3xl lg:text-4xl mt-8 text-text-primary px-1 py-5 md:py-10"
         >
           {`Hässelby Strands Sjöscoutkår (HSS)`}
         </motion.h1>

@@ -16,9 +16,9 @@
   --color-secondary: #fdb614;
   --color-text-primary: #fcf5f5;
   --color-text-secondary: #012b4c;
-  /* --color-bg-light: #bedbff; */
-  --color-bg-light: #92caf155;
+  --color-bg-light: #bedbff;
   --color-text-subtitle: #76cff4;
+  --color-text-link: #2893f8;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -70,9 +70,9 @@ h2 {
   .btn {
     font-weight: 400;
     padding: 0.5rem 1rem;
-    border-radius: 0.7rem;
+    border-radius: 4px;
     cursor: pointer;
-    box-shadow: 0px 4px 4px 0px #0000003d;
+    /* box-shadow: 0px 4px 4px 0px #0000003d; */
   }
   .btn:hover {
     box-shadow: 0px 6px 8px 0px #00000052;

@@ -1,22 +1,30 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { quickLinks, socialMediaLinks } from '../data/data';
 import { QuickLinkType, SocialLinkType } from '../types/types';
+import { motion } from 'motion/react';
+import { fadeUpAnimation } from '@/utils/animation';
+import { SlSocialInstagram } from 'react-icons/sl';
 
 const Footersection = () => {
   return (
     <footer className="flex flex-col w-full h-full max-w-360 items-center rounded-sm bg-primary text-white">
       <div className="flex flex-col w-full items-center py-10 sm:py-14 lg:py-20">
-        <h2 className="pb-6 sm:pb-8 lg:pb-10 text-2xl sm:text-3xl lg:text-4xl">
+        <motion.h1
+          className="flex w-full h-full justify-center text-2xl sm:text-3xl lg:text-4xl text-text-primary pb-5 md:pb-10"
+          {...fadeUpAnimation}
+        >
           Gå direkt till
-        </h2>
+        </motion.h1>
         <nav className="w-full px-4 sm:px-8">
           <div className="flex flex-wrap w-full justify-center gap-6 sm:gap-8 lg:justify-evenly lg:gap-0">
             {quickLinks.map((link: QuickLinkType) => (
               <Link
                 key={link.label}
                 href={link.href}
-                className="flex flex-col items-center gap-2 transition duration-200 hover:text-secondary hover:scale-105"
+                className="flex flex-col items-center gap-2 transition duration-200 hover:text-secondary hover:scale-103"
               >
                 <Image
                   src={link.image}
@@ -46,7 +54,7 @@ const Footersection = () => {
           </div>
           <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3 lg:gap-15">
             <div>
-              <h2 className="text-xl sm:text-2xl lg:text-3xl mb-3 lg:mb-4">
+              <h2 className="text-xl sm:text-2xl pb-5 mb-3 lg:mb-4 text-secondary">
                 Kontakt
               </h2>
               <address className="flex flex-col gap-1 text-lg font-extralight not-italic">
@@ -63,7 +71,7 @@ const Footersection = () => {
               </address>
             </div>
             <div>
-              <h2 className="text-xl sm:text-2xl lg:text-3xl mb-3 lg:mb-4">
+              <h2 className="text-xl sm:text-2xl pb-5 mb-3 lg:mb-4 text-secondary">
                 Adress
               </h2>
               <Link
@@ -74,7 +82,7 @@ const Footersection = () => {
               </Link>
             </div>
             <div>
-              <h2 className="text-xl sm:text-2xl lg:text-3xl mb-3 lg:mb-4">
+              <h2 className="text-xl sm:text-2xl pb-5 mb-3 lg:mb-4 text-secondary">
                 Följ oss
               </h2>
               <div className="grid grid-cols-2 gap-2">
@@ -84,15 +92,17 @@ const Footersection = () => {
                     href={link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 transition duration-200 hover:text-secondary hover:scale-105"
+                    className="flex items-center gap-2 transition duration-200 hover:text-secondary"
                   >
-                    <Image
+                    <SlSocialInstagram size={30} />
+                    {/* <Image
                       src={link.image}
                       alt={link.label}
                       width={80}
                       height={80}
-                      className="w-6 h-6"
-                    />
+                      className="w-10 h-10"
+                    /> */}
+
                     <span className="text-lg font-extralight">
                       {link.label}
                     </span>
