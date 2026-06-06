@@ -7,8 +7,8 @@ const Leaders = () => {
                 <h1 className=" text-xl sm:text-2xl md:text-3xl">
                     För ledare
                 </h1>
-                <div className="my-5 sm:text-lg space-y-3">
-                    <p>
+                <div className="my-5 space-y-3">
+                    <p className="sm:text-lg/relaxed">
                         För att avdelningsmötena skall vara roliga och trygga för dig själv som ledare och barnen 
                         är det viktigt med kunskap och inspiration. Här nedan beskrivs kurser som hålls på distriktsnivå.
                         <br/>
@@ -16,7 +16,7 @@ const Leaders = () => {
                         Vanligvis betalar HSS kursavgiften då vi verkligen vill satsa på våra ledare och 
                         assistenter som är engagerade och gör ett mycket bra jobb.
                     </p>
-                    <p>
+                    <p className="sm:text-lg/relaxed">
                         Om du är intresserad av att gå en kurs hör först med Styrelsen.
                     </p>
                 </div>
