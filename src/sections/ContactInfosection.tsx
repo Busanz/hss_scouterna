@@ -22,7 +22,7 @@ const ContactInfosection = () => {
 
       <div className="flex flex-col lg:flex-row gap-6 lg:gap-10 xl:gap-14">
         <div className="flex-1 min-h-0 space-y-6">
-          <div className="bg-background rounded-md shadow-md p-4 md:p-5 lg:p-10 flex flex-col gap-5">
+          <div className="bg-background rounded-sm p-4 md:p-5 lg:p-10 flex flex-col gap-5">
             <StaticMap src="/img/maps/hss-map.jpg" alt="HSS map" />
             <h3 className="text-xl md:text-2xl font-semibold flex items-center gap-2 text-text-secondary">
               <span
@@ -45,7 +45,7 @@ const ContactInfosection = () => {
               href="https://maps.app.goo.gl/UnkzfdoqAYyeze3c8"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn bg-primary text-text-primary hover:opacity-90 inline-flex items-center gap-2 rounded-sm"
+              className="btn bg-primary text-text-primary transition duration-400 hover:bg-secondary hover:text-primary inline-flex items-center gap-2 rounded-sm"
             >
               <Building className="w-6 h-6" /> Hässelby Strands Sjöscoutkår i
               Google Maps
@@ -54,7 +54,7 @@ const ContactInfosection = () => {
         </div>
 
         <div className="flex-1 space-y-6">
-          <div className="bg-background text-text-secondary rounded-md shadow-md p-4 md:p-5 lg:p-6">
+          <div className="bg-background text-text-secondary rounded-sm p-4 md:p-5 lg:p-6">
             <h3 className="text-2xl font-semibold pb-5 flex items-center gap-2">
               <span aria-hidden="true">
                 <Mail className="w-6 h-6" />

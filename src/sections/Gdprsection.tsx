@@ -1,22 +1,22 @@
 const GdprSection = () => {
   return (
-    <section className="w-full py-12 px-6 md:px-12 bg-primary text-text-primary">
-      <div className="max-w-4xl mx-auto">
+    <section className="flex flex-col w-full items-center text-text-primary rounded-sm">
+      <div className="flex flex-col bg-primary max-w-360 px-4 md:px-6 lg:px-10 py-5 md:py-10 rounded-sm">
+        <h3 className="text-xl font-semibold pb-5">GDPR</h3>
 
-        <h2 className="text-xl font-medium pb-5">GDPR</h2>
-
-        <p className="leading-relaxed mb-6">
-          GDPR kräver att vi talar om för våra medlemmar att vi samlar in uppgifter, vilka uppgifter vi samlar in och varför vi gör det.
+        <p className="leading-relaxed mb-6 sm:text-lg">
+          GDPR kräver att vi talar om för våra medlemmar att vi samlar in
+          uppgifter, vilka uppgifter vi samlar in och varför vi gör det.
         </p>
 
-        <h3 className="text-xl font-medium pb-5">Scoutnet</h3>
+        <h3 className="text-xl font-semibold pb-5">Scoutnet</h3>
 
         <p className="leading-relaxed mb-4 sm:text-lg">
           Scoutnet är Scouternas gemensamma medlemsregister och där samlar vi
           följande information om varje medlem:
         </p>
 
-        <ul className="columns-2 list-disc ml-6 space-y-1 mb-6">
+        <ul className="grid grid-cols-1 sm:grid-cols-2 list-disc ml-6 gap-y-1 gap-x-10 mb-6 sm:text-lg">
           <li>Namn*</li>
           <li>Personnummer*</li>
           <li>Adress*</li>
@@ -57,7 +57,7 @@ const GdprSection = () => {
           Försäkringsbolaget kräver att uppgifter sparas i upp till tio år.
         </p>
 
-        <h3 className="text-xl font-medium pb-5">
+        <h3 className="text-xl sm:text-2xl pb-5 font-medium">
           Insamling av uppgifter i samband med hajker och läger
         </h3>
 
@@ -86,7 +86,7 @@ const GdprSection = () => {
           efteråt.
         </p>
 
-        <h3 className="text-xl font-medium pb-5">Övrigt</h3>
+        <h3 className="text-xl sm:text-2xl pb-5 font-medium">Övrigt</h3>
 
         <p className="leading-relaxed mb-6">
           På HSS webbplats används eventuellt cookies för att analysera
@@ -109,8 +109,9 @@ const GdprSection = () => {
         <div className="mt-8">
           <a
             href="/pdf/gdpr_begaran.pdf"
-            download
-            className="inline-block w-full md:w-auto bg-text-secondary text-text-primary font-medium px-5 py-3 rounded-md shadow hover:bg-text-subtitle transition"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block w-full text-text-link hover:underline underline-offset-4 decoration-0"
           >
             Ladda ner GDPR-blanketten (PDF)
           </a>
