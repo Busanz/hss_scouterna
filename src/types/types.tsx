@@ -49,4 +49,23 @@ export type FaqItemType = {
   answer: string;
   category: CategoryType;
   showAnswer?: boolean;
+}
+export type DepartmentIntroType = {
+  id: number;
+  image: string;
+  title: string;
+  subtitle: string;
+  description: string;
+  details?: {
+    when: string;
+    where: string;
+    age: string;
+    formerName: string;
+  };
+  color: string;
+  moreDetails?: {
+    title: string;
+    description: string;
+    image: string;
+  };
 };

@@ -3,6 +3,7 @@ import type {
   NavLinksType,
   IntroLinksType,
   OmHSSLinksType,
+  DepartmentType,
 } from '@/types/types';
 
 export const navLinks: NavLinksType = [
@@ -23,6 +24,10 @@ export const navLinks: NavLinksType = [
     href: '/om-hss',
   },
   {
+    label: 'Båtar',
+    href: '/batar',
+  },
+  {
     label: 'Kontakta oss',
     href: '/kontakta-oss',
   },
@@ -36,13 +41,13 @@ export const introLinks: IntroLinksType = [
   {
     label: 'Bli scout',
     href: '/bli-scout',
-    url: '/img/intro-section/for_ledare.png',
+    url: '/img/intro-section/bli_scout.png',
     description: 'Upplev äventyr, segling och nya vänner välkommen till HSS!',
   },
   {
     label: 'För ledare',
     href: '/for-ledare',
-    url: '/img/intro-section/bli_scout.png',
+    url: '/img/intro-section/for_ledare.png',
     description: 'Resurser och utbildning för dig som leder vår verksamhet.',
   },
   {
@@ -121,24 +126,57 @@ export const quickLinks: QuickLinkType[] = [
 ];
 
 export const socialMediaLinks: SocialLinkType[] = [
-  {
-    label: 'Facebook',
-    image: '/img/footer/socialmedia/facebook.svg',
-    href: 'https://www.facebook.com/HSSScout',
-  },
+  // {
+  //   label: 'Facebook',
+  //   image: '/img/footer/socialmedia/facebook.svg',
+  //   href: 'https://www.facebook.com/HSSScout',
+  // },
   {
     label: 'Instagram',
     image: '/img/footer/socialmedia/instagram.svg',
     href: 'https://www.instagram.com/hss_scout/',
   },
+  // {
+  //   label: 'LinkedIn',
+  //   image: '/img/footer/socialmedia/linkedin.svg',
+  //   href: 'https://se.linkedin.com/company/scouterna',
+  // },
+  // {
+  //   label: 'YouTube',
+  //   image: '/img/footer/socialmedia/youtube.svg',
+  //   href: 'https://www.youtube.com/@hasselbystrandssjoscoutkar4026',
+  // },
+];
+export const departmentLogos: DepartmentType = [
   {
-    label: 'LinkedIn',
-    image: '/img/footer/socialmedia/linkedin.svg',
-    href: 'https://se.linkedin.com/company/scouterna',
+    label: 'Sjöhumlor',
+    href: '/sjöhumlor_8_9',
+    url: '/img/departments/sjöhumlor_8_9.svg',
+    des: 'Spårare 8-9 år',
   },
   {
-    label: 'YouTube',
-    image: '/img/footer/socialmedia/youtube.svg',
-    href: 'https://www.youtube.com/@hasselbystrandssjoscoutkar4026',
+    label: 'Kaparna',
+    href: '/kaparna_10_11',
+    url: '/img/departments/kaparna_10_11.svg',
+    des: 'Upptäckare 10-11 år',
+  },
+  {
+    label: 'Konvojen',
+    href: '/konvojen_12_14',
+    url: '/img/departments/konvojen_12_14.svg',
+    des: 'Äventyrare 12-14 år',
+  },
+
+  {
+    label: 'Utmanare',
+    href: '/utmanare_15.svg',
+    url: '/img/departments/utmanare_15.svg',
+    des: ' Utmanare 15-18',
+  },
+  {
+    label: 'Familjescouting',
+    href: '/familjescouting',
+    url: '/img/departments/familjescouting.svg',
+    des: 'Barn under 8 år',
   },
 ];
