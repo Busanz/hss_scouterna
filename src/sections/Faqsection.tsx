@@ -35,7 +35,10 @@ export default function FaqSection() {
           {categories.map((category) => (
             <button
               key={category}
-              onClick={() => handleSelectCategory(category)}
+              onClick={() => {
+                handleSelectCategory(category);
+                setOpenQuestion(null);
+              }}
               className={`min-w-30 px-3 py-2 rounded-sm text-lg font-light cursor-pointer ${
                 activeCategory === category
                   ? 'font-medium text-secondary'
