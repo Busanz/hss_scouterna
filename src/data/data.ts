@@ -15,10 +15,6 @@ export const navLinks: NavLinksType = [
     label: 'Avdelningar',
     href: '/avdelningar',
   },
-  // {
-  //   label: 'Året i HSS',
-  //   href: '/aret-i-hss',
-  // },
   {
     label: 'Om HSS',
     href: '/om-hss',
@@ -31,10 +27,6 @@ export const navLinks: NavLinksType = [
     label: 'Kontakta oss',
     href: '/kontakta-oss',
   },
-  // {
-  //   label: 'FAQ',
-  //   href: '/faq',
-  // },
 ];
 
 export const introLinks: IntroLinksType = [
@@ -78,11 +70,6 @@ export const introLinks: IntroLinksType = [
 ];
 
 export const omHSSLinks: OmHSSLinksType = [
-  // {
-  //   label: 'Om HSS',
-  //   href: '/om-hss',
-  //   url: '/img/om-HSS-section/om_hss.png',
-  // },
   {
     label: 'Sjöscout',
     href: 'om-hss//sjoscout',
@@ -126,26 +113,11 @@ export const quickLinks: QuickLinkType[] = [
 ];
 
 export const socialMediaLinks: SocialLinkType[] = [
-  // {
-  //   label: 'Facebook',
-  //   image: '/img/footer/socialmedia/facebook.svg',
-  //   href: 'https://www.facebook.com/HSSScout',
-  // },
   {
     label: 'Instagram',
     image: '/img/footer/socialmedia/instagram.svg',
     href: 'https://www.instagram.com/hss_scout/',
   },
-  // {
-  //   label: 'LinkedIn',
-  //   image: '/img/footer/socialmedia/linkedin.svg',
-  //   href: 'https://se.linkedin.com/company/scouterna',
-  // },
-  // {
-  //   label: 'YouTube',
-  //   image: '/img/footer/socialmedia/youtube.svg',
-  //   href: 'https://www.youtube.com/@hasselbystrandssjoscoutkar4026',
-  // },
 ];
 export const departmentLogos: DepartmentType = [
   {

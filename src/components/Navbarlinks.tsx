@@ -77,7 +77,7 @@ const Navbarlinks = () => {
           <AnimatePresence>
             {isHamberger && (
               <motion.div
-                className="absolute top-0 right-0 z-30 w-full h-[90vh] rounded-sm bg-primary/98"
+                className="absolute top-0 right-0 z-30 w-full h-[99vh] rounded-t-sm bg-bg-light/98"
                 initial={{ opacity: 0, x: screenWidth }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: screenWidth }}
@@ -86,22 +86,36 @@ const Navbarlinks = () => {
                 <div className="flex w-full justify-end items-center pr-4 py-3.5 text-right">
                   <RxCross1
                     size={36}
-                    className="text-text-primary"
+                    className="text-text-secondary"
                     onClick={() => setIsHamberger(false)}
                   />
                 </div>
 
                 <div className="flex flex-col w-full h-full">
+                  <Link
+                    href={'/'}
+                    onClick={() => setIsHamberger(false)}
+                    className="text-2xl font-extralight text-text-secondary pl-10 py-4"
+                  >
+                    Home
+                  </Link>
                   {navLinks.map((link, index) => (
                     <Link
                       key={index}
                       href={link.href}
                       onClick={() => setIsHamberger(false)}
-                      className="text-lg font-extralight text-text-primary pl-10 py-4"
+                      className="text-2xl font-extralight text-text-secondary pl-10 py-4"
                     >
                       {link.label}
                     </Link>
                   ))}
+                  <Link
+                    href={'/faq'}
+                    onClick={() => setIsHamberger(false)}
+                    className="text-2xl font-extralight text-text-secondary pl-10 py-4"
+                  >
+                    FAQ
+                  </Link>
                 </div>
               </motion.div>
             )}
