@@ -1,6 +1,5 @@
 'use client';
 
-import OurBoats from '@/components/OurBoats';
 import { AnchorSvg } from '@/assets/svg';
 import Image from 'next/image';
 import { motion } from 'motion/react';
@@ -35,7 +34,7 @@ const SeaScout = () => {
             <AnchorSvg />
           </div>
           <hr className="my-6 h-[0.5px] w-full text-text-subtitle" />
-          <div className=" text-text-primary mt-2 md:px-20">
+          <div className=" text-text-primary max-w-6xl mt-2">
             <p className="sm:text-lg">
               Den största skillnaden är att aktiviteterna under den varma halvan
               av året nästan uteslutande sker på sjön.
@@ -55,7 +54,7 @@ const SeaScout = () => {
                 {`Säkerhet: Sjösäkerhet är a och o. Man lär sig simma med kläder, hantera flytvästar, hur man agerar om någon faller överbord och allmänt "vett på sjön".`}
               </li>
             </ul>
-            <div className="grid grid-cols-1 m-5 gap-6 sm:grid-cols-3">
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-3 mb-10">
               {seaScoutImg.map((image, index) => (
                 <Image
                   key={index}
@@ -70,7 +69,6 @@ const SeaScout = () => {
           </div>
         </div>
       </div>
-      <OurBoats />
     </section>
   );
 };
