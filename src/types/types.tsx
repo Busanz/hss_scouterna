@@ -42,6 +42,7 @@ export type DepartmentType = DepartmentLink[];
 export type OmHSSLinksType = OmHSSLinks[];
 export type ClubClothsType = ClubCloths[];
 
+<<<<<<< HEAD
 export type DepartmentIntroType = {
   id: number;
   image: string;
@@ -60,4 +61,13 @@ export type DepartmentIntroType = {
     description: string;
     image: string;
   };
+=======
+export type CategoryType = 'Allt' | 'Policy' | 'Allmänt' | 'Övrigt';
+
+export type FaqItemType = {
+  question: string;
+  answer: string;
+  category: CategoryType;
+  showAnswer?: boolean;
+>>>>>>> feature/t-020-update-icon
 };
