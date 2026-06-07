@@ -24,6 +24,10 @@ export const navLinks: NavLinksType = [
     href: '/om-hss',
   },
   {
+    label: 'Båtar',
+    href: '/batar',
+  },
+  {
     label: 'Kontakta oss',
     href: '/kontakta-oss',
   },
