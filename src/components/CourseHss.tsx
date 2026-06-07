@@ -29,32 +29,32 @@ const CourseHss = () => {
                     <p className="sm:text-lg/relaxed">
                         Personliga erfarenheter av kursen:
                     </p>
-                    <ul className="list-disc m-5 md:mx-5 sm:text-lg pb-5">
-                        <li className="pb-3 text-lg/relaxed">
+                    <ul className="list-disc m-5 md:mx-5 pb-5">
+                        <li className="pb-3 sm:text-lg/relaxed">
                             Ypperligt bra att binda nya kontakter med andra kårer/ledare
                         </li>
-                        <li className="pb-3 text-lg/relaxed">
+                        <li className="pb-3 sm:text-lg/relaxed">
                             Intressant att höra om andra kårers problemställningar och program
                         </li>
-                        <li className="pb-3 text-lg/relaxed">
+                        <li className="pb-3 sm:text-lg/relaxed">
                             Många intressanta och väl genomförda programidéer
                         </li>
-                        <li className="pb-3 text-lg/relaxed">
+                        <li className="pb-3 sm:text-lg/relaxed">
                             Bra att reflektera runt scoutrörelsen
                         </li>
-                        <li className="pb-3 text-lg/relaxed">
+                        <li className="pb-3 sm:text-lg/relaxed">
                             Roligt att se nya platser
                         </li>
-                        <li className="pb-3 text-lg/relaxed">
+                        <li className="pb-3 sm:text-lg/relaxed">
                             Skönt att vara scout
                         </li>
-                        <li className="pb-3 text-lg/relaxed">
+                        <li className="pb-3 sm:text-lg/relaxed">
                             Trevlig och mysig stämmning
                         </li>
-                        <li className="pb-3 text-lg/relaxed">
+                        <li className="pb-3 sm:text-lg/relaxed">
                             Bra att få höra om scoutingens ideologi och historia
                         </li>
-                        <li className="pb-3 text-lg/relaxed">
+                        <li className="pb-3 sm:text-lg/relaxed">
                             Perfekt startkurs för nya föräldrar som är på väg att bli ledare
                         </li>
                     </ul>
@@ -97,7 +97,7 @@ const CourseHss = () => {
                     alt="Image Scout Leader"
                     width={350}
                     height={270}
-                    className="w-full h-auto flex-1/2 order-1 lg:order-2 mb-8 lg:mb-0 rounded-sm"
+                    className="w-full h-auto flex-1/2 order-1 lg:order-2 mb-8 lg:mb-0 rounded-sm lg:mt-10"
                 />            
             </div>
         </section>

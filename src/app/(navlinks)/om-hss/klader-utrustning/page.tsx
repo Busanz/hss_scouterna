@@ -6,10 +6,10 @@ import ClubClothes from "@/sections/ClubClothes";
 const KladerUtrustning = () => {
     return(
         <>  
-          <ClubClothes />
-		      <ScoutUniform />
-		      <ScoutBadges />
-		      <GoodToHave />
+            <ClubClothes />
+		    <ScoutUniform />
+		    <ScoutBadges />
+		    <GoodToHave />
         </>
     )
 }
