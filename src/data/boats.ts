@@ -49,7 +49,7 @@ export const boats: Boat[] = [
       width: '1,10 m',
       length: '2,30 m',
     },
-    image: '/img/ourboats-section/threeBoats.png',
+    image: '/img/ourboats-section/fiveBoats.png',
   },
   {
     name: 'Goofy',
@@ -75,7 +75,7 @@ export const boats: Boat[] = [
       width: '1,9 m',
       length: '4,95 m',
     },
-    image: '/img/ourboats-section/threeBoats.png',
+    image: '/img/ourboats-section/tryggve.png',
   },
   {
     name: 'Nocke',

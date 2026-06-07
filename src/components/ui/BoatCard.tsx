@@ -1,4 +1,5 @@
 import type { Boat } from "@/data/boats";
+import Image from 'next/image';
 
 type BoatCardProps = {
     boat: Boat
@@ -15,10 +16,12 @@ const BoatCard = ({ boat }: BoatCardProps) => {
             {boat.type}
         </p>
         <div className="relative w-full overflow-hidden max-w-105 mb-3 rounded-sm">
-            <img
+            <Image
                 src={boat.image}
                 alt={boat.name}
-                className="w-full g-full object-cover rounded-sm"
+                width={600}
+                height={400}
+                className="w-full h-full object-cover rounded-sm"
             />
         </div>
         <p className="text-text-secondary mb-3">
