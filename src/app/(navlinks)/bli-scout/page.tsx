@@ -1,7 +1,7 @@
-import BilScoutsection from "@/sections/BilScoutsection";
+import BliScoutsection from "@/sections/BliScoutsection";
 
 const BliScoutPage = () => {
-  return <BilScoutsection />;
+  return <BliScoutsection />;
 };
 
 export default BliScoutPage;
