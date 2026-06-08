@@ -59,5 +59,5 @@ export type DepartmentIntroType = {
     title: string;
     description: string;
     image: string;
-  }
-}
+  };
+};
