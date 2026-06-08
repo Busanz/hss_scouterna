@@ -1,0 +1,22 @@
+{
+  "title": "Gå direkt till",
+  "contact": {
+    "heading": "Kontakt",
+    "email": "e-post"
+  },
+  "address": {
+    "heading": "Adress",
+    "link": "Hitta hit"
+  },
+  "follow": {
+    "heading": "Följ oss"
+  },
+  "quickLinks": [
+    { "label": "Bli scout" },
+    { "label": "Avdelningar" },
+    { "label": "Sjöscout" },
+    { "label": "För föräldrar" },
+    { "label": "FAQ" }
+  ],
+  "socialLinks": [{ "label": "Instagram" }]
+}
