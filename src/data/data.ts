@@ -1,88 +1,27 @@
 import type { QuickLinkType, SocialLinkType } from '../types/types';
 import type {
-  NavLinksType,
   IntroLinksType,
   OmHSSLinksType,
   DepartmentType,
 } from '@/types/types';
 
-export const navLinks: NavLinksType = [
-  {
-    label: 'Bli scout',
-    href: '/bli-scout',
-  },
-  {
-    label: 'Avdelningar',
-    href: '/avdelningar',
-  },
-  // {
-  //   label: 'Året i HSS',
-  //   href: '/aret-i-hss',
-  // },
-  {
-    label: 'Om HSS',
-    href: '/om-hss',
-  },
-  {
-    label: 'Båtar',
-    href: '/batar',
-  },
-  {
-    label: 'Kontakta oss',
-    href: '/kontakta-oss',
-  },
-  // {
-  //   label: 'FAQ',
-  //   href: '/faq',
-  // },
+export const navLinks = [
+  { href: '/bli-scout' },
+  { href: '/avdelningar' },
+  { href: '/om-hss' },
+  { href: '/batar' },
+  { href: '/kontakta-oss' },
 ];
-
 export const introLinks: IntroLinksType = [
-  {
-    label: 'Bli scout',
-    href: '/bli-scout',
-    url: '/img/intro-section/bli_scout.png',
-    description: 'Upplev äventyr, segling och nya vänner välkommen till HSS!',
-  },
-  {
-    label: 'För ledare',
-    href: '/for-ledare',
-    url: '/img/intro-section/for_ledare.png',
-    description: 'Resurser och utbildning för dig som leder vår verksamhet.',
-  },
-  {
-    label: 'För föräldrar',
-    href: '/for-foraldrar',
-    url: '/img/intro-section/for_foraldrar.png',
-    description: 'Information till dig vars barn är med i HSS.',
-  },
-  {
-    label: 'Avdelningar',
-    href: '/avdelningar',
-    url: '/img/intro-section/avdelningar.png',
-    description:
-      'Spårare, upptäckare, äventyrare och utmanare hitta rätt avdelning.',
-  },
-  {
-    label: 'Läger',
-    href: '/lager',
-    url: '/img/intro-section/lager.png',
-    description: 'Hajker och läger i naturen och Stockholms skärgård.',
-  },
-  {
-    label: 'Om HSS',
-    href: '/om-hss',
-    url: '/img/intro-section/om_hss.png',
-    description: 'Lär känna Hässelby Strands Sjöscoutkår och vår historia.',
-  },
+  { href: '/bli-scout', url: '/img/intro-section/bli_scout.png' },
+  { href: '/for-ledare', url: '/img/intro-section/for_ledare.png' },
+  { href: '/for-foraldrar', url: '/img/intro-section/for_foraldrar.png' },
+  { href: '/avdelningar', url: '/img/intro-section/avdelningar.png' },
+  { href: '/lager', url: '/img/intro-section/lager.png' },
+  { href: '/om-hss', url: '/img/intro-section/om_hss.png' },
 ];
 
 export const omHSSLinks: OmHSSLinksType = [
-  // {
-  //   label: 'Om HSS',
-  //   href: '/om-hss',
-  //   url: '/img/om-HSS-section/om_hss.png',
-  // },
   {
     label: 'Sjöscout',
     href: 'om-hss//sjoscout',
@@ -101,52 +40,20 @@ export const omHSSLinks: OmHSSLinksType = [
 ];
 
 export const quickLinks: QuickLinkType[] = [
-  {
-    label: 'Bli scout',
-    image: '/img/footer/quicklinks/bliscout.svg',
-    href: '/bli-scout',
-  },
-
-  {
-    label: 'Avdelningar',
-    image: '/img/footer/quicklinks/avdelningar.svg',
-    href: '/avdelningar',
-  },
-  {
-    label: 'Sjöscout',
-    image: '/img/footer/quicklinks/sjöscout.svg',
-    href: '/om-hss/sjoscout',
-  },
-  {
-    label: 'För föräldrar',
-    image: '/img/footer/quicklinks/förföräldrar.svg',
-    href: '/for-foraldrar',
-  },
-  { label: 'FAQ', image: '/img/footer/quicklinks/faq.svg', href: '/faq' },
+  { image: '/img/footer/quicklinks/bliscout.svg', href: '/bli-scout' },
+  { image: '/img/footer/quicklinks/avdelningar.svg', href: '/avdelningar' },
+  { image: '/img/footer/quicklinks/sjöscout.svg', href: '/om-hss/sjoscout' },
+  { image: '/img/footer/quicklinks/förföräldrar.svg', href: '/for-foraldrar' },
+  { image: '/img/footer/quicklinks/faq.svg', href: '/faq' },
 ];
 
 export const socialMediaLinks: SocialLinkType[] = [
-  // {
-  //   label: 'Facebook',
-  //   image: '/img/footer/socialmedia/facebook.svg',
-  //   href: 'https://www.facebook.com/HSSScout',
-  // },
   {
-    label: 'Instagram',
     image: '/img/footer/socialmedia/instagram.svg',
     href: 'https://www.instagram.com/hss_scout/',
   },
-  // {
-  //   label: 'LinkedIn',
-  //   image: '/img/footer/socialmedia/linkedin.svg',
-  //   href: 'https://se.linkedin.com/company/scouterna',
-  // },
-  // {
-  //   label: 'YouTube',
-  //   image: '/img/footer/socialmedia/youtube.svg',
-  //   href: 'https://www.youtube.com/@hasselbystrandssjoscoutkar4026',
-  // },
 ];
+
 export const departmentLogos: DepartmentType = [
   {
     label: 'Sjöhumlor',

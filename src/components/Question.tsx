@@ -13,7 +13,7 @@ const Question = ({
   answer,
 }: QuectionProps) => {
   return (
-    <div>
+    <div className="w-full">
       <button
         onClick={onToggle}
         className={`flex relative z-10 items-center w-full 
