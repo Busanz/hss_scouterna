@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { MapPin } from "lucide-react";
+import { MapPin } from 'lucide-react';
 import { ChevronDown } from 'lucide-react';
 
 type LocationCardProps = {
@@ -20,7 +20,7 @@ const LocationCard = ({
   mapLink,
 }: LocationCardProps) => {
   return (
-    <details className="group bg-background rounded-md shadow-md p-4 md:p-6">
+    <details className="group bg-background text-text-secondary rounded-sm p-4 md:p-6">
       <summary className="flex items-center justify-between cursor-pointer list-none">
         <div className="flex items-center gap-3">
           {icon}
@@ -55,7 +55,7 @@ const LocationCard = ({
             href={mapLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="group btn bg-primary text-text-primary hover:opacity-90 mt-4 inline-flex items-center gap-2"
+            className="group btn bg-primary text-text-primary transition duration-400 hover:bg-secondary hover:text-primary mt-4 inline-flex items-center gap-2"
           >
             <span
               className="
@@ -63,12 +63,11 @@ const LocationCard = ({
               text-blue-100
               transition-all duration-300
               group-hover:scale-110 group-hover:rotate-3 group-hover:animate-pulse
-              group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]
-            "     
+            "
             >
               <MapPin className="w-5 h-5" />
             </span>
-          Öppna i Google Maps
+            Öppna i Google Maps
           </a>
         </div>
       </div>

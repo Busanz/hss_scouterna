@@ -1,0 +1,29 @@
+{
+  "title": "Adventure and friends!",
+  "cards": [
+    {
+      "label": "Join scouts",
+      "description": "Experience adventure, sailing and new friends, welcome to HSS!"
+    },
+    {
+      "label": "For leaders",
+      "description": "Resources and training for those who lead our activities."
+    },
+    {
+      "label": "For parents",
+      "description": "Information for parents of children in HSS."
+    },
+    {
+      "label": "Departments",
+      "description": "Trackers, explorers, adventurers and challengers, find the right group."
+    },
+    {
+      "label": "Camps",
+      "description": "Hikes and camps in nature and the Stockholm archipelago."
+    },
+    {
+      "label": "About HSS",
+      "description": "Get to know Hässelby Strands Sjöscoutkår and our history."
+    }
+  ]
+}

@@ -15,11 +15,11 @@ export default function BliScoutsection() {
         </motion.h1>
         <div className="flex flex-col lg:flex-row gap-8 md:gap-10 lg:gap-14 mb-5 sm:mb-10 md:mb-20">
           <div className="flex flex-col items-center gap-5 px-4 sm:px-6 lg:px-8">
-            <p className="text-xl font-bold text-white">
+            <p className="text-xl font-normal text-white">
               Är du sugen på scouting och segling? Då ska du anmäla ditt
               intresse till HSS.
             </p>
-            <p className="text-l font-normal text-white items-center">
+            <p className="text-md font-normal text-white items-center">
               Oavsett om du är 8 år eller 100 år är du välkommen. För att anmäla
               dig till kölistan fyller du in en intresseanmälan nedan. Vi
               kontaktar dig när det blir en plats ledig.
@@ -51,10 +51,10 @@ export default function BliScoutsection() {
           />
         </div>
         <div className="flex flex-col w-full px-4 sm:px-6 lg:px-8">
-          <p className="text-xl font-bold text-primary tracking-wide">
+          <p className="text-xl font-normal text-primary tracking-wide">
             En trygg &amp; inkluderande miljö
           </p>
-          <p className="text-l font-normal text-primary my-5">
+          <p className="text-md font-normal text-primary my-5">
             Vi jobbar för att alla ska känna sig trygga och inkluderade på HSS.
             Vår verksamhet bygger på gemenskap, glädje och ömsesidig respekt.
           </p>
