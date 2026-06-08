@@ -8,15 +8,16 @@ import Breadcrumbs from "./Breadcrumbs"
 const AutoBreadcrumbs = (props?: { className?: string }) => {
   const pathname = usePathname()
 
-  const segments = pathname.split("/").filter((segment) => segment.length > 0)
+  if (pathname === "/") return null
+
+  const segments = pathname.split("/").filter(Boolean)
 
   const items: BreadcrumbItem[] = [
     { label: "Startsida", href: "/" },
   ]
 
   segments.forEach((segment, index) => {
-    const pathSegments = segments.slice(0, index + 1)
-    const href = "/" + pathSegments.join("/")
+    const href = "/" + segments.slice(0, index + 1).join("/")
 
     const isLast = index === segments.length - 1
 
