@@ -59,16 +59,5 @@ export type DepartmentIntroType = {
     title: string;
     description: string;
     image: string;
-  };
-<<<<<<< HEAD
-};
-export type CategoryType = 'Allt' | 'Policy' | 'Allmänt' | 'Övrigt';
-
-export type FaqItemType = {
-  question: string;
-  answer: string;
-  category: CategoryType;
-  showAnswer?: boolean;
-=======
->>>>>>> fix/061-om-hss
-};
+  }
+}
