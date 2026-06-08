@@ -1,0 +1,29 @@
+{
+  "title": "Äventyr och kompisar!",
+  "cards": [
+    {
+      "label": "Bli scout",
+      "description": "Upplev äventyr, segling och nya vänner välkommen till HSS!"
+    },
+    {
+      "label": "För ledare",
+      "description": "Resurser och utbildning för dig som leder vår verksamhet."
+    },
+    {
+      "label": "För föräldrar",
+      "description": "Information till dig vars barn är med i HSS."
+    },
+    {
+      "label": "Avdelningar",
+      "description": "Spårare, upptäckare, äventyrare och utmanare hitta rätt avdelning."
+    },
+    {
+      "label": "Läger",
+      "description": "Hajker och läger i naturen och Stockholms skärgård."
+    },
+    {
+      "label": "Om HSS",
+      "description": "Lär känna Hässelby Strands Sjöscoutkår och vår historia."
+    }
+  ]
+}

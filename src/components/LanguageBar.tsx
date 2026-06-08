@@ -7,16 +7,27 @@ import { IoMdArrowDropdown } from 'react-icons/io';
 import { EnglishFlag, SwedishFlag } from '@/assets/svg';
 import { AnimatePresence, motion } from 'motion/react';
 
+import { useLocale } from 'next-intl';
+import { useRouter } from 'next/navigation';
+import { setUserLocale } from '@/i18n/locale';
+
 const LanguageBar = () => {
   const [isLanguageBarOpen, setIsLanguageBarOpen] = useState<boolean>(false);
-  const [activeLanguage, setActiveLanguage] = useState<'EN' | 'SE'>('SE');
-  const languages: ('English' | 'Swedish')[] = ['English', 'Swedish'];
   const languageWrapper = useRef<HTMLDivElement | null>(null);
 
-  // https://www.youtube.com/watch?v=M_HujIFsIb0 reference
+  const locale = useLocale();
+  const router = useRouter();
+
+  const activeLanguage = locale === 'en' ? 'EN' : 'SV';
 
   const handleClick = () => {
     setIsLanguageBarOpen((pre) => !pre);
+  };
+
+  const handleLanguage = async (selectedLocale: 'en' | 'sv') => {
+    await setUserLocale(selectedLocale);
+    router.refresh();
+    setIsLanguageBarOpen(false);
   };
 
   useEffect(() => {
@@ -83,25 +94,20 @@ const LanguageBar = () => {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.6, ease: 'easeInOut' }}
           >
-            {languages.map((lang, index) => (
-              <Button
-                key={index}
-                className="flex cursor-pointer hover:text-secondary"
-                onClick={() => {
-                  setActiveLanguage(index === 0 ? 'EN' : 'SE');
-                  handleClick();
-                }}
-                onKeyDown={(event) => {
-                  if (event.key === 'Enter' || event.key === ' ') {
-                    event.preventDefault();
-                    setActiveLanguage(index === 0 ? 'EN' : 'SE');
-                  }
-                }}
-              >
-                {index === 0 ? <EnglishFlag /> : <SwedishFlag />}
-                {lang}
-              </Button>
-            ))}
+            <Button
+              className="flex gap-2 items-center cursor-pointer hover:text-secondary"
+              onClick={() => handleLanguage('en')}
+            >
+              <EnglishFlag />
+              English
+            </Button>
+            <Button
+              className="flex gap-2 items-center cursor-pointer hover:text-secondary"
+              onClick={() => handleLanguage('sv')}
+            >
+              <SwedishFlag />
+              Svenska
+            </Button>
           </motion.div>
         )}
       </AnimatePresence>

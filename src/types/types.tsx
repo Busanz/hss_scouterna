@@ -19,20 +19,23 @@ type ClubCloths = {
   alt: string;
 };
 
-export type IntroLinksType = IntroLink[];
+export type IntroLinksType = {
+  href: string;
+  url: string;
+}[];
 
 export type NavLinksType = {
-  label: string;
   href: string;
 }[];
 
 export type QuickLinkType = {
-  label: string;
   image: string;
   href: string;
 };
 
 export type SocialLinkType = QuickLinkType;
+export type TranslatedQuickLinkType = QuickLinkType & { label: string };
+export type TranslatedSocialLinkType = SocialLinkType & { label: string };
 
 type DepartmentLink = IntroLink & {
   des: string;
@@ -50,7 +53,6 @@ export type FaqItemType = {
   category: CategoryType;
   showAnswer?: boolean;
 };
-
 export type DepartmentIntroType = {
   id: number;
   image: string;
