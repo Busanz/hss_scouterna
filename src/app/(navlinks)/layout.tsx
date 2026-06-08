@@ -10,7 +10,7 @@ export default function NavLinksLayout({
   return (
     <div className="flex flex-col w-full items-center px-1 sm:px-2 md:px-4 lg:px-6">
       <Headersection />
-      <div className="mx-auto max-w-6xl px-4 pt-6 pb-5">
+      <div className="mx-auto hidden max-w-6xl px-4 pt-8 pb-8 md:block">
         <AutoBreadcrumbs />
       </div>
       {children}
