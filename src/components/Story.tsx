@@ -1,10 +1,10 @@
 import Image from 'next/image';
 
 const historyImages = [
-  '/img/history/mysetgrundsattning1965.png',
-  '/img/history/myset.png',
-  '/img/history/myset1.png',
-  '/img/history/myset2.png',
+  '/img/history/mysetgrundsattning1965.jpg',
+  '/img/history/myset.jpg',
+  '/img/history/myset1.jpg',
+  '/img/history/myset2.jpg',
 ];
 
 const Story = () => {
@@ -35,7 +35,7 @@ const Story = () => {
             alt="Historisk bild"
             width={250}
             height={150}
-            className="h-auto w-full"
+            className="h-auto w-full rounded-sm"
           />
         ))}
       </div>
