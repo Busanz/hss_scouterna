@@ -15,7 +15,7 @@ const ScoutBadges = () => {
           </p>
         </div>
         <p>
-          Scouternas märkessystem är ett stöd för att hjälpa ledare och scouter att planera och genomföra scoutprogrammet och därigenom uppmuntra den personliga utvecklingen. 
+          Scouternas märkessystem är ett stöd för att hjälpa ledare och scouter att planera och genomföra scoutprogrammet och därigenom uppmuntra den personliga utvecklingen.
           <br />
           Efter ett genomfört projekt, en viss termin eller när scouterna lärt sig något tillsammans fungerar ett märke eller någon annan symbol som ett minne.
         </p>
@@ -46,15 +46,16 @@ const ScoutBadges = () => {
 
         <p className="mt-8 sm:mt-10 text-base ">
           Det finns specifika platser för varje märke på scoutskjortan,
-          ovan är övergripande guide på placeringar. 
-          Besök nedan länk för att läsa mer om placeringar och riktlinjer. 
+          ovan är övergripande guide på placeringar.
+          Besök nedan länk för att läsa mer om placeringar och riktlinjer.
         </p>
 
-        <div className="my-6 flex flex-col items-start gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
-          <div className="btn bg-text-secondary text-text-primary text-center cursor-auto">
-            Placering
-          </div>
-          <Link href="#" className="btn bg-text-secondary text-text-primary text-center hover:bg-secondary hover:text-primary">
+        <div className="my-6 flex flex-col items-start gap-5 sm:flex-row sm:flex-wrap sm:gap-4">
+          <Link
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block w-full text-text-link hover:underline underline-offset-4 decoration-0">
             Ladda ner PDF
           </Link>
         </div>
@@ -71,17 +72,14 @@ const ScoutBadges = () => {
           alt="Sjö och Vatten-märken"
           width={580}
           height={178}
-          className="mt-6 sm:mt-8 w-full max-w-120 h-auto flex justify-center mx-auto"
+          className="mt-6 sm:mt-8 w-full max-w-120 h-auto flex mx-0"
         />
 
-        <div className="my-6 sm:mt-8 flex flex-col items-start gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
-          <div className="btn bg-text-secondary text-text-primary text-center cursor-auto">
-            Sjö och Vatten
-          </div>
-          <Link href="/pdf/water-scout.pdf" 
-                target= "-blank"
-                rel="noopener noreferrer"
-                className="btn bg-text-secondary text-text-primary text-center hover:bg-secondary hover:text-primary">
+        <div className="my-6 sm:mt-8 flex flex-col items-start gap-5 sm:flex-row sm:flex-wrap sm:gap-4">
+          <Link href="/pdf/water-scout.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block w-full text-text-link hover:underline underline-offset-4 decoration-0">
             Ladda ner PDF
           </Link>
         </div>
@@ -90,15 +88,16 @@ const ScoutBadges = () => {
           Alla scoutmärken
         </h3>
         <p>
-          Det finns massor med olika märken, deltagandemärken ser man på avdelnings-sidan, 
+          Det finns massor med olika märken, deltagandemärken ser man på avdelnings-sidan,
           med denna länk kan man se hela märkesbanken på scouternas hemsida.
         </p>
 
-        <div className="my-6 flex flex-col items-start gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
-          <div className="btn bg-text-secondary text-text-primary text-center cursor-auto">
-            Se hela Märkesbanken
-          </div>
-          <Link href="#" className="btn bg-text-secondary text-text-primary text-center hover:bg-secondary hover:text-primary">
+        <div className="my-6 flex flex-col items-start gap-5 sm:flex-row sm:flex-wrap sm:gap-4">
+          <Link
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block w-full text-text-link hover:underline underline-offset-4 decoration-0">
             Ladda ner PDF
           </Link>
         </div>
