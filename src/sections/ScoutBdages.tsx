@@ -15,12 +15,12 @@ const ScoutBadges = () => {
           </p>
         </div>
         <p>
-          Scouternas märkessystem är ett stöd för att hjälpa ledare och scouter att planera och genomföra scoutprogrammet och därigenom uppmuntra den personliga utvecklingen.
+          Scouternas märkessystem är ett stöd för ledare och scouter att planera och genomföra scoutprogrammet på ett sätt som hjälper scouter att växa som personer. Märkena gör det enklare att koppla ihop kunskap, upplevelser och mål i scoutverksamheten.
           <br />
-          Efter ett genomfört projekt, en viss termin eller när scouterna lärt sig något tillsammans fungerar ett märke eller någon annan symbol som ett minne.
+          Efter ett genomfört projekt, en termin eller när scouterna har lärt sig något nytt fungerar ett märke som ett minne av det ni gjort tillsammans.
         </p>
         <p>
-          På det sättet är märket eller symbolen så mycket mer än själva tygbiten, det är en historia som hjälper dig att minnas allla äventyr och vad du har lärt dig på vägen.
+          Ett märke är därför mycket mer än bara en tygbit. Det blir ett bevis på vad du har lärt dig, vad du har provat på och vilka äventyr du har varit med om tillsammans med din patrull eller avdelning.
         </p>
 
         <h3 className="text-text-subtitle sm:text-lg md:text-xl py-5">
@@ -45,15 +45,14 @@ const ScoutBadges = () => {
         </div>
 
         <p className="mt-8 sm:mt-10 text-base ">
-          Det finns specifika platser för varje märke på scoutskjortan,
-          ovan är övergripande guide på placeringar.
+          På scoutdräkten finns det bestämda platser för olika typer av märken. Deltagande-, behörighets-, bevis- och intressemärken placeras på vänster ärm, medan patrullmärke och åldersgruppsmärke sys fast på höger bröstficka. Sverige-, Europa- och världsorganisationsmärkena sitter högst upp på höger ärm.
         </p>
 
         <h3 className="text-text-subtitle sm:text-lg md:text-xl py-5">
           Specifika märken för sjöscouter
         </h3>
         <p>
-          Som Sjöscout har vi specifika märken.
+          Som sjöscout finns det också särskilda märken som hör till sjö- och vattenverksamheten. De visar tillhörighet, intresse och ibland också vilka kunskaper eller färdigheter du har tränat på inom verksamheten.
         </p>
 
         <Image
@@ -68,17 +67,16 @@ const ScoutBadges = () => {
           Alla scoutmärken
         </h3>
         <p>
-          Det finns massor med olika märken, deltagandemärken ser man på avdelnings-sidan,
-          med denna länk kan man se hela märkesbanken på scouternas hemsida.
+          Det finns många olika märken i Scouterna, till exempel tillhörighetsmärken, deltagandemärken, behörighetsmärken, bevismärken och intressemärken. Varje kategori har sin egen betydelse, och tillsammans visar de både vad du tillhör och vad du har utvecklat under din tid i Scouterna.
         </p>
 
         <div className="my-6 flex flex-col items-start gap-5 sm:flex-row sm:flex-wrap sm:gap-4">
           <Link
-            href="#"
+            href="/pdf/Markbart-2025.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block w-full text-text-link hover:underline underline-offset-4 decoration-0">
-            Ladda ner PDF
+            Läs hela märkesguiden
           </Link>
         </div>
 
