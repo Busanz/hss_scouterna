@@ -1,0 +1,22 @@
+{
+  "title": "Quick links",
+  "contact": {
+    "heading": "Contact",
+    "email": "email"
+  },
+  "address": {
+    "heading": "Address",
+    "link": "Find us"
+  },
+  "follow": {
+    "heading": "Follow us"
+  },
+  "quickLinks": [
+    { "label": "Join scouts" },
+    { "label": "Departments" },
+    { "label": "Sea scout" },
+    { "label": "For parents" },
+    { "label": "FAQ" }
+  ],
+  "socialLinks": [{ "label": "Instagram" }]
+}

@@ -1,3 +1,5 @@
+import { NextIntlClientProvider } from 'next-intl';
+import { getLocale, getMessages } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { Geist } from 'next/font/google';
 import ScrollToTop from '@/components/ScrollToTop';
@@ -22,16 +24,21 @@ export const metadata: Metadata = {
   ],
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getLocale();
+  const messages = await getMessages();
+
   return (
-    <html lang="en" className={`${geistSans.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col items-center hide-scrollbar">
-        <ScrollToTop />
-        {children}
+    <html lang={locale} className={`${geistSans.variable} h-full antialiased`}>
+      <body>
+        <NextIntlClientProvider messages={messages}>
+          {children}
+          <ScrollToTop />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

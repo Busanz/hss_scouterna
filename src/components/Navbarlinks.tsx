@@ -7,8 +7,23 @@ import { useEffect, useState } from 'react';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { RxCross1 } from 'react-icons/rx';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 const Navbarlinks = () => {
+  const t = useTranslations('nav');
+  const labelKeys = [
+    'bliScout',
+    'avdelningar',
+    'omHss',
+    'batar',
+    'kontaktaOss',
+  ] as const;
+
+  const links = navLinks.map((link, index) => ({
+    href: link.href,
+    label: t(labelKeys[index]),
+  }));
+
   const [isMobile, setIsMobile] = useState<boolean>(false);
   const [isHamberger, setIsHamberger] = useState<boolean>(false);
   const [screenWidth, setScreenWidth] = useState<number>(0);
@@ -55,7 +70,7 @@ const Navbarlinks = () => {
         <Link href="/">
           <LogoCircle isMobile={isMobile} />
         </Link>
-        {navLinks.map((link, index) => (
+        {links.map((link, index) => (
           <Link
             key={index}
             href={link.href}
@@ -97,9 +112,9 @@ const Navbarlinks = () => {
                     onClick={() => setIsHamberger(false)}
                     className="text-2xl font-extralight text-text-secondary pl-10 py-4"
                   >
-                    Home
+                    {t('home')}
                   </Link>
-                  {navLinks.map((link, index) => (
+                  {links.map((link, index) => (
                     <Link
                       key={index}
                       href={link.href}
@@ -114,7 +129,7 @@ const Navbarlinks = () => {
                     onClick={() => setIsHamberger(false)}
                     className="text-2xl font-extralight text-text-secondary pl-10 py-4"
                   >
-                    FAQ
+                    {t('faq')}
                   </Link>
                 </div>
               </motion.div>

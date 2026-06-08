@@ -3,12 +3,27 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { quickLinks, socialMediaLinks } from '../data/data';
-import { QuickLinkType, SocialLinkType } from '../types/types';
+import {
+  TranslatedQuickLinkType,
+  TranslatedSocialLinkType,
+} from '../types/types';
 import { motion } from 'motion/react';
 import { fadeUpAnimation } from '@/utils/animation';
 import { SlSocialInstagram } from 'react-icons/sl';
+import { useTranslations } from 'next-intl';
 
 const Footersection = () => {
+  const t = useTranslations('footer');
+
+  const translatedQuickLinks = quickLinks.map((link, index) => ({
+    ...link,
+    label: t(`quickLinks.${index}.label`),
+  }));
+
+  const translatedSocialLinks = socialMediaLinks.map((link, index) => ({
+    ...link,
+    label: t(`socialLinks.${index}.label`),
+  }));
   return (
     <footer className="flex flex-col w-full h-full max-w-360 items-center rounded-sm bg-primary text-white">
       <div className="flex flex-col w-full items-center py-10 sm:py-14 lg:py-20">
@@ -16,11 +31,11 @@ const Footersection = () => {
           className="flex w-full h-full justify-center text-2xl sm:text-3xl lg:text-4xl text-text-primary pb-5 md:pb-10"
           {...fadeUpAnimation}
         >
-          Gå direkt till
+          {t('title')}
         </motion.h1>
         <nav className="w-full px-4 sm:px-8">
           <div className="flex flex-wrap w-full justify-center gap-6 sm:gap-8 lg:justify-evenly lg:gap-0">
-            {quickLinks.map((link: QuickLinkType) => (
+            {translatedQuickLinks.map((link: TranslatedQuickLinkType) => (
               <Link
                 key={link.label}
                 href={link.href}
@@ -55,12 +70,12 @@ const Footersection = () => {
           <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3 lg:gap-15">
             <div>
               <h2 className="text-xl sm:text-2xl pb-5 mb-3 lg:mb-4 text-secondary">
-                Kontakt
+                {t('contact.heading')}
               </h2>
               <address className="flex flex-col gap-1 text-lg font-extralight not-italic">
                 <span>Hässelby Strands Sjöscoutkår</span>
                 <span>
-                  e-post:{' '}
+                  {t('contact.email')}:{' '}
                   <Link
                     href="mailto:info@hss-scout.org"
                     className="hover:text-secondary"
@@ -72,21 +87,21 @@ const Footersection = () => {
             </div>
             <div>
               <h2 className="text-xl sm:text-2xl pb-5 mb-3 lg:mb-4 text-secondary">
-                Adress
+                {t('address.heading')}
               </h2>
               <Link
                 href={'/kontakta-oss'}
                 className="text-lg font-extralight hover:text-secondary"
               >
-                Hitta hit
+                {t('address.link')}
               </Link>
             </div>
             <div>
               <h2 className="text-xl sm:text-2xl pb-5 mb-3 lg:mb-4 text-secondary">
-                Följ oss
+                {t('follow.heading')}
               </h2>
               <div className="grid grid-cols-2 gap-2">
-                {socialMediaLinks.map((link: SocialLinkType) => (
+                {translatedSocialLinks.map((link: TranslatedSocialLinkType) => (
                   <Link
                     key={link.label}
                     href={link.href}
@@ -95,14 +110,6 @@ const Footersection = () => {
                     className="flex items-center gap-2 transition duration-200 hover:text-secondary"
                   >
                     <SlSocialInstagram size={30} />
-                    {/* <Image
-                      src={link.image}
-                      alt={link.label}
-                      width={80}
-                      height={80}
-                      className="w-10 h-10"
-                    /> */}
-
                     <span className="text-lg font-extralight">
                       {link.label}
                     </span>
