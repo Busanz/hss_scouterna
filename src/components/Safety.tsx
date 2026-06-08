@@ -3,14 +3,16 @@ import Image from "next/image";
 const Safety = () => {
   return (
       <div className="flex flex-col lg:flex-row gap-8 md:gap-10 lg:gap-14 my-5 sm:my-10 md:my-20">                      
-        <Image
-          src="/img/ourboats-section/DSCF1955.jpg"
-          alt="Image boats and scouts"
-          width={350}
-          height={270}
-          className="w-full flex-1/2 h-auto order-1 rounded-sm"
-        />
-        <div className="flex flex-col justify-start w-full lg:w-1/2 order-2 px-4 md:px-0 lg:order-1">
+        <div className="w-full lg:w-1/2 order-1">
+          <Image
+            src="/img/ourboats-section/DSCF1955.jpg"
+            alt="Image boats and scouts"
+            width={350}
+            height={270}
+            className="w-full h-auto rounded-sm object-cover"
+          />
+        </div>
+        <div className="w-full lg:w-1/2 order-2 lg:order-1 px-4 md:px-0">
           <h2 className=" text-xl sm:text-2xl md:text-3xl">
             Sjösäkerhet
           </h2>
