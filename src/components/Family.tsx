@@ -1,7 +1,7 @@
 const Family = () => {
   return (
     <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-14 mt-5">
-      <div className="flex flex-col justify-start flex-1/2 order-2 px-4 md:px-0 lg:order-1">
+      <div className="w-full lg:w-1/2 order-2 lg:order-1 px-4 md:px-0">
         <h2 className=" text-xl sm:text-2xl md:text-3xl">
           Scouting handlar om att växa
         </h2>
