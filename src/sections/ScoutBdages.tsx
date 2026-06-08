@@ -47,18 +47,7 @@ const ScoutBadges = () => {
         <p className="mt-8 sm:mt-10 text-base ">
           Det finns specifika platser för varje märke på scoutskjortan,
           ovan är övergripande guide på placeringar.
-          Besök nedan länk för att läsa mer om placeringar och riktlinjer.
         </p>
-
-        <div className="my-6 flex flex-col items-start gap-5 sm:flex-row sm:flex-wrap sm:gap-4">
-          <Link
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block w-full text-text-link hover:underline underline-offset-4 decoration-0">
-            Ladda ner PDF
-          </Link>
-        </div>
 
         <h3 className="text-text-subtitle sm:text-lg md:text-xl py-5">
           Specifika märken för sjöscouter
@@ -74,15 +63,6 @@ const ScoutBadges = () => {
           height={178}
           className="mt-6 sm:mt-8 w-full max-w-120 h-auto flex mx-0"
         />
-
-        <div className="my-6 sm:mt-8 flex flex-col items-start gap-5 sm:flex-row sm:flex-wrap sm:gap-4">
-          <Link href="/pdf/water-scout.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block w-full text-text-link hover:underline underline-offset-4 decoration-0">
-            Ladda ner PDF
-          </Link>
-        </div>
 
         <h3 className="text-text-subtitle sm:text-lg md:text-xl py-5">
           Alla scoutmärken
