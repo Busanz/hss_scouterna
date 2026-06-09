@@ -1,0 +1,70 @@
+{
+  "title": "Sections",
+  "when": "When:",
+  "where": "Where:",
+  "age": "Age:",
+  "registerButton": "Register here",
+  "readMoreButton": "Read more",
+  "closeButton": "Close",
+  "previous_name": "Previous name:",
+  "sjöhumlor": {
+    "label": "Sjöhumlor",
+    "description": "Trackers, ages 8-9",
+    "subtitle": "Welcome to Sjöhumlorna, where the adventure begins!",
+    "info": "Are you ready for excitement, new friends, and the scent of the sea? At Hässelby Sea Scout Group, we welcome all children starting Year 2 (from age 8) to become Tracker Scouts in our Sjöhumlorna section.",
+    "when": "Mondays",
+    "where": "Ruffen, Hässelby Strandbad",
+    "age": "From Year 2 (8 years old)",
+    "formerName": "You may have heard the term 'Junior Scout'. That's exactly what we are, but today we are called Tracker Scouts!",
+    "moreInfoTitle": "Activity badges for Tracker Scouts",
+    "moreInfo": "For Tracker Scouts there are four participation badges. You earn a badge after being in Scouting for a certain period of time, for example a term. During the term, you and your friends have learned things described in the educational goals and worked according to the Scout method. Just like a camp badge, a participation badge becomes a memory of the experiences the patrol has shared together."
+  },
+  "kaparna": {
+    "label": "Kaparna",
+    "description": "Explorers, ages 10-11",
+    "subtitle": "Welcome to Kaparna - bigger challenges, bigger adventures!",
+    "info": "When you turn 10 (Year 4), the next big step in Scouting awaits: you become an Explorer Scout in the Kaparna section. You'll spend two years here, trying things that feel truly adventurous while having a great time together.",
+    "when": "Tuesdays",
+    "where": "Ruffen, Hässelby Strandbad",
+    "age": "10-12 years old (Years 4-5)",
+    "formerName": "You may have heard the term 'Junior Scout'. That's exactly what we are, but today we are called Explorer Scouts!",
+    "moreInfoTitle": "Activity badges for Explorer Scouts",
+    "moreInfo": "There are six participation badges for Explorer Scouts, and it is up to the section to decide which badge is awarded when. It does not matter in which order they are used, but each term you decide which one you will focus on. Those who want to can build on the name or theme of each badge during the term, but it is not required. Regardless of how you do it, you will connect your memories to each badge."
+  },
+  "konvojen": {
+    "label": "Konvojen",
+    "description": "Adventurers, ages 12-14",
+    "subtitle": "Welcome to Konvojen - Real Adventure!",
+    "info": "When you turn 12, you move up to the Adventurer Scouts. During three exciting years in the Konvojen section, we leave the basics behind and take on challenges that require teamwork, courage, and skill.",
+    "when": "Thursdays",
+    "where": "Ruffen, Hässelby Strandbad",
+    "age": "12-15 years old (Years 6-8)",
+    "formerName": "You may know the term 'Patrol Scout'. That's us, but today we are called Adventurer Scouts!",
+    "moreInfoTitle": "Activity badges for Adventurer Scouts",
+    "moreInfo": "Adventures are planned and carried out in the patrol based on your interests and opportunities. In the Adventurers' handbook as well as on the Scouts' website, you can find descriptions and ideas of what the different adventure badges can involve."
+  },
+  "utmanare": {
+    "label": "Challengers",
+    "description": "Challengers, ages 15-18",
+    "subtitle": "Challenger Scouts - Friendships for Life!",
+    "info": "When you join the Challenger Scouts (from age 15), you enter a period that is about much more than scouting. These are the years when your team truly comes together. It's no exaggeration to say that the friendships formed here often last a lifetime.",
+    "when": "Tuesdays or Wednesdays",
+    "where": "Ruffen, Hässelby Strandbad",
+    "age": "15-18 years old (Year 9 through upper secondary school)",
+    "formerName": "You may have heard the term 'Senior Scout'. That's us, but today we are called Challenger Scouts!",
+    "moreInfoTitle": "Activity badges for Challenger Scouts",
+    "moreInfo": "Challenger Scouts' participation badges, called Challenges, are larger projects that your patrol plans and carries out together to challenge yourselves or your surroundings. The book 'Dare to Challenge' provides tips and guidance. Here are some examples of challenges you can take on!"
+  },
+  "familjescouting": {
+    "label": "Family Scouting",
+    "description": "Children under 8 years old",
+    "subtitle": "Family Scouting - Adventure for the Whole Family!",
+    "info": "Through Family Scouting, children under eight years old, together with one or more adults, get a fun and playful introduction to scouting. Children and adults participate together, and the activities are designed for both young and old. The relationship between the child and the adult is at the heart of the experience, making the transition to becoming a Tracker Scout later on a natural next step.",
+    "when": "Varies by scout group",
+    "where": "Ruffen, Hässelby Strandbad",
+    "age": "Under 8 years old (together with an adult)",
+    "formerName": "The accompanying adult may be a parent, grandparent, relative, or another trusted adult in the child's life.",
+    "moreInfoTitle": "Activity badges for Family Scouts",
+    "moreInfo": "Family Scouts have their own round membership badges that can be attached to any clothing or accessory. The badges come in different color combinations and are a way to create a sense of belonging in the group without requiring special clothing or equipment."
+  }
+}

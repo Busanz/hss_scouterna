@@ -1,11 +1,11 @@
-import SeaScout from "@/sections/SeaScout"
+import SeaScout from '@/sections/SeaScout';
 
 const Sjoscout = () => {
-    return (
-        <>
-            <SeaScout />
-        </>
-    )
-}
+  return (
+    <>
+      <SeaScout />
+    </>
+  );
+};
 
-export default Sjoscout
+export default Sjoscout;
