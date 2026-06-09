@@ -27,8 +27,7 @@ export default function BliScoutsection() {
             <Link
               href="https://www.scoutnet.se/register/in/group/764"
               target="_blank"
-              className="bg-white hover:bg-secondary-hover 
-            text-primary font-normal py-1.5 px-4 rounded-sm cursor-pointer drop-shadow-[0_4px_4px_rgba(0,0,0,0.24)]"
+              className="bg-white text-primary hover:bg-secondary font-normal py-1.5 px-4 rounded-sm cursor-pointer drop-shadow-[0_4px_4px_rgba(0,0,0,0.24)]"
             >
               Gå med!
             </Link>
