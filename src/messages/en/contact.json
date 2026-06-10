@@ -1,5 +1,4 @@
 {
-  "Contact": {
     "title": "Adventures and friends!",
     "intro": "Do you have any questions or need to get in touch with us?",
     "mapAlt": "HSS map",
@@ -10,12 +9,5 @@
     "generalLabel": "General",
     "membersLabel": "For member affairs",
     "mysetBookingLabel": "Myset booking request",
-    "facilitiesIntro": "Nice facilities are a basic requirement for good meetings. You can read about our facilities by following the links below.",
-    "mysetTitle": "Myset",
-    "mysetDescription": "In the forest between Lövsta and Gåseborg lies Myset, our large and beautiful scout house. The section has many activities here such as camp reunions, Section Championships (KM), overnight stays, and hikes.",
-    "mysetExtra": "Myset consists of a large gathering room with a fireplace, a well-equipped kitchen, and two smaller leader rooms. The kitchen is equipped with electric and wood stove, dishwasher, microwave, and a large refrigerator — a complete kitchen that can serve up to 30 people. Coordinates: N 59°23.816′ E 017°46.230′",
-    "ruffenTitle": "Ruffen",
-    "ruffenDescription": "Ruffen is our facility at Hässelby Strandbad. Here we hold our section meetings and it also houses our optimist dinghies.",
-    "ruffenExtra": "Directions: From Sandviksvägen, turn down onto Hässelby Strandväg. At the bath there is a parking. Walk down towards the water and turn left (towards the heating plant). The grey-green cottage (Ruffen) is diagonally opposite the bridge."
-  }
+    "facilitiesIntro": "Nice facilities are a basic requirement for good meetings. You can read about our facilities by following the links below."
 }

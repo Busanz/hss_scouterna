@@ -8,7 +8,8 @@ import StaticMap from '@/components/Maps';
 import { useTranslations } from 'next-intl';
 
 const ContactInfosection = () => {
-  const t = useTranslations('Contact')
+  const t = useTranslations('contact')
+  const tDetail = useTranslations('locationCardDetail')
 
   return (
     <div className="flex flex-col w-full max-w-360 h-full bg-primary text-text-primary my-10 md:my-20 px-4 md:px-6 lg:px-10 py-5 md:py-10  rounded-sm">
@@ -91,19 +92,19 @@ const ContactInfosection = () => {
 
           <LocationCard
             image="/img/history/myset.png"
-            title="Myset"
+            title={tDetail('mysetTitle')}
             icon={<TreePine className="w-6 h-6" />}
-            description={t('mysetDescription')}
-            extra={t('mysetExtra')}
+            description={tDetail('mysetDescription')}
+            extra={tDetail('mysetExtra')}
             mapLink="https://maps.app.goo.gl/NrhJRgKg1e3bMs7m6"
           />
 
           <LocationCard
             image="/img/contact/ruffen.jpg"
-            title="Ruffen"
+            title={tDetail('ruffenTitle')}
             icon={<Sailboat className="w-6 h-6" />}
-            description={t('ruffenDescription')}
-            extra={t('ruffenExtra')}
+            description={tDetail('ruffenDescription')}
+            extra={tDetail('ruffenExtra')}
             mapLink="https://maps.app.goo.gl/UnkzfdoqAYyeze3c8"
           />
         </div>

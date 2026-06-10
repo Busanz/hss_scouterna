@@ -1,9 +1,7 @@
 {
-  "Lager": {
     "title": "Camp",
     "intro1": "Camp is the absolute highlight of the year for the entire organization. Every summer we pack our backpacks, leave everyday life behind, and go out on an adventure together. It's days filled with community, laughter, campfires, new challenges, and memories that stay long after the tent is packed down.",
-    "intro2": "Over the years, HSS has participated in many fantastic camps and eskadrar, both large and small. Here you can read about past adventures, get inspired, and maybe reminisce if you've been there yourself.",
-    "buttonLink": "View on Instagram: past events",
+    "intro2": "Over the years, HSS has participated in many fantastic camps and squadrons, both large and small. Here you can read about past adventures, get inspired, and maybe reminisce if you've been there yourself.",
+    "buttonText": "View on Instagram: past events",
     "imageAlt": "Scout Leader Image"
-  }
 }

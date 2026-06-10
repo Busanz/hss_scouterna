@@ -2,7 +2,7 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
 const Lager = () => {
-  const t = useTranslations('Lager')
+  const t = useTranslations('lager')
   return (
     <div className="flex flex-col lg:flex-row gap-8 md:gap-10 lg:gap-14 my-5 sm:my-10 md:my-20">
       <div className="flex flex-col justify-start flex-1/2 order-2 px-4 md:px-0 lg:order-1">
@@ -21,7 +21,7 @@ const Lager = () => {
           // We need to link to the instagram section to see upcoming events"
           // target="_blank"
         >
-          {t('buttonLink')}
+          {t('buttonText')}
         </a>
       </div>
 

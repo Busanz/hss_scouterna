@@ -1,5 +1,4 @@
 {
-  "Contact": {
     "title": "Äventyr och kompisar!",
     "intro": "Har du några funderingar eller behöver du komma i kontakt med oss?",
     "mapAlt": "HSS map",
@@ -10,12 +9,5 @@
     "generalLabel": "Allmänt",
     "membersLabel": "För medlemsärenden",
     "mysetBookingLabel": "Bokningsförfrågan Myset",
-    "facilitiesIntro": "Trevliga lokaler är en grundförutsättning för bra möten. Våra lokaler kan du läsa om genom att följa länkarna nedan.",
-    "mysetTitle": "Myset",
-    "mysetDescription": "I skogen mellan Lövsta och Gåseborg ligger Myset, vår stora och fina scoutstuga. Här har kåren en mängd aktiviteter såsom lägeråterträff, KårMästerskapen (KM), övernattningar och hajker.",
-    "mysetExtra": "Myset består av ett stort samlingsrum med brasa, ett väl tilltaget kök och två mindre ledarrum. Köket är utrustat med el- och vedspis, diskmaskin, mikrovågsugn och stort kylskåp — ett komplett kök som kan serva upp till 30 personer. Koordinater: N 59°23.816′ E 017°46.230′",
-    "ruffenTitle": "Ruffen",
-    "ruffenDescription": "Ruffen är vår lokal vid Hässelby Strandbad. Här har vi våra avdelningsmöten och den huserar även våra optimistjollar.",
-    "ruffenExtra": "Vägbeskrivning: Från Sandviksvägen sväng ner på Hässelby Strandväg. Vid badet finns en parkering. Gå ner mot vattnet och vik av mot vänster (mot kraftvärmeverket). Den grågröna stugan (Ruffen) ligger snett mittemot bryggan."
-  }
+    "facilitiesIntro": "Trevliga lokaler är en grundförutsättning för bra möten. Våra lokaler kan du läsa om genom att följa länkarna nedan."
 }

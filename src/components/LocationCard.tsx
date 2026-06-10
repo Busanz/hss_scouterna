@@ -20,7 +20,7 @@ const LocationCard = ({
   extra,
   mapLink,
 }: LocationCardProps) => {
-  const t = useTranslations('LocationCard')
+  const t = useTranslations('locationCardDetail')
 
   return (
     <details className="group bg-background text-text-secondary rounded-sm p-4 md:p-6">
