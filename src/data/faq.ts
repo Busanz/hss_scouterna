@@ -1,71 +1,61 @@
-import type { CategoryType, FaqItemType } from '@/types/types';
+import type { CategoryType, FaqItemType } from "@/types/types";
 
-export const categories: CategoryType[] = [
-  'Allt',
-  'Policy',
-  'Allmänt',
-  'Övrigt',
+export const categories: string[] = [
+  "categories.all",
+  "categories.policy",
+  "categories.general",
+  "categories.other",
 ];
 
 export const faqData: FaqItemType[] = [
   {
-    question: 'Vad ingår i medlemsavgiften?',
-    answer:
-      'Medlemsavgiften täcker aktiviteter, material och försäkring för hela årets verksamhet.',
-    category: 'Policy',
+    question: "membershipfee.question",
+    answer: "membershipfee.answer",
+    category: "membershipfee.category" as CategoryType,
   },
   {
-    question: 'Hur blir jag ledare?',
-    answer:
-      'Kontakta oss så berättar vi mer om utbildning, introduktion och hur du kan engagera dig.',
-    category: 'Allmänt',
+    question: "leader.question",
+    answer: "leader.answer",
+    category: "leader.category" as CategoryType,
   },
   {
-    question: 'Hur ändrar jag fakturaadress?',
-    answer:
-      'Fakturaadress ändrar du genom att skicka en förfrågan till vår ekonomiavdelning.',
-    category: 'Policy',
+    question: "invoiceaddress.question",
+    answer: "invoiceaddress.answer",
+    category: "invoiceaddress.category" as CategoryType,
   },
   {
-    question: 'Vilka aktiviteter erbjuder kåren?',
-    answer:
-      'Vi erbjuder utomhusaktiviteter, helgutflykter, läger och samhällsprojekt för olika åldrar.',
-    category: 'Allmänt',
+    question: "activities.question",
+    answer: "activities.answer",
+    category: "activities.category" as CategoryType,
   },
   {
-    question: 'Hur anmäler jag mitt barn?',
-    answer:
-      'Anmälan görs via formuläret på vår webbplats eller genom att kontakta oss direkt.',
-    category: 'Övrigt',
+    question: "registration.question",
+    answer: "registration.answer",
+    category: "registration.category" as CategoryType,
   },
   {
-    question: 'Vad är scoutmetoden?',
-    answer:
-      'Scoutmetoden bygger på lärande genom erfarenhet, eget ansvar och samarbete i grupp.',
-    category: 'Allmänt',
+    question: "scoutmethod.question",
+    answer: "scoutmethod.answer",
+    category: "scoutmethod.category" as CategoryType,
   },
   {
-    question: 'Kan jag prova utan att bli medlem?',
-    answer:
-      'Ja, du kan prova ett par gånger innan du bestämmer dig för medlemskap.',
-    category: 'Övrigt',
+    question: "provision.question",
+    answer: "provision.answer",
+    category: "provision.category" as CategoryType,
   },
   {
-    question: 'Har ni GDPR-policy?',
-    answer:
-      'Ja, vi följer GDPR och hanterar personuppgifter på ett säkert och korrekt sätt.',
-    category: 'Policy',
+    question: "gdpr.question",
+    answer: "gdpr.answer",
+    category: "gdpr.category" as CategoryType,
   },
   {
-    question: 'Hur kontaktar jag kåren?',
-    answer:
-      'Du kan kontakta oss via e-post, telefon eller besöka kansliet under öppettider.',
-    category: 'Övrigt',
+    question: "contact.question",
+    answer: "contact.answer",
+    category: "contact.category" as CategoryType,
   },
   {
-    question: 'Hur hanteras avbokningar och återbetalningar?',
-    answer:
-      'Vid avbokning kan återbetalning ske enligt våra riktlinjer beroende på aktivitet och tidpunkt för avbokningen.',
-    category: 'Policy',
+    question: "cancellation.question",
+    answer: "cancellation.answer",
+    category: "cancellation.category" as CategoryType,
   },
 ];

@@ -45,7 +45,7 @@ export type DepartmentType = DepartmentLink[];
 export type OmHSSLinksType = OmHSSLinks[];
 export type ClubClothsType = ClubCloths[];
 
-export type CategoryType = 'Allt' | 'Policy' | 'Allmänt' | 'Övrigt';
+export type CategoryType = "All" | "Policy" | "General" | "Other";
 
 export type FaqItemType = {
   question: string;
