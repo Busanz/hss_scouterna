@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { MapPin } from 'lucide-react';
 import { ChevronDown } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 type LocationCardProps = {
   image: string;
@@ -19,6 +20,8 @@ const LocationCard = ({
   extra,
   mapLink,
 }: LocationCardProps) => {
+  const t = useTranslations('LocationCard')
+
   return (
     <details className="group bg-background text-text-secondary rounded-sm p-4 md:p-6">
       <summary className="flex items-center justify-between cursor-pointer list-none">
@@ -67,7 +70,7 @@ const LocationCard = ({
             >
               <MapPin className="w-5 h-5" />
             </span>
-            Öppna i Google Maps
+            {t('openMaps')}
           </a>
         </div>
       </div>
