@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 
 export default function BliScoutsection() {
-  const t = useTranslations("bliscout");
+  const t = useTranslations("bliScout");
 
   return (
     <section className="flex flex-col w-full h-full mt-5 sm:mt-10 md:mt-20 items-center justify-center">
