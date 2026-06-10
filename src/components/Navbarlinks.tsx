@@ -74,7 +74,7 @@ const Navbarlinks = () => {
           <Link
             key={index}
             href={link.href}
-            className={`md:text-lg font-extralight text-text-primary active:text-secondary hover:text-secondary transition-colors duration-300 hidden sm:block
+            className={`md:text-lg font-light text-text-primary active:text-secondary hover:text-secondary transition-colors duration-300 hidden sm:block
       ${index === navLinks.length - 1 ? 'md:pr-[2%]' : ''}`}
           >
             {link.label}

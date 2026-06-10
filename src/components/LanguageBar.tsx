@@ -82,7 +82,7 @@ const LanguageBar = () => {
         <p className="cursor-pointer">{activeLanguage}</p>
         <IoMdArrowDropdown
           size={20}
-          className={`transition-transform duration-500 origin-center ${isLanguageBarOpen ? 'rotate-180' : ''}`}
+          className={`transition-transform duration-500 origin-center cursor-pointer ${isLanguageBarOpen ? 'rotate-180' : ''}`}
         />
       </div>
       <AnimatePresence>

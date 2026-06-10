@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Lager = () => {
   return (
@@ -19,14 +20,12 @@ const Lager = () => {
           och kanske minnas tillbaka om du själv varit med.
         </p>
 
-        <a
+        <Link
           className="my-5 px-4 py-2 w-fit rounded-sm text-white bg-primary hover:bg-secondary hover:text-primary"
-          href="#"
-          // We need to link to the instagram section to see upcoming events"
-          // target="_blank"
+          href="/#instagram"
         >
           Läs om tidigare läger
-        </a>
+        </Link>
       </div>
 
       <div className="basis-1/2 order-1 lg:order-2">

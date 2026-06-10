@@ -64,3 +64,23 @@ export type DepartmentIntroType = {
     image: string;
   };
 };
+
+type InstagramPostType = {
+  id: string;
+  caption: string;
+  permalink: string;
+  mediaType: string;
+  mediaUrl: string;
+  timestamp: string;
+  sizes: {
+    small: {
+      mediaUrl: string;
+    };
+  };
+  likeCount: number;
+};
+
+export type InstagramDataType = {
+  followersCount: number;
+  posts: InstagramPostType[];
+};
