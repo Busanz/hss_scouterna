@@ -1,0 +1,62 @@
+{
+  "header": "FAQ",
+  "subHeader": "Here we have collected the most frequently asked questions",
+  "categories": {
+    "all": "All",
+    "policy": "Policy",
+    "general": "General",
+    "other": "Other"
+  },
+  "membershipfee": {
+    "question": "What is included in the membership fee?",
+    "answer": "The membership fee covers activities, materials, and insurance for the entire year of operations.",
+    "category": "Policy"
+  },
+  "leader": {
+    "question": "How do I become a leader?",
+    "answer": "Contact us and we will tell you more about training, introduction, and how you can get involved.",
+    "category": "General"
+  },
+  "invoiceaddress": {
+    "question": "How do I change my billing address?",
+    "answer": "You change your billing address by sending a request to our finance department.",
+    "category": "Policy"
+  },
+  "activities": {
+    "question": "What activities does the troop offer?",
+    "answer": "We offer outdoor activities, weekend trips, camps, and community projects for different ages.",
+    "category": "General"
+  },
+  "registration": {
+    "question": "How do I register my child?",
+    "answer": "Registration is done via the form on our website or by contacting us directly.",
+    "category": "Other"
+  },
+  "scoutmethod": {
+    "question": "What is the scout method?",
+    "answer": "The scout method is based on learning through experience, personal responsibility, and teamwork.",
+    "category": "General"
+  },
+  "provision": {
+    "question": "Can I try before becoming a member?",
+    "answer": "Yes, you can try a few times before deciding on membership.",
+    "category": "Other"
+  },
+  "gdpr": {
+    "question": "Do you have a GDPR policy?",
+    "answer": "Yes, we follow GDPR and handle personal data in a secure and correct manner.",
+    "category": "Policy"
+  },
+  "contact": {
+    "question": "How can I contact the troop?",
+    "answer": "You can contact us via email, phone, or visit the office during opening hours.",
+    "category": "Other"
+  },
+  "cancellation": {
+    "question": "How are cancellations and refunds handled?",
+    "answer": "In case of cancellation, refunds can be made according to our guidelines depending on the activity and cancellation time.",
+    "category": "Policy"
+  },
+  "anyotherquestion": "Do you have any other questions?",
+  "contactus": "Contact us!"
+}
