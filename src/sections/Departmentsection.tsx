@@ -7,8 +7,11 @@ import type { DepartmentIntroType } from '@/types/types';
 import { useState } from 'react';
 import { motion } from 'motion/react';
 import { fadeUpAnimation } from '@/utils/animation';
+import { useTranslations } from 'next-intl';
 
 const Departmentsection = () => {
+  
+  const t = useTranslations('avdelningar');
   const [departmentIndex, setDepartmentIndex] = useState<number>(0);
   const selectedDepartment: DepartmentIntroType =
     departmentsIntro[departmentIndex];
@@ -21,7 +24,7 @@ const Departmentsection = () => {
             className="flex w-full h-full justify-center text-2xl sm:text-3xl lg:text-4xl text-text-primary"
             {...fadeUpAnimation}
           >
-            Avdelningar
+            {t('title')}
           </motion.h1>
           <div className="flex flex-wrap justify-evenly w-full max-w-360 px-4 md:px-6 lg:px-10 py-5 lg:py-10 gap-y-4 md:gap-y-8">
             {departmentLogos.map((department, index) => (
@@ -34,7 +37,7 @@ const Departmentsection = () => {
                 <div className="relative w-20 h-20 md:w-24 md:h-24">
                   <Image
                     src={department.url}
-                    alt={`Logo of ${department.des}`}
+                    alt={`Logo of ${t(`${department.key}.label`)}`}
                     fill
                     className="object-contain p-1 hover:scale-103"
                     loading="lazy"
@@ -42,10 +45,10 @@ const Departmentsection = () => {
                   />
                 </div>
                 <h3 className="font-normal text-lg sm:text-xl pb-1 text-text-primary ">
-                  {department.label}
+                  {t(`${department.key}.label`)}
                 </h3>
                 <p className="flex text-base sm:text-lg justify-center text-text-primary">
-                  {department.des}
+                  {t(`${department.key}.description`)}
                 </p>
               </button>
             ))}
