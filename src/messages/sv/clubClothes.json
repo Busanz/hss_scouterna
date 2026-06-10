@@ -1,0 +1,18 @@
+{
+  "pageTitle": "Klubbkläder",
+  "subHeader1": "Hur skiljer sig HSS från andra scoutkårer?",
+  "subHeader2": "Hur känner man igen en HSS-scout bland 2000 andra scouter?",
+  "description1": "Det finns få scoutkårer som har en lika snygg logga som vi på HSS och därför vill vi att den ska synas!",
+  "description2": "Nedan hittar ni alla våra produkter som är tryckt med vår logga.",
+  "timeDetails": "Tröjorna köps enklast på kårdiscot i november eller på sommaravslutningen i juni.",
+  "contactTxt": "Du kan självklart också mejla",
+  "note": "OBS! ",
+  "noteTxt1": "Tänk på att när en HSS-tröja har tjänat ut skall den slängas och inte lämnas till klädinsamling.",
+  "noteTxt2": "HSS-tröjor är till för medlemmar i HSS och ingen annan!",
+  "products": {
+    "1": { "name": "HSS Tröja", "description": "Klassisk collegetröja" },
+    "2": { "name": "HSS T-shirt", "description": "Stilren och slitstark" },
+    "3": { "name": "HSS Keps", "description": "Ett måste i skogen och till sjöss" },
+    "4": { "name": "HSS Paket", "description": "Tröja, t-shirt och keps till fyndpris" }
+  }
+}
