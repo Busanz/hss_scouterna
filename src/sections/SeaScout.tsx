@@ -1,17 +1,20 @@
 'use client';
-
 import { AnchorSvg } from '@/assets/svg';
 import Image from 'next/image';
 import { motion } from 'motion/react';
 import { fadeUpAnimation } from '@/utils/animation';
+import { useTranslations } from 'next-intl';
 
 const seaScoutImg = [
-  '/img/ourboats-section/DSCF3070.jpg',
-  '/img/ourboats-section/DSCF1955.jpg',
-  '/img/ourboats-section/DSCF3092.jpg',
+  "/img/ourboats-section/DSCF3070.jpg",
+  "/img/ourboats-section/DSCF1955.jpg",
+  "/img/ourboats-section/DSCF3092.jpg",
 ];
 
 const SeaScout = () => {
+
+  const t = useTranslations('seascouts');
+
   return (
     <section className="flex flex-col w-full h-full items-center my-10 lg:my-20">
       <div className="flex flex-col w-full max-w-360 rounded-sm  px-4 py-8 sm:px-6 lg:px-8 bg-primary">
@@ -20,38 +23,31 @@ const SeaScout = () => {
             {...fadeUpAnimation}
             className="text-center text-2xl sm:text-3xl lg:text-4xl mt-8 text-text-primary px-1 py-5 md:py-10"
           >
-            Sjöscout
+            {t("title")}
           </motion.h1>
           <p className="w-full text-text-primary sm:text-lg max-w-6xl pb-10">
-            At vara sjöscout innebär i grunden sammma sak som att vara vanlig
-            scout, att lära sig genom att göra samarbeta och visa hänsyn, men
-            vattnet är våra framsta klassrum.
+            {t("paragraphOne")}
           </p>
           <div className="flex items-center justify-center gap-6">
             <h3 className="text-center text-lg md:text-xl text-text-subtitle">
-              Vattnet som fokus
+              {t("heading")}
             </h3>
             <AnchorSvg />
           </div>
           <hr className="my-6 h-[0.5px] w-full text-text-subtitle" />
           <div className=" text-text-primary max-w-6xl mt-2">
             <p className="sm:text-lg">
-              Den största skillnaden är att aktiviteterna under den varma halvan
-              av året nästan uteslutande sker på sjön.
+              {t("paragraphTwo")}
             </p>
             <ul className="list-disc m-5 md:mx-5 sm:text-lg pb-5">
               <li className="pb-3">
-                Segling: Man lär sig hantera olika typer av båtar, från små
-                jollar till större kölbåtar. Man tränar på att kryssa, länsa och
-                hantera vindar.
+                {t("listItemOne")}
               </li>
               <li className="pb-3">
-                Sjömanskap: Det innefattar allt från knopar (stekar) och
-                splitsning till att kunna navigera med sjökort, kompass och
-                förstå väderleksrapporter.
+                {t("listItemTwo")}
               </li>
               <li className="pb-3">
-                {`Säkerhet: Sjösäkerhet är a och o. Man lär sig simma med kläder, hantera flytvästar, hur man agerar om någon faller överbord och allmänt "vett på sjön".`}
+                {t("listItemThree")}
               </li>
             </ul>
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-3 mb-10">

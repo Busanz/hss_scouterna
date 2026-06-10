@@ -56,34 +56,29 @@ export const socialMediaLinks: SocialLinkType[] = [
 
 export const departmentLogos: DepartmentType = [
   {
-    label: 'Sjöhumlor',
+    key: 'sjöhumlor',
     href: '/sjöhumlor_8_9',
     url: '/img/departments/sjöhumlor_8_9.svg',
-    des: 'Spårare 8-9 år',
   },
   {
-    label: 'Kaparna',
+    key: 'kaparna',
     href: '/kaparna_10_11',
     url: '/img/departments/kaparna_10_11.svg',
-    des: 'Upptäckare 10-11 år',
   },
   {
-    label: 'Konvojen',
+    key: 'konvojen',
     href: '/konvojen_12_14',
     url: '/img/departments/konvojen_12_14.svg',
-    des: 'Äventyrare 12-14 år',
   },
 
   {
-    label: 'Utmanare',
+    key: 'utmanare',
     href: '/utmanare_15.svg',
     url: '/img/departments/utmanare_15.svg',
-    des: ' Utmanare 15-18',
   },
   {
-    label: 'Familjescouting',
+    key: 'familjescouting',
     href: '/familjescouting',
     url: '/img/departments/familjescouting.svg',
-    des: 'Barn under 8 år',
   },
 ];

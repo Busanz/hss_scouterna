@@ -35,15 +35,16 @@ export type SocialLinkType = QuickLinkType;
 export type TranslatedQuickLinkType = QuickLinkType & { label: string };
 export type TranslatedSocialLinkType = SocialLinkType & { label: string };
 
-type DepartmentLink = IntroLink & {
-  des: string;
+export type DepartmentCard = {
+  key: string;
+  href: string;
+  url: string;
 };
-
-export type DepartmentType = DepartmentLink[];
+export type DepartmentType = DepartmentCard[];
 export type OmHSSLinksType = OmHSSLinks[];
 export type ClubClothesType = ClubClothes[];
 
-export type CategoryType = "All" | "Policy" | "General" | "Other";
+export type CategoryType = 'Allt' | 'Policy' | 'Allmänt' | 'Övrigt';
 
 export type FaqItemType = {
   question: string;
@@ -51,22 +52,13 @@ export type FaqItemType = {
   category: CategoryType;
   showAnswer?: boolean;
 };
+
 export type DepartmentIntroType = {
   id: number;
+  key: 'sjöhumlor' | 'kaparna' | 'konvojen' | 'utmanare' | 'familjescouting';
   image: string;
-  title: string;
-  subtitle: string;
-  description: string;
-  details?: {
-    when: string;
-    where: string;
-    age: string;
-    formerName: string;
-  };
   color: string;
   moreDetails?: {
-    title: string;
-    description: string;
     image: string;
   };
 };
