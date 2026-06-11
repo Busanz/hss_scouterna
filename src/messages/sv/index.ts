@@ -5,20 +5,20 @@ import omHSS from './omHSS.json';
 import forLedare from './forLedare.json';
 import avdelningar from './avdelningar.json';
 import seascouts from './seascouts.json';
-import clubClothes from "./clubClothes.json";
-import scoutUniform from "./scoutUniform.json";
-import scoutBadges from "./scoutBadges.json";
-import goodToHave from "./goodToHave.json";
+import bliScout from './bliScout.json';
+import clubClothes from './clubClothes.json';
+import scoutUniform from './scoutUniform.json';
+import scoutBadges from './scoutBadges.json';
+import goodToHave from './goodToHave.json';
 import bliScout from './bliScout.json';
 import faq from './faq.json';
-import contact from './contact.json'
+import contact from './contact.json';
 import lager from './lager.json';
-import locationCardDetail from './locationCardDetail.json'
+import locationCardDetail from './locationCardDetail.json';
 import gdpr from './gdpr.json';
 import policy from './policy.json';
 import protocol from './protocol.json';
 import forParents from './forParents.json';
-
 
 const sv = {
   nav,
@@ -28,6 +28,7 @@ const sv = {
   forLedare,
   avdelningar,
   seascouts,
+  bliScout,
   faq,
   bliScout,
   clubClothes,
@@ -40,7 +41,7 @@ const sv = {
   gdpr,
   policy,
   protocol,
-  forParents
+  forParents,
 };
 
 export default sv;
