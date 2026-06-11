@@ -1,33 +1,26 @@
-import type { ClubClothsType } from '@/types/types';
+import type { ClubClothesType } from '@/types/types';
 
-const clothes: ClubClothsType = [
+
+const clothes: ClubClothesType = [
   {
-    name: 'HSS Tröja',
-    description: 'Klassisk collegetröja',
+    id: 1,
     price: '350 kr',
     image: '/img/clothes/troja.png',
-    alt: 'HSS collegetröja',
   },
   {
-    name: 'HSS T-shirt',
-    description: 'Stilren och slitstark',
+    id: 2,
     price: '150 kr',
     image: '/img/clothes/tshirt.png',
-    alt: 'HSS t-shirt',
   },
   {
-    name: 'HSS Keps',
-    description: 'Ett måste i skogen och till sjöss',
+    id: 3,
     price: '150 kr',
     image: '/img/clothes/keps.png',
-    alt: 'HSS keps',
   },
   {
-    name: 'HSS Paket',
-    description: 'Tröja, t-shirt och keps till fyndpris',
+    id: 4,
     price: '550 kr',
     image: '/img/clothes/paket.png',
-    alt: 'HSS paket med tröja, t-shirt och keps',
   },
 ];
 export default clothes;
