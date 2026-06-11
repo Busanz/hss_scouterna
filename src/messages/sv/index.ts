@@ -7,6 +7,13 @@ import avdelningar from './avdelningar.json';
 import seascouts from './seascouts.json';
 import bliScout from './bliScout.json';
 import faq from './faq.json';
+import forParents from './forParents.json';
+import contact from './contact.json'
+import lager from './lager.json';
+import locationCardDetail from './locationCardDetail.json'
+import gdpr from './gdpr.json';
+import policy from './policy.json';
+import protocol from './protocol.json';
 
 const sv = {
   nav,
@@ -18,5 +25,13 @@ const sv = {
   seascouts,
   bliScout,
   faq
+  forParents,
+  contact,
+  lager,
+  locationCardDetail,
+  gdpr,
+  policy,
+  protocol,
+  
 };
 export default sv;

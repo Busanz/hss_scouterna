@@ -1,0 +1,46 @@
+{
+  "title": "GDPR",
+  "intro": "GDPR requires us to inform our members that we collect data, what data we collect, and why we collect it.",
+  "scoutnet": {
+    "title": "Scoutnet",
+    "description": "Scoutnet is the Scouts' shared membership registry, and we collect the following information about each member:",
+    "list": [
+      "Name*",
+      "Personal identity number*",
+      "Address*",
+      "Phone number*",
+      "Email address*",
+      "Section",
+      "Patrol",
+      "Start date in the troop",
+      "Membership fee",
+      "If parents have a role in the troop*",
+      "If siblings are members of the troop*",
+      "Completed trainings",
+      "Role in the troop",
+      "Any awards"
+    ],
+    "childrenInfo": "These details are also collected for children on the registration waiting list. Information about siblings and parents is used for sibling priority and placement.",
+    "purpose": "The purpose of collecting data in Scoutnet is to know who our members are, communicate with them, register attendance, manage section and patrol affiliation, and handle invoicing. We never enter health information into Scoutnet.",
+    "access": "Leaders and the board can generate reports, but no one outside HSS has access to the registry. Information is shared with the municipality for attendance reporting. When a member leaves, their data is removed from HSS's view.",
+    "insurance": "The insurance company requires that data be stored for up to ten years."
+  },
+  "hikes": {
+    "title": "Data collection for hikes and camps",
+    "registration": "Registration is done via email or web form. The leader collects the name and phone number of the parents.",
+    "additional": "For hikes and camps, we also collect:",
+    "list": [
+      "food-related information (e.g., allergies)",
+      "health information relevant for planning and execution"
+    ],
+    "examples": "Examples: allergies, medication, sleep difficulties, fears, diagnoses, or anything else leaders need to know to support the child.",
+    "deletion": "The information is stored responsibly during the activity and deleted immediately afterwards."
+  },
+  "other": {
+    "title": "Other",
+    "cookies": "The HSS website may use cookies to analyze visitor behavior.",
+    "moreInfo": "Read more about GDPR within the Scouts at",
+    "scouter": "Scouts' website",
+    "download": "Download the GDPR form (PDF)"
+  }
+}
