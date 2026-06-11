@@ -7,6 +7,7 @@ import bliscout from "./bliScout.json";
 import forLedare from './forLedare.json';
 import avdelningar from './avdelningar.json';
 import seascouts from './seascouts.json';
+<<<<<<< HEAD
 import clubClothes from "./clubClothes.json";
 import scoutUniform from "./scoutUniform.json";
 import scoutBadges from "./scoutBadges.json";
@@ -19,6 +20,10 @@ import policy from './policy.json';
 import protocol from './protocol.json';
 import forParents from './forParents.json';
 
+=======
+import bliScout from './bliScout.json';
+import faq from './faq.json';
+>>>>>>> feature/065-bli-scout-faq
 
 const sv = {
   nav,
@@ -30,6 +35,7 @@ const sv = {
   forLedare,
   avdelningar,
   seascouts,
+<<<<<<< HEAD
   clubClothes,
   scoutUniform,
   scoutBadges,
@@ -44,3 +50,9 @@ const sv = {
 };
 
 export default sv;
+=======
+  bliScout,
+  faq
+};
+export default sv;
+>>>>>>> feature/065-bli-scout-faq
