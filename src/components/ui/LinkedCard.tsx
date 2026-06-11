@@ -9,9 +9,10 @@ type LinkedCardProps = {
   href: string;
   url: string;
   label: string;
+  description?: string;
 };
 
-const LinkedCard = ({ href, label, url }: LinkedCardProps) => {
+const LinkedCard = ({ href, label, url, description }: LinkedCardProps) => {
   return (
     <motion.li
       {...fadeUpAnimation}
@@ -31,6 +32,9 @@ const LinkedCard = ({ href, label, url }: LinkedCardProps) => {
             alt={label}
           />
         </div>
+        {description && (
+          <p className="text-text-secondary text-lg">{description}</p>
+        )}
       </Link>
     </motion.li>
   );
