@@ -17,6 +17,8 @@ import locationCardDetail from './locationCardDetail.json'
 import gdpr from './gdpr.json';
 import policy from './policy.json';
 import protocol from './protocol.json';
+import forParents from './forParents.json';
+
 
 const sv = {
   nav,
@@ -37,7 +39,8 @@ const sv = {
   locationCardDetail,
   gdpr,
   policy,
-  protocol
+  protocol,
+  forParents
 };
 
 export default sv;
