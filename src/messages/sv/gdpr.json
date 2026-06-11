@@ -1,0 +1,46 @@
+{
+  "title": "GDPR",
+  "intro": "GDPR kräver att vi talar om för våra medlemmar att vi samlar in uppgifter, vilka uppgifter vi samlar in och varför vi gör det.",
+  "scoutnet": {
+    "title": "Scoutnet",
+    "description": "Scoutnet är Scouternas gemensamma medlemsregister och där samlar vi följande information om varje medlem:",
+    "list": [
+      "Namn*",
+      "Personnummer*",
+      "Adress*",
+      "Telefonnummer*",
+      "E-postadress*",
+      "Avdelning",
+      "Patrull",
+      "Startdatum i kåren",
+      "Medlemsavgift",
+      "Ev. om föräldrar har roll i kåren*",
+      "Ev. om syskon är medlemmar i kåren*",
+      "Genomförda utbildningar",
+      "Roll i kåren",
+      "Eventuella utmärkelser"
+    ],
+    "childrenInfo": "Dessa uppgifter samlas även in för barn i anmälningsregistret (kölistan). Informationen om syskon och föräldrar används för syskonförtur och prioritering.",
+    "purpose": "Syftet med uppgiftssamlingen i Scoutnet är att veta vilka våra medlemmar är, kunna nå ut med information, närvaroregistrering, avdelnings- och patrulltillhörighet samt fakturering. Vi skriver aldrig in hälsouppgifter i Scoutnet.",
+    "access": "Ledare och styrelse kan ta ut rapporter, men inga personer utanför HSS har tillgång till matrikeln. Uppgifter delas med kommunen för närvarorapportering. När en medlem avslutar sitt medlemskap raderas uppgifterna från HSS:s vy.",
+    "insurance": "Försäkringsbolaget kräver att uppgifter sparas i upp till tio år."
+  },
+  "hikes": {
+    "title": "Insamling av uppgifter i samband med hajker och läger",
+    "registration": "Anmälning sker via mejl eller webbformulär. Namn och telefonnummer till föräldrar samlas in av ledaren.",
+    "additional": "Vid hajker och läger samlar vi även in:",
+    "list": [
+      "matrelaterad information (t.ex. allergier)",
+      "hälsouppgifter relevanta för planering och genomförande"
+    ],
+    "examples": "Exempel: allergier, medicinering, sömnsvårigheter, rädslor, diagnoser eller annat som ledarna behöver känna till för att kunna stödja barnet.",
+    "deletion": "Uppgifterna förvaras ansvarsfullt under aktiviteten och raderas direkt efteråt."
+  },
+  "other": {
+    "title": "Övrigt",
+    "cookies": "På HSS webbplats används eventuellt cookies för att analysera besökarens beteende.",
+    "moreInfo": "Läs mer om GDPR inom scouterna på",
+    "scouter": "Scouternas hemsida",
+    "download": "Ladda ner GDPR-blanketten (PDF)"
+  }
+}
