@@ -9,56 +9,65 @@ export default function BliScoutsection() {
   const t = useTranslations('bliScout');
 
   return (
-    <main className="flex flex-col max-w-360 gap-9 h-full mt-5 sm:mt-10 md:mt-20 items-center justify-center">
-      <div className="flex flex-col items-center justify-center w-full bg-primary rounded-sm">
+    <section className="flex flex-col w-full h-full gap-9 py-5 sm:py-10 md:py-20 items-center justify-center">
+      <div className="flex flex-col w-full h-full max-w-360 items-center justify-center bg-primary rounded-sm">
         <motion.h1
           {...fadeUpAnimation}
-          className="text-center text-2xl sm:text-3xl lg:text-4xl text-white px-1 py-5 md:py-10"
+          className="flex w-full justify-start lg:justify-center text-2xl sm:text-3xl lg:text-4xl text-white py-5 md:py-10 px-4 md:px-6 lg:px-10 rounded-sm"
         >
           {t('header')}
         </motion.h1>
-        <div className="grid lg:grid-cols-2 gap-8 md:gap-10 lg:gap-12 mb-5 sm:mb-10 md:mb-20">
-          <div className="flex flex-col gap-5 px-4 sm:px-6 lg:pl-8 lg:pr-0">
-            <p className="text-xl font-normal text-white">{t('subHeader')}</p>
-            <p className="text-md font-normal text-white items-center">
+
+        <div className="flex flex-col lg:flex-row gap-8 md:gap-10 lg:gap-14 w-full h-full max-w-360 pb-5 md:pb-10 px-4 md:px-6 lg:px-10">
+          <div className="flex flex-col w-full h-full md:max-w-xl lg:max-w-3/5 order-2 lg:order-1">
+            <p className="md:text-xl font-normal text-white pb-5">
+              {t('subHeader')}
+            </p>
+            <p className="sm:text-lg text-white items-center pb-20">
               {t('description')}
             </p>
             <Link
               href="https://www.scoutnet.se/register/in/group/764"
               target="_blank"
-              className="bg-white w-fit text-primary hover:bg-secondary font-normal py-1.5 px-4 rounded-sm cursor-pointer"
+              className="bg-white w-full max-w-50 text-center text-primary hover:bg-secondary font-normal py-1.5 px-4 rounded-sm cursor-pointer"
             >
               {t('buttonText')}
             </Link>
           </div>
-          <div className="relative w-full h-64 rounded-sm overflow-hidden gap-5 -order-1 lg:order-1 ">
+          <div className="relative w-full rounded-sm overflow-hidden order-1 lg:order-2">
             <Image
-              fill
-              src="/img/bli-scout/bliscout.svg"
+              src="/img/bli-scout/bli_scout.png"
               alt={t('imageAltText1')}
-              className="inset-0 w-full h-full object-cover"
+              width={800}
+              height={600}
+              className="w-full h-auto object-contain"
+              priority
             />
           </div>
         </div>
       </div>
-      <div className="grid lg:grid-cols-2 gap-8 md:gap-10 lg:gap-12 mb-5 sm:mb-10 md:mb-20">
-        <div className="relative w-full h-64 rounded-sm overflow-hidden gap-5">
-          <Image
-            fill
-            src="/img/bli-scout/bliscout2.svg"
-            alt={t('imageAltText2')}
-            className="inset-0 w-full h-full object-cover"
-          />
+      <div className="flex flex-col items-center lg:flex-row w-full h-full max-w-360 gap-8 md:gap-10 lg:gap-14 py-5 sm:py-5 md:py-10">
+        <div className="relative w-full rounded-sm overflow-hidden gap-5">
+          <div className="relative w-full rounded-sm overflow-hidden">
+            <Image
+              src="/img/bli-scout/bliscout2.png"
+              alt={t('imageAltText2')}
+              width={800}
+              height={600}
+              className="w-full h-auto object-contain"
+              priority
+            />
+          </div>
         </div>
-        <div className="flex flex-col w-full px-4 sm:px-6 lg:pr-10 lg:pl-0">
-          <p className="text-xl font-normal text-primary tracking-wide">
+        <div className="flex flex-col w-full lg:pr-10 lg:pl-0">
+          <p className="mb-5 md:text-xl font-normal leading-relaxed text-primary">
             {t('description2')}
           </p>
-          <p className="text-md font-normal text-primary my-5">
+          <p className="mb-5 sm:text-lg leading-relaxed text-primary">
             {t('description3')}
           </p>
         </div>
       </div>
-    </main>
+    </section>
   );
 }
