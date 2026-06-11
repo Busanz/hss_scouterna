@@ -12,8 +12,6 @@ import { useTranslations } from 'next-intl';
 
 const Navbarlinks = () => {
   const pathname = usePathname();
-
-  console.log(pathname);
   const t = useTranslations('nav');
   const labelKeys = [
     'bliScout',

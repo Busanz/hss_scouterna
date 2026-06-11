@@ -1,20 +1,25 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
+import { fadeUpAnimation } from '@/utils/animation';
 
 const Lager = () => {
-  const t = useTranslations('lager')
+  const t = useTranslations('lager');
   return (
-    <div className="flex flex-col lg:flex-row gap-8 md:gap-10 lg:gap-14 my-5 sm:my-10 md:my-20">
+    <section className="flex flex-col lg:flex-row gap-8 md:gap-10 lg:gap-14 my-5 sm:my-10 md:my-20">
       <div className="flex flex-col justify-start flex-1/2 order-2 px-4 md:px-0 lg:order-1">
-        <h1 className=" text-xl sm:text-2xl md:text-3xl">{t('title')}</h1>
-        <p className="my-5 sm:text-lg leading-relaxed">
-          {t('intro1')}        
-        </p>
+        <motion.h1
+          {...fadeUpAnimation}
+          className=" text-xl sm:text-2xl md:text-3xl"
+        >
+          {t('title')}
+        </motion.h1>
+        <p className="my-5 sm:text-lg leading-relaxed">{t('intro1')}</p>
 
-        <p className="mb-5 sm:text-lg leading-relaxed">
-          {t('intro2')}
-        </p>
+        <p className="mb-5 sm:text-lg leading-relaxed">{t('intro2')}</p>
 
         <Link
           className="my-5 px-4 py-2 w-fit rounded-sm text-white bg-primary hover:bg-secondary hover:text-primary"
@@ -33,7 +38,7 @@ const Lager = () => {
           className="w-full h-auto rounded-sm"
         />
       </div>
-    </div>
+    </section>
   );
 };
 

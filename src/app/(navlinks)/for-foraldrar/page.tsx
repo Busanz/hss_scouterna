@@ -1,11 +1,7 @@
-import ForParents from "@/sections/ForParents"
+import ForParents from '@/sections/ForParents';
 
 const ForForaldrarPage = () => {
-    return (
-        <>
-            <ForParents />
-        </>
-    )
-}
+  return <ForParents />;
+};
 
-export default ForForaldrarPage
+export default ForForaldrarPage;
