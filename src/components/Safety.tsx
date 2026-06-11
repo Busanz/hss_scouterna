@@ -1,6 +1,8 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const Safety = () => {
+  const t = useTranslations('forParents')
   return (
       <div className="flex flex-col lg:flex-row gap-8 md:gap-10 lg:gap-14 my-5 sm:my-10 md:my-20">                      
         <div className="w-full lg:w-1/2 order-1">
@@ -14,22 +16,16 @@ const Safety = () => {
         </div>
         <div className="w-full lg:w-1/2 order-2 lg:order-1 px-4 md:px-0">
           <h2 className=" text-xl sm:text-2xl md:text-3xl">
-            Sjösäkerhet
+            {t('titleSafety')}
           </h2>
           <p className="my-5 sm:text-lg">
-            Eftersom vi är en sjöscoutkår är vatten en naturlig del av vår verksamhet. Säkerheten kommer alltid först.
-            När vi har aktiviteter på eller nära vatten följer vi våra rutiner för sjösäkerhet. 
-            Ledarna informerar om vad som gäller för varje aktivitet, till exempel flytväst, klädsel, 
-            samlingstider och om scouten behöver kunna simma för att delta.   
-            Har du frågor om vattenvana, simkunnighet eller säkerhet är du alltid välkommen att prata med ledarna.
+            {t('safetyParagraph1')}
           </p>
           <p className="sm:text-lg">
-            Du som förälder får gärna kontakta ledarna om det är något vi behöver veta för att 
-            ditt barn ska få en så bra scoutupplevelse som möjligt. Det kan handla om allergier, 
-            mediciner, funktionsvariationer, rädsla för vatten, social oro eller annat som påverkar barnet i gruppen.
+            {t('safetyParagraph2')}
           </p>
           <p className="mt-5 sm:text-lg">
-            Ju mer vi vet, desto bättre kan vi stötta.
+            {t('safetyParagraph3')}
           </p>
         </div>
     </div>

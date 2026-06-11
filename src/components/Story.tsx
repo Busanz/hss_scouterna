@@ -1,30 +1,24 @@
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 const historyImages = [
-  '/img/history/mysetgrundsattning1965.jpg',
-  '/img/history/myset.jpg',
-  '/img/history/myset1.jpg',
-  '/img/history/myset2.jpg',
+  '/img/history/mysetgrundsattning1965.png',
+  '/img/history/myset.png',
+  '/img/history/myset1.png',
+  '/img/history/myset2.png',
 ];
 
 const Story = () => {
+  const t = useTranslations('omHSS');
+
   return (
     <div>
       <div className="px-4 md:px-0">
         <h2 className="text-xl sm:text-2xl pb-5 text-text-secondary">
-          Från då till nu
+          {t('subtitle_two')}
         </h2>
-        <p className="sm:text-lg">
-          Söndagen den 28 Januari 1968 invigdes Myset. Myset är vår stuga i Lövsta.
-          {` Under tre år hade då HSS's Föräldraförening arbetat på stugan.`}
-        </p>
-        <p className="sm:text-lg w-full">
-          {`Bygget kostade nära 50.000 kr, dessa pengar hade samlats in på basarer
-          och lotterier. På invigningsdagen närvarade nära 400 förväntansfulla
-          scouter och föräldrar. De fick bevittna när FF's ordförande Agne
-          Stavegren formellt lämnade över nyckeln till HSS's ordförande Lennart
-          Carlbom.`}
-        </p>
+        <p className="sm:text-lg">{t('title_two_paragraph_one')}</p>
+        <p className="sm:text-lg w-full">{t('title_two_paragraph_two')}</p>
       </div>
 
       <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4">
