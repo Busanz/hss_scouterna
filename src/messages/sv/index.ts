@@ -5,6 +5,8 @@ import omHSS from './omHSS.json';
 import forLedare from './forLedare.json';
 import avdelningar from './avdelningar.json';
 import seascouts from './seascouts.json';
+import bliScout from './bliScout.json';
+import faq from './faq.json';
 import forParents from './forParents.json';
 import contact from './contact.json'
 import lager from './lager.json';
@@ -21,6 +23,8 @@ const sv = {
   forLedare,
   avdelningar,
   seascouts,
+  bliScout,
+  faq
   forParents,
   contact,
   lager,
