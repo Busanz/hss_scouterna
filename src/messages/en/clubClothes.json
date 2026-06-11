@@ -1,0 +1,18 @@
+{
+  "pageTitle": "Club Clothes",
+  "subHeader1": "How is HSS different from other scout corps?",
+  "subHeader2": "How do you recognize an HSS scout among 2000 other scouts?",
+  "description1": "There are few scout corps that have as nice a logo as we do at HSS, and that's why we want it to be seen!",
+  "description2": "Below you will find all our products that are printed with our logo.",
+  "timeDetails": "The shirts are the easiest to buy at the student union disco in November or at the end of summer in June.",
+  "contactTxt": "You can of course also email us at",
+  "note": "NOTE: ",
+  "noteTxt1": "When an HSS shirt has reached the end of its useful life, it should be thrown away and not left for clothing collection.",
+  "noteTxt2": "HSS shirts are for members of HSS and no one else!",
+  "products": {
+    "1": { "name": "HSS Sweatshirt", "description": "A classic college sweatshirt" },
+    "2": { "name": "HSS T-shirt", "description": "Stylish and durable" },
+    "3": { "name": "HSS Baseball Cap", "description": "A must have in the forest and at sea" },
+    "4": { "name": "HSS Package", "description": "Sweater, t-shirt and baseball cap at a bargain price"}
+  }
+}
