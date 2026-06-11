@@ -39,7 +39,7 @@ export default function FaqSection() {
   };
 
   return (
-    <section className="flex flex-col w-full h-full items-center my-10 md:my-20 ">
+    <main className="flex flex-col w-full h-full items-center my-10 md:my-20 ">
       <div className="flex flex-col w-full h-full max-w-360 px-4 md:px-6 lg:px-5 xl:px-10 pb-10 md:pb-20 rounded-sm bg-primary">
         <div className="text-center mt-6 sm:mt-8">
           <h1 className="text-text-primary text-2xl sm:text-3xl lg:text-4xl pt-5">
@@ -121,6 +121,6 @@ export default function FaqSection() {
           </p>
         </div>
       </div>
-    </section>
+    </main>
   );
 }

@@ -1,5 +1,6 @@
 'use client';
 
+import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { navLinks } from '../data/data';
 import LogoCircle from './ui/LogoCircle';
@@ -10,6 +11,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 
 const Navbarlinks = () => {
+  const pathname = usePathname();
+
+  console.log(pathname);
   const t = useTranslations('nav');
   const labelKeys = [
     'bliScout',
@@ -74,7 +78,7 @@ const Navbarlinks = () => {
           <Link
             key={index}
             href={link.href}
-            className={`md:text-lg font-extralight text-text-primary active:text-secondary hover:text-secondary transition-colors duration-300 hidden sm:block
+            className={`md:text-lg font-light  ${pathname === link.href ? 'text-secondary' : 'text-text-primary'} active:text-secondary hover:text-secondary transition-colors duration-300 hidden sm:block
       ${index === navLinks.length - 1 ? 'md:pr-[2%]' : ''}`}
           >
             {link.label}

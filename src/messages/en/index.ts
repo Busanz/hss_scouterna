@@ -11,6 +11,15 @@ import clubClothes from "./clubClothes.json";
 import scoutUniform from "./scoutUniform.json";
 import scoutBadges from "./scoutBadges.json";
 import goodToHave from "./goodToHave.json";
+import bliScout from './bliScout.json';
+import faq from './faq.json';
+import forParents from './forParents.json';
+import contact from './contact.json'
+import lager from './lager.json';
+import locationCardDetail from './locationCardDetail.json';
+import gdpr from './gdpr.json';
+import policy from './policy.json';
+import protocol from './protocol.json';
 
 const en = {
   nav,
@@ -25,6 +34,16 @@ const en = {
   clubClothes, 
   scoutUniform,
   scoutBadges,
-  goodToHave
+  goodToHave,
+  bliScout,
+  faq,
+  forParents,
+  contact,
+  lager,
+  locationCardDetail,
+  gdpr,
+  policy,
+  protocol,
+  
 };
 export default en;

@@ -1,9 +1,16 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
 import type { Metadata } from 'next';
-import { Geist } from 'next/font/google';
+
 import ScrollToTop from '@/components/ScrollToTop';
 import './globals.css';
+
+import { Geist, Montserrat } from 'next/font/google';
+
+const montserrat = Montserrat({
+  variable: '--font-montserrat',
+  subsets: ['latin'],
+});
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -33,7 +40,11 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${geistSans.variable} h-full antialiased`}>
+    <html
+      lang={locale}
+      className={`${montserrat.variable} ${geistSans.variable} h-full antialiased`}
+      data-scroll-behavior="smooth"
+    >
       <body>
         <NextIntlClientProvider messages={messages}>
           {children}
