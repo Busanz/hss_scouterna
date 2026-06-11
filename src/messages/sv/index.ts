@@ -24,7 +24,7 @@ const sv = {
   avdelningar,
   seascouts,
   bliScout,
-  faq
+  faq,
   forParents,
   contact,
   lager,

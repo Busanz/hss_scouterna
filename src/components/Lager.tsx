@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Lager = () => {
   const t = useTranslations('lager')
@@ -15,14 +16,12 @@ const Lager = () => {
           {t('intro2')}
         </p>
 
-        <a
+        <Link
           className="my-5 px-4 py-2 w-fit rounded-sm text-white bg-primary hover:bg-secondary hover:text-primary"
-          href="#"
-          // We need to link to the instagram section to see upcoming events"
-          // target="_blank"
+          href="/#instagram"
         >
           {t('buttonText')}
-        </a>
+        </Link>
       </div>
 
       <div className="basis-1/2 order-1 lg:order-2">

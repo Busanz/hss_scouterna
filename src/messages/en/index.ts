@@ -24,7 +24,7 @@ const en = {
   avdelningar,
   seascouts,
   bliScout,
-  faq
+  faq,
   forParents,
   contact,
   lager,

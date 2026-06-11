@@ -1,7 +1,7 @@
 export const departmentsIntro = [
   {
     id: 0,
-    key: "sjöhumlor",
+    key: 'sjöhumlor',
     image: '/img/departments/intro/sjohumlor.png',
     color: '#3FAE2A',
     moreDetails: {
@@ -10,7 +10,7 @@ export const departmentsIntro = [
   },
   {
     id: 1,
-    key: "kaparna",
+    key: 'kaparna',
     image: '/img/departments/intro/kaparna.png',
     color: '#01A8E2',
     moreDetails: {
@@ -19,7 +19,7 @@ export const departmentsIntro = [
   },
   {
     id: 2,
-    key: "konvojen",
+    key: 'konvojen',
     image: '/img/departments/intro/konvojen.png',
     color: '#ED5200',
     moreDetails: {
@@ -28,7 +28,7 @@ export const departmentsIntro = [
   },
   {
     id: 3,
-    key: "utmanare",
+    key: 'utmanare',
     image: '/img/departments/intro/utmanare.png',
     color: '#D60057',
     moreDetails: {
@@ -37,9 +37,9 @@ export const departmentsIntro = [
   },
   {
     id: 4,
-    key: "familjescouting",
+    key: 'familjescouting',
     image: '/img/departments/intro/familjescouting.png',
-    color: '#602281', // adjust to your brand color for this section
+    color: '#602281',
     moreDetails: {
       image: '/img/departments/intro-more/badge_familjescouting.png',
     },

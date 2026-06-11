@@ -1,12 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'tailwindcss';
 
 * {
   box-sizing: border-box;
-}
-
-:root {
-  --font-geist-sans: 'Montserrat', sans-serif;
 }
 
 @theme inline {
@@ -31,9 +26,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: var(--font-geist-sans);
+  font-family: var(--font-montserrat), var(--font-geist-sans), sans-serif;
   font-weight: 300;
-  /* font-size: 1rem; */
   line-height: 2;
 }
 
@@ -72,14 +66,5 @@ h2 {
     padding: 0.5rem 1rem;
     border-radius: 4px;
     cursor: pointer;
-    /* box-shadow: 0px 4px 4px 0px #0000003d; */
   }
-  /* .btn:hover {
-    box-shadow: 0px 6px 8px 0px #00000052;
-  } */
-  /* 
-  .bg_gradient {
-    background: #ffffff;
-    background: linear-gradient(1deg, #92caf1 0%, #cae5f8 100%);
-  } */
 }
