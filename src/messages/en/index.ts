@@ -5,6 +5,7 @@ import omHSS from './omHSS.json';
 import forLedare from './forLedare.json';
 import avdelningar from './avdelningar.json';
 import seascouts from './seascouts.json';
+import forParents from './forParents.json';
 
 const en = {
   nav,
@@ -14,5 +15,6 @@ const en = {
   forLedare,
   avdelningar,
   seascouts,
+  forParents
 };
 export default en;
