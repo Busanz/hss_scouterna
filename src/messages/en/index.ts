@@ -14,6 +14,7 @@ import locationCardDetail from './locationCardDetail.json';
 import gdpr from './gdpr.json';
 import policy from './policy.json';
 import protocol from './protocol.json';
+import ourBoats from './ourBoats.json';
 
 const en = {
   nav,
@@ -32,6 +33,6 @@ const en = {
   gdpr,
   policy,
   protocol,
-  
+  ourBoats,
 };
 export default en;
