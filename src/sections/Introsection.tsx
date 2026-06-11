@@ -2,7 +2,7 @@
 
 import { introLinks } from '@/data/data';
 import LinkedCard from '@/components/ui/LinkedCard';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { fadeUpAnimation } from '@/utils/animation';
 import { useTranslations } from 'next-intl';
 

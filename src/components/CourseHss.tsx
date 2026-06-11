@@ -1,14 +1,23 @@
+'use client';
+
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { motion } from 'framer-motion';
+import { fadeUpAnimation } from '@/utils/animation';
 
 const CourseHss = () => {
   const t = useTranslations('forLedare');
 
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-14 my-5 sm:my-10 md:my-20">
-      <div className="flex flex-col justify-start flex-1/2 order-2 px-4 md:px-0 lg:order-1">
-        <h2 className=" text-xl sm:text-2xl md:text-3xl">{t('title_three')}</h2>
-        <div className="my-5 space-y-3">
+    <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-14 my-5 sm:py-10 md:py-20">
+      <div className="flex flex-col justify-start order-2 px-4 md:px-0 lg:order-1">
+        <motion.h1
+          {...fadeUpAnimation}
+          className=" text-xl sm:text-2xl md:text-3xl"
+        >
+          {t('title_three')}
+        </motion.h1>
+        <div className="w-full md:max-w-200 lg:max-w-none my-5 space-y-3">
           <p className="sm:text-lg/relaxed">{t('title_three_paragraph_one')}</p>
           <p className="sm:text-lg/relaxed">{t('title_three_paragraph_two')}</p>
           <p className="sm:text-lg/relaxed">
@@ -51,10 +60,15 @@ const CourseHss = () => {
           </ul>
         </div>
       </div>
-      <div className="flex flex-col justify-start flex-1/2 order-2 md:px-0 lg:order-1">
+      <div className="flex flex-col justify-start order-2 md:px-0 lg:order-1">
         <div className="px-4 md:px-0 order-2 lg:order-1">
-          <h2 className="text-xl sm:text-2xl md:text-3xl">{t('title_four')}</h2>
-          <div className="my-5 space-y-3">
+          <motion.h2
+            {...fadeUpAnimation}
+            className="text-xl sm:text-2xl md:text-3xl"
+          >
+            {t('title_four')}
+          </motion.h2>
+          <div className="my-5 space-y-3 w-full md:max-w-200 lg:max-w-none">
             <p className="sm:text-lg/relaxed">
               {t('title_four_paragraph_one')}
             </p>
@@ -70,7 +84,7 @@ const CourseHss = () => {
               </p>
             </div>
           </div>
-          <div className="my-5 space-y-3">
+          <div className="my-5 space-y-3 w-full md:max-w-200 lg:max-w-none">
             <p className="sm:text-lg/relaxed">
               {t('title_four_paragraph_five')}
             </p>
@@ -84,7 +98,7 @@ const CourseHss = () => {
           alt="Image Scout Leader"
           width={350}
           height={270}
-          className="w-full h-auto flex-1/2 order-1 lg:order-2 mb-8 lg:mb-0 rounded-sm lg:mt-10"
+          className="w-full h-auto order-1 lg:order-2 mb-8 lg:mb-0 rounded-sm lg:mt-10"
         />
       </div>
     </section>

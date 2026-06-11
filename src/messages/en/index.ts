@@ -11,37 +11,36 @@ import clubClothes from './clubClothes.json';
 import scoutUniform from './scoutUniform.json';
 import scoutBadges from './scoutBadges.json';
 import goodToHave from './goodToHave.json';
+import bliScout from './bliScout.json';
+import forParents from './forParents.json';
 import contact from './contact.json';
 import lager from './lager.json';
 import locationCardDetail from './locationCardDetail.json';
 import gdpr from './gdpr.json';
 import policy from './policy.json';
 import protocol from './protocol.json';
-import forParents from './forParents.json';
-import bliScout from './bliScout.json';
 
 const en = {
   nav,
   introSection,
   footer,
   omHSS,
+  faq,
+  bliscout,
   forLedare,
   avdelningar,
   seascouts,
-  faq,
-  bliscout,
   clubClothes,
   scoutUniform,
   scoutBadges,
   goodToHave,
+  bliScout,
+  forParents,
   contact,
   lager,
   locationCardDetail,
   gdpr,
   policy,
   protocol,
-  forParents,
-  bliScout,
 };
-
 export default en;
