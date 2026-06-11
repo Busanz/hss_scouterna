@@ -27,12 +27,12 @@ const Footersection = () => {
   return (
     <footer className="flex flex-col w-full h-full max-w-360 items-center rounded-sm bg-primary text-white">
       <div className="flex flex-col w-full items-center py-10 sm:py-14 lg:py-20">
-        <motion.h1
+        <motion.h2
           className="flex w-full h-full justify-center text-2xl sm:text-3xl lg:text-4xl text-text-primary pb-5 md:pb-10"
           {...fadeUpAnimation}
         >
           {t('title')}
-        </motion.h1>
+        </motion.h2>
         <nav className="w-full px-4 sm:px-8">
           <div className="flex flex-wrap w-full justify-center gap-6 sm:gap-8 lg:justify-evenly lg:gap-0">
             {translatedQuickLinks.map((link: TranslatedQuickLinkType) => (
