@@ -12,11 +12,11 @@ const Story = () => {
   const t = useTranslations('omHSS');
 
   return (
-    <div>
+    <section>
       <div className="px-4 md:px-0">
-        <h2 className="text-xl sm:text-2xl pb-5 text-text-secondary">
+        <h3 className="text-xl sm:text-2xl pb-5 text-text-secondary">
           {t('subtitle_two')}
-        </h2>
+        </h3>
         <p className="sm:text-lg">{t('title_two_paragraph_one')}</p>
         <p className="sm:text-lg w-full">{t('title_two_paragraph_two')}</p>
       </div>
@@ -29,11 +29,11 @@ const Story = () => {
             alt="Historisk bild"
             width={250}
             height={150}
-            className="h-auto w-full rounded-sm"
+            className="h-auto w-full object-cover rounded-sm"
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

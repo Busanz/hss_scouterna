@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Our boats",
+  "year": "Year: ",
+  "speed": "Top speed: ",
+  "width": "Width: ",
+  "length": "Length: ",
+  "boats": {
+    "1": {
+      "description": "Vendela is a stable 2-krona that is well suited for sailing training, teamwork and exercises close to shore.",
+      "year": "Unknown",
+      "speed": "ca 5 knop"
+    },
+    "2": {
+      "description": "Piff is a small optimist dinghy that is perfect for younger scouts learning the basics of sailing.",
+      "year": "Unknown",
+      "speed": "ca 4 knop"
+    },
+    "3": {
+      "description": "Puff is used for beginner sailing and helps scouts practice steering, balance and safety on the water.",
+      "year": "Unknown",
+      "speed": "ca 4 knop"
+    },
+    "4": {
+      "description": "Goofy is used for dinghy sailing and is a good boat for scouts who want to develop their sense of sail, wind and balance.",
+      "year": "Unknown",
+      "speed": "ca 5 knop"
+    },
+    "5": {
+      "description": "Our companion boat is a Big-Buster specially converted for scouting activities. The boat is well suited for transport and surveillance.",
+      "year": "1999",
+      "speed": ""
+    },
+    "6": {
+      "description": "Nocke is an easy-to-sail training boat that works well for both beginners and scouts with a little more experience.",
+      "year": "Unknown",
+      "speed": ""
+    },
+    "7": {
+      "description": "Lumbago is a larger sailboat that is suitable for longer sailing trips, navigation training and activities with several scouts on board.",
+      "year": "Unknown",
+      "speed": ""
+    },
+    "8": {
+      "description": "Cephalea is a safe and compact sailboat that is well suited for touring, exercises and scout activities on Lake Mälaren.",
+      "year": "Unknown",
+      "speed": ""
+    }
+  }
+}
