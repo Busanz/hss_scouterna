@@ -4,10 +4,10 @@ import History from "@/sections/History";
 const OmHSSPage = () => {
 
   return (
-    <div className="flex flex-col w-full h-full justify-center items-center my-5 md:my-10">
+    <main className="flex flex-col max-w-360 w-full h-full justify-center items-center my-5 md:my-10">
       <OurCommitments />
       <History />
-    </div>
+    </main>
   );
 };
 

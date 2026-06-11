@@ -23,17 +23,17 @@ export const introLinks: IntroLinksType = [
 
 export const omHSSLinks: OmHSSLinksType = [
   {
-    label: 'Sjöscout',
-    href: 'om-hss//sjoscout',
+    id: 1,
+    href: 'om-hss/sjoscout',
     url: '/img/om-HSS-section/sjoscout.png',
   },
   {
-    label: 'Kläder & Utrustning',
+    id: 2,
     href: '/om-hss/klader-utrustning',
     url: '/img/om-HSS-section/klader_utrustning.png',
   },
   {
-    label: 'Stadgar & Protokoll',
+    id: 3,
     href: '/om-hss/stadgar-protokoll',
     url: '/img/om-HSS-section/stadgar_protokoll.png',
   },
