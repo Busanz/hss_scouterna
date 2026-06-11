@@ -6,7 +6,7 @@ import LanguageBar from '@/components/LanguageBar';
 
 const Headersection = () => {
   return (
-    <section className="flex flex-col w-full h-full items-center">
+    <header className="flex flex-col w-full h-full items-center">
       <div className="relative flex flex-col w-full  max-w-360">
         <div className="flex w-full h-full justify-between md:justify-end items-center px-4">
           <div
@@ -41,7 +41,7 @@ const Headersection = () => {
         </div>
         <Navbarlinks />
       </div>
-    </section>
+    </header>
   );
 };
 

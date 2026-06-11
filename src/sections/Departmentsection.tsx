@@ -10,14 +10,13 @@ import { fadeUpAnimation } from '@/utils/animation';
 import { useTranslations } from 'next-intl';
 
 const Departmentsection = () => {
-  
   const t = useTranslations('avdelningar');
   const [departmentIndex, setDepartmentIndex] = useState<number>(0);
   const selectedDepartment: DepartmentIntroType =
     departmentsIntro[departmentIndex];
 
   return (
-    <div className="flex flex-col w-full h-full items-center mt-10 lg:mt-20">
+    <section className="flex flex-col w-full h-full items-center mt-10 lg:mt-20">
       <div className="relative flex flex-col w-full h-full items-center">
         <div className="relative flex flex-col w-full max-w-360 py-5 md:pt-10 text-text-secondary rounded-sm bg-primary">
           <motion.h1
@@ -63,7 +62,7 @@ const Departmentsection = () => {
           )}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
