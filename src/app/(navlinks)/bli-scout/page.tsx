@@ -1,7 +1,7 @@
 import BliScoutsection from "@/sections/BliScoutsection";
 
 const BliScoutPage = () => {
-  return <BliScoutsection />;
+  return <BliScoutsection />
 };
 
 export default BliScoutPage;
