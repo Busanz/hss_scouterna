@@ -1,0 +1,11 @@
+{
+  "title": "Protokoll and Stadgar",
+  "meeting": {
+    "title": "Kårstämma",
+    "dates": ["2020-04-20", "2020-05-15", "2023-11-22"]
+  },
+  "board": {
+    "title": "Styrelsemöten",
+    "dates": ["2020-04-20", "2020-05-15", "2023-11-22"]
+  }
+}

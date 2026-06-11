@@ -1,0 +1,11 @@
+{
+  "title": "Protocols and Statutes",
+  "meeting": {
+    "title": "Annual Troop Meeting",
+    "dates": ["2020-04-20", "2020-05-15", "2023-11-22"]
+  },
+  "board": {
+    "title": "Board Meetings",
+    "dates": ["2020-04-20", "2020-05-15", "2023-11-22"]
+  }
+}
