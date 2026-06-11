@@ -6,7 +6,7 @@ type IntroLink = {
 };
 
 type OmHSSLinks = {
-  label: string;
+  id: number;
   href: string;
   url: string;
 };

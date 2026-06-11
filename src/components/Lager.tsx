@@ -5,18 +5,20 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { fadeUpAnimation } from '@/utils/animation';
+import { GiCampingTent } from 'react-icons/gi';
 
 const Lager = () => {
   const t = useTranslations('lager');
   return (
     <section className="flex flex-col lg:flex-row gap-8 md:gap-10 lg:gap-14 my-5 sm:my-10 md:my-20">
       <div className="flex flex-col justify-start flex-1/2 order-2 px-4 md:px-0 lg:order-1">
-        <motion.h1
+        <motion.div
           {...fadeUpAnimation}
-          className=" text-xl sm:text-2xl md:text-3xl"
+          className="flex w-full items-start gap-5"
         >
-          {t('title')}
-        </motion.h1>
+          <GiCampingTent className="text-secondary stroke-[0.7px] " size={45} />
+          <h1 className=" text-xl sm:text-2xl md:text-3xl">{t('title')}</h1>
+        </motion.div>
         <p className="my-5 sm:text-lg leading-relaxed">{t('intro1')}</p>
 
         <p className="mb-5 sm:text-lg leading-relaxed">{t('intro2')}</p>

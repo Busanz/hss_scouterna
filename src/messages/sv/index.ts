@@ -19,6 +19,8 @@ import locationCardDetail from './locationCardDetail.json';
 import gdpr from './gdpr.json';
 import policy from './policy.json';
 import protocol from './protocol.json';
+import ourBoats from './ourBoats.json';
+import instagram from './instagram.json';
 
 const sv = {
   nav,
@@ -42,5 +44,7 @@ const sv = {
   gdpr,
   policy,
   protocol,
+  ourBoats,
+  instagram,
 };
 export default sv;

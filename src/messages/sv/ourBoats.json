@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Våra båtar",
+  "year": "År: ",
+  "speed": "Topphastighet: ",
+  "width": "Bredd: ",
+  "length": "Längd: ",
+  "boats": {
+    "1": {
+      "description": "Vendela är en stabil 2-krona som passar bra för seglingsträning, teamwork och övningar nära land.",
+      "year": "Okänt",
+      "speed": "ca 5 knop"
+    },
+    "2": {
+      "description": "Piff är en liten optimistjolle som passar perfekt för yngre scouter som lär sig grunderna i segling.",
+      "year": "Okänt",
+      "speed": "ca 4 knop"
+    },
+    "3": {
+      "description": "Puff används för nybörjarsegling och hjälper scouter att träna styrning, balans och trygghet på vattnet.",
+      "year": "Okänt",
+      "speed": "ca 4 knop"
+    },
+    "4": {
+      "description": "Goofy används för jollesegling och är en bra båt för scouter som vill utveckla sin känsla för segel, vind och balans.",
+      "year": "Okänt",
+      "speed": "ca 5 knop"
+    },
+    "5": {
+      "description": "Våran följebåt är en Big-Buster specialombyggd för scoutverksamheten. Båten lämpar sig väl för transporter och övervakning.",
+      "year": "1999",
+      "speed": ""
+    },
+    "6": {
+      "description": "Nocke är en lättseglad träningsbåt som fungerar bra för både nybörjare och scouter med lite mer erfarenhet.",
+      "year": "Okänt",
+      "speed": ""
+    },
+    "7": {
+      "description": "Lumbago är en större segelbåt som passar för längre seglingar, navigationsträning och aktiviteter med flera scouter ombord.",
+      "year": "Okänt",
+      "speed": ""
+    },
+    "8": {
+      "description": "Cephalea är en trygg och kompakt segelbåt som passar bra för tursegling, övningar och scoutaktiviteter på Mälaren.",
+      "year": "Okänt",
+      "speed": ""
+    }
+  }
+}

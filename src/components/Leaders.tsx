@@ -36,6 +36,7 @@ const Leaders = () => {
             alt="Image Scout Leader"
             width={800}
             height={600}
+            sizes="(max-width: 1024px) 100vw, 50vw"
             className="w-full h-auto object-contain"
             priority
           />
