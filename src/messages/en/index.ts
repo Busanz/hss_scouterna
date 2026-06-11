@@ -20,6 +20,7 @@ import gdpr from './gdpr.json';
 import policy from './policy.json';
 import protocol from './protocol.json';
 import ourBoats from './ourBoats.json';
+import instagram from './instagram.json';
 
 const en = {
   nav,
@@ -44,5 +45,6 @@ const en = {
   policy,
   protocol,
   ourBoats,
+  instagram,
 };
 export default en;
