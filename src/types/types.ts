@@ -11,12 +11,10 @@ type OmHSSLinks = {
   url: string;
 };
 
-type ClubCloths = {
-  name: string;
-  description: string;
+type ClubClothes = {
+  id: number;
   price: string;
   image: string;
-  alt: string;
 };
 
 export type IntroLinksType = {
@@ -44,7 +42,7 @@ export type DepartmentCard = {
 };
 export type DepartmentType = DepartmentCard[];
 export type OmHSSLinksType = OmHSSLinks[];
-export type ClubClothsType = ClubCloths[];
+export type ClubClothesType = ClubClothes[];
 
 export type CategoryType = 'Allt' | 'Policy' | 'Allmänt' | 'Övrigt';
 

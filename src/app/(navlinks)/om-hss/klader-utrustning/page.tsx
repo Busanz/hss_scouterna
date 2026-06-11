@@ -1,5 +1,5 @@
 import ScoutUniform from "@/sections/ScoutUniform";
-import ScoutBadges from "@/sections/ScoutBdages";
+import ScoutBadges from "@/sections/ScoutBadges";
 import GoodToHave from "@/sections/GoodToHave";
 
 import ClubClothes from "@/sections/ClubClothes";
