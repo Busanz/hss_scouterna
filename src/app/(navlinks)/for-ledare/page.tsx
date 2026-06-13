@@ -1,9 +1,11 @@
-import ForLeaders from "@/sections/ForLeaders"
+import ForLeaders from '@/sections/ForLeaders';
 
 const ForLedarePage = () => {
-    return (
-        <ForLeaders />
-    )
-}
+  return (
+    <>
+      <ForLeaders />
+    </>
+  );
+};
 
-export default ForLedarePage
+export default ForLedarePage;
