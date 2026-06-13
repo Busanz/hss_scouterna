@@ -31,7 +31,7 @@ const TryggaMoten = () => {
       </div>
       <div className="w-full lg:w-1/2 order-1 lg:order-2">
         <Image
-          src="/img/intro-section/for_foraldrar.png"
+          src="/img/intro-section/for_foraldrar.webp"
           alt="Scouts"
           width={350}
           height={270}

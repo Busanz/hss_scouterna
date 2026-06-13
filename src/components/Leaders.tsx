@@ -32,7 +32,7 @@ const Leaders = () => {
 
         <div className="relative w-full rounded-sm overflow-hidden order-1 lg:order-2">
           <Image
-            src="/img/intro-section/for_ledare.png"
+            src="/img/intro-section/for_ledare.webp"
             alt="Image Scout Leader"
             width={800}
             height={600}
