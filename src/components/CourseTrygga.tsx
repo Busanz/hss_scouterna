@@ -12,7 +12,7 @@ const CourseTrygga = () => {
     <section className="flex flex-col lg:flex-row gap-8 md:gap-10 lg:gap-14">
       <div className="flex flex-col justify-start flex-1/2 order-1 lg:order-1">
         <Image
-          src="/img/intro-section/om_hss.png"
+          src="/img/intro-section/om_hss.webp"
           alt="Image Scout Leader"
           width={350}
           height={270}

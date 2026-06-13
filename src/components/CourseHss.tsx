@@ -94,7 +94,7 @@ const CourseHss = () => {
           </div>
         </div>
         <Image
-          src="/img/intro-section/for_foraldrar.png"
+          src="/img/intro-section/for_foraldrar.webp"
           alt="Image Scout Leader"
           width={350}
           height={270}
