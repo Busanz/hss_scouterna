@@ -6,13 +6,12 @@ import { fadeUpAnimation } from '@/utils/animation';
 import { useTranslations } from 'next-intl';
 
 const seaScoutImg = [
-  "/img/ourboats-section/DSCF3070.jpg",
-  "/img/ourboats-section/DSCF1955.jpg",
-  "/img/ourboats-section/DSCF3092.jpg",
+  '/img/ourboats-section/ourboats_01.webp',
+  '/img/ourboats-section/ourboats_02.webp',
+  '/img/ourboats-section/ourboats_03.webp',
 ];
 
 const SeaScout = () => {
-
   const t = useTranslations('seascouts');
 
   return (
@@ -23,32 +22,24 @@ const SeaScout = () => {
             {...fadeUpAnimation}
             className="text-center text-2xl sm:text-3xl lg:text-4xl mt-8 text-text-primary px-1 py-5 md:py-10"
           >
-            {t("title")}
+            {t('title')}
           </motion.h1>
           <p className="w-full text-text-primary sm:text-lg max-w-6xl pb-10">
-            {t("paragraphOne")}
+            {t('paragraphOne')}
           </p>
           <div className="flex items-center justify-center gap-6">
             <h3 className="text-center text-lg md:text-xl text-text-subtitle">
-              {t("heading")}
+              {t('heading')}
             </h3>
             <AnchorSvg />
           </div>
           <hr className="my-6 h-[0.5px] w-full text-text-subtitle" />
           <div className=" text-text-primary max-w-6xl mt-2">
-            <p className="sm:text-lg">
-              {t("paragraphTwo")}
-            </p>
+            <p className="sm:text-lg">{t('paragraphTwo')}</p>
             <ul className="list-disc m-5 md:mx-5 sm:text-lg pb-5">
-              <li className="pb-3">
-                {t("listItemOne")}
-              </li>
-              <li className="pb-3">
-                {t("listItemTwo")}
-              </li>
-              <li className="pb-3">
-                {t("listItemThree")}
-              </li>
+              <li className="pb-3">{t('listItemOne')}</li>
+              <li className="pb-3">{t('listItemTwo')}</li>
+              <li className="pb-3">{t('listItemThree')}</li>
             </ul>
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-3 mb-10">
               {seaScoutImg.map((image, index) => (

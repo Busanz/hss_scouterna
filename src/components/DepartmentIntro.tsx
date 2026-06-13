@@ -57,7 +57,7 @@ const DepartmentIntro = ({ department }: DepartmentHeaderProps) => {
           </p>
         </div>
         <div
-          className="flex pb-5 md:pb-10 gap-3 md:gap-6"
+          className="flex flex-wrap pb-5 md:pb-10 gap-3 md:gap-6"
           style={
             { '--department-color': department.color } as React.CSSProperties
           }

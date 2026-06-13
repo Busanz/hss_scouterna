@@ -1,4 +1,5 @@
 'use client';
+
 import { motion } from 'motion/react';
 import { fadeUpAnimation } from '@/utils/animation';
 import Link from 'next/link';
@@ -19,8 +20,8 @@ export default function BliScoutsection() {
         </motion.h1>
 
         <div className="flex flex-col lg:flex-row gap-8 md:gap-10 lg:gap-14 w-full h-full max-w-360 pb-5 md:pb-10 px-4 md:px-6 lg:px-10">
-          <div className="flex flex-col w-full h-full md:max-w-xl lg:max-w-3/5 order-2 lg:order-1">
-            <p className="md:text-xl font-normal text-white pb-5">
+          <div className="flex flex-col w-full h-full md:max-w-xl lg:max-w-3/5 order-2 lg:order-1 pb-10">
+            <p className="text-xl md:text-2xl font-normal text-white pb-5">
               {t('subHeader')}
             </p>
             <p className="sm:text-lg text-white items-center pb-20">
@@ -29,7 +30,7 @@ export default function BliScoutsection() {
             <Link
               href="https://www.scoutnet.se/register/in/group/764"
               target="_blank"
-              className="bg-white w-full max-w-50 text-center text-primary hover:bg-secondary font-normal py-1.5 px-4 rounded-sm cursor-pointer"
+              className="bg-white w-full max-w-50 text-center text-primary hover:bg-secondary font-normal py-2 px-4 rounded-sm cursor-pointer"
             >
               {t('buttonText')}
             </Link>
@@ -46,7 +47,7 @@ export default function BliScoutsection() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center lg:flex-row w-full h-full max-w-360 gap-8 md:gap-10 lg:gap-14 py-5 sm:py-5 md:py-10">
+      <div className="flex flex-col items-center lg:flex-row w-full h-full max-w-360 gap-8 md:gap-10 lg:gap-14 py-5 sm:py-5 md:pt-10 md:pb-0">
         <div className="relative w-full rounded-sm overflow-hidden gap-5">
           <div className="relative w-full rounded-sm overflow-hidden">
             <Image
@@ -59,8 +60,8 @@ export default function BliScoutsection() {
             />
           </div>
         </div>
-        <div className="flex flex-col w-full lg:pr-10 lg:pl-0">
-          <p className="mb-5 md:text-xl font-normal leading-relaxed text-primary">
+        <div className="flex flex-col w-full lg:pr-10 lg:pl-0 px-4 md:px-0">
+          <p className="mb-5 text-xl md:text-2xl font-normal leading-relaxed text-primary">
             {t('description2')}
           </p>
           <p className="mb-5 sm:text-lg leading-relaxed text-primary">

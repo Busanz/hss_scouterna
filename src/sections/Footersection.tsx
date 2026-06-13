@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { quickLinks, socialMediaLinks } from '../data/data';
-import {
+import type {
   TranslatedQuickLinkType,
   TranslatedSocialLinkType,
 } from '../types/types';
@@ -43,7 +43,7 @@ const Footersection = () => {
               >
                 <Image
                   src={link.image}
-                  alt={link.label}
+                  alt=""
                   width={80}
                   height={80}
                   className="w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 rounded-full"

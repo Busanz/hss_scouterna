@@ -13,12 +13,12 @@ export const navLinks = [
   { href: '/kontakta-oss' },
 ];
 export const introLinks: IntroLinksType = [
-  { href: '/bli-scout', url: '/img/intro-section/bli_scout.png' },
-  { href: '/for-ledare', url: '/img/intro-section/for_ledare.png' },
-  { href: '/for-foraldrar', url: '/img/intro-section/for_foraldrar.png' },
-  { href: '/avdelningar', url: '/img/intro-section/avdelningar.png' },
-  { href: '/lager', url: '/img/intro-section/lager.png' },
-  { href: '/om-hss', url: '/img/intro-section/om_hss.png' },
+  { href: '/bli-scout', url: '/img/intro-section/bli_scout.webp' },
+  { href: '/for-ledare', url: '/img/intro-section/for_ledare.webp' },
+  { href: '/for-foraldrar', url: '/img/intro-section/for_foraldrar.webp' },
+  { href: '/avdelningar', url: '/img/intro-section/avdelningar.webp' },
+  { href: '/lager', url: '/img/intro-section/lager.webp' },
+  { href: '/om-hss', url: '/img/intro-section/om_hss.webp' },
 ];
 
 export const omHSSLinks: OmHSSLinksType = [

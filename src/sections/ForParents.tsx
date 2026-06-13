@@ -1,6 +1,8 @@
-import Family from "@/components/Family";
-import Safety from "@/components/Safety";
-import TryggaMoten from "@/components/TryggaMoten";
+'use client';
+
+import Family from '@/components/Family';
+import Safety from '@/components/Safety';
+import TryggaMoten from '@/components/TryggaMoten';
 
 const ForParents = () => {
   return (

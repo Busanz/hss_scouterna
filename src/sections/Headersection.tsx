@@ -26,10 +26,7 @@ const Headersection = () => {
           <LanguageBar />
         </div>
       </div>
-      <div className="flex flex-col w-full max-w-360 h-full min-h-6 sm:min-h-6 md:min-h-90 items-center justify-between bg-primary sm:bg-[url(/img/header-section/hero_bg_img.png)] sm:bg-cover sm:bg-center rounded-sm">
-        <h1 className="text-2xl font-bold text-center hidden">
-          Hässelby Strands Sjöscoutkår
-        </h1>
+      <div className="flex flex-col w-full max-w-360 h-full min-h-6 sm:min-h-6 md:min-h-90 items-center justify-between bg-primary sm:bg-[url(/img/header-section/hero_bg_img.webp)] sm:bg-cover sm:bg-center rounded-sm">
         <div className="relative w-32 sm:w-64 md:w-96 lg:w-120 h-28 mt-10 hidden sm:block">
           <Image
             src={'/img/header-section/hss_logo_vit.png'}

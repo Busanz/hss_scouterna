@@ -1,51 +1,26 @@
 'use client';
 
-import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'motion/react';
 import { fadeUpAnimation } from '@/utils/animation';
 import { InstagramHeart } from '@/assets/svg';
-import { InstagramDataType } from '@/types/types';
+import type { InstagramDataType } from '@/types/types';
 import { useTranslations } from 'next-intl';
 import { SlSocialInstagram } from 'react-icons/sl';
 
-const InstagramSection = () => {
+type InstagramSectionProps = {
+  instagramData: InstagramDataType | null;
+  error: boolean;
+};
+
+const InstagramSection = ({ instagramData, error }: InstagramSectionProps) => {
   const t = useTranslations('instagram');
-  const [instagramData, setInstagramData] = useState<InstagramDataType | null>(
-    null,
-  );
-  const [error, setError] = useState<boolean>(false);
-
-  const URL: string = 'https://feeds.behold.so/au47cEddhn57lA49VlAe';
-
-  useEffect(() => {
-    const fetchInstagramData = async () => {
-      try {
-        const response = await fetch(URL);
-        if (!response.ok) {
-          throw new Error('Failed to fetch data');
-        }
-        const data: InstagramDataType = await response.json();
-
-        if (!data.posts || data.posts.length === 0) {
-          setError(true);
-          return;
-        }
-
-        setInstagramData(data);
-      } catch {
-        setError(true);
-      }
-    };
-
-    fetchInstagramData();
-  }, []);
-
-  const canptionTruncate = (text: string, maxWord: number) => {
-    const captionText = text.split(' ');
-    return captionText.length > maxWord
-      ? `${captionText.slice(0, maxWord).join(' ')}...`
-      : captionText;
+  console.log(instagramData);
+  const captionTruncate = (text: string, maxWord: number) => {
+    const words = text.split(' ');
+    return words.length > maxWord
+      ? `${words.slice(0, maxWord).join(' ')}...`
+      : text;
   };
 
   return (
@@ -53,7 +28,7 @@ const InstagramSection = () => {
       className="flex flex-col w-full h-full items-center justify-center mb-5 sm:mb-10 md:mb-20"
       id="instagram"
     >
-      <div className="flex flex-col items-center w-full max-w-360 h-full pb-5 md:pb-10 text-text-primay bg-secondary/10 rounded-sm">
+      <div className="flex flex-col items-center w-full max-w-360 h-full pb-5 md:pb-10 text-text-primay bg-secondary/6 rounded-sm">
         <motion.h1
           {...fadeUpAnimation}
           className="text-center text-2xl sm:text-3xl lg:text-4xl mt-8 text-text-secondary px-4 py-5 md:py-10"
@@ -61,7 +36,7 @@ const InstagramSection = () => {
           {t(`title`)}
         </motion.h1>
 
-        <p className="sm:text-lg/relaxed text-text-secondary px-4 pb-5 md:pb-10">
+        <p className="sm:text-lg/relaxed text-text-secondary text-center px-4 pb-5 md:pb-10">
           {t('description')}
         </p>
 
@@ -97,17 +72,15 @@ const InstagramSection = () => {
                     </a>
                   </div>
                   <div className="flex w-full">
-                    <p>{canptionTruncate(post.caption, 20)}</p>
+                    <p>{captionTruncate(post.caption, 20)}</p>
                   </div>
                 </div>
               </div>
             ))}
         </div>
         {error && (
-          <div className="flex w-full h-full justify-center">
-            <p className="text-text-secondary">
-              Unable to load Instagram posts.
-            </p>
+          <div className="flex w-full h-full justify-center text-center">
+            <p>{t('loadError')}</p>
           </div>
         )}
       </div>

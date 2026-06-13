@@ -33,7 +33,7 @@ const Lager = () => {
 
       <div className="basis-1/2 order-1 lg:order-2">
         <Image
-          src="/img/intro-section/lager.png"
+          src="/img/intro-section/lager.webp"
           alt={t('imageAlt')}
           width={350}
           height={270}
