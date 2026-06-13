@@ -5,7 +5,7 @@ export const departmentsIntro = [
     image: '/img/departments/intro/sjohumlor.webp',
     color: '#3FAE2A',
     moreDetails: {
-      image: '/img/departments/intro-more/badge_sjohumlor.webp',
+      image: '/img/departments/intro-more/badge_sjohumlor.png',
     },
   },
   {
