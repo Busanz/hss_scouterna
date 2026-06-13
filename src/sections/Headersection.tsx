@@ -15,7 +15,7 @@ const Headersection = () => {
             onClick={() => window.open('https://www.scouterna.se/', '_blank')}
           >
             <Image
-              src={'/img/header-section/scouterna-log.png'}
+              src={'/img/header-section/scouterna-log.webp'}
               alt="Souterna logga"
               fill
               sizes="340px"
@@ -29,7 +29,7 @@ const Headersection = () => {
       <div className="flex flex-col w-full max-w-360 h-full min-h-6 sm:min-h-6 md:min-h-90 items-center justify-between bg-primary sm:bg-[url(/img/header-section/hero_bg_img.webp)] sm:bg-cover sm:bg-center rounded-sm">
         <div className="relative w-32 sm:w-64 md:w-96 lg:w-120 h-28 mt-10 hidden sm:block">
           <Image
-            src={'/img/header-section/hss_logo_vit.png'}
+            src={'/img/header-section/hss_logo_vit.webp'}
             alt="Souterna logga"
             fill
             sizes="(max-width: 640px) 128px, (max-width: 768px) 256px, (max-width: 1024px) 384px, 480px"

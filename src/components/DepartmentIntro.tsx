@@ -63,7 +63,7 @@ const DepartmentIntro = ({ department }: DepartmentHeaderProps) => {
           }
         >
           <Button
-            className="w-full text-center max-w-53 text-lg md:text-xl text-text-primary font-normal px-6 py-3 border rounded-sm bg-(--department-color) hover:bg-(--department-color)/90 border-(--department-color) cursor-pointer"
+            className="w-full text-center max-w-53 text-lg md:text-xl text-text-primary font-medium px-6 py-3 border rounded-sm bg-(--department-color) hover:bg-(--department-color)/90 border-(--department-color) cursor-pointer"
             onClick={() => {
               window.open(
                 'https://www.scoutnet.se/register/in/group/764',
@@ -74,7 +74,7 @@ const DepartmentIntro = ({ department }: DepartmentHeaderProps) => {
             {t('registerButton')}
           </Button>
           <Button
-            className="w-full text-center text-lg md:text-xl text-(--department-color) font-normal px-6 py-3 border  rounded-sm border-(--department-color) hover:bg-(--department-color)/20 max-w-53 cursor-pointer"
+            className="w-full text-center text-lg md:text-xl text-(--department-color) font-medium px-6 py-3 border  rounded-sm border-(--department-color) hover:bg-(--department-color)/20 max-w-53 cursor-pointer"
             onClick={() => {
               handleClick();
             }}
