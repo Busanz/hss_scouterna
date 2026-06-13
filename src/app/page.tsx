@@ -1,7 +1,7 @@
 import Headersection from '@/sections/Headersection';
 import Introsection from '@/sections/Introsection';
 import Footersection from '@/sections/Footersection';
-import InstagramSection from '@/sections/InstagramSection';
+import InstagramSection from '@/sections/instagram/InstagramSection.server';
 
 export default function Home() {
   return (

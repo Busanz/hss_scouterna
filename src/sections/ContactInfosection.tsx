@@ -6,10 +6,12 @@ import { fadeUpAnimation } from '@/utils/animation';
 import LocationCard from '@/components/LocationCard';
 import StaticMap from '@/components/Maps';
 import { useTranslations } from 'next-intl';
+import { useState } from 'react';
 
 const ContactInfosection = () => {
-  const t = useTranslations('contact')
-  const tDetail = useTranslations('locationCardDetail')
+  const t = useTranslations('contact');
+  const tDetail = useTranslations('locationCardDetail');
+  const [openCard, setOpenCard] = useState<string | null>(null);
 
   return (
     <div className="flex flex-col w-full max-w-360 h-full bg-primary text-text-primary my-10 md:my-20 px-4 md:px-6 lg:px-10 py-5 md:py-10  rounded-sm">
@@ -86,11 +88,12 @@ const ContactInfosection = () => {
             </p>
           </div>
 
-          <p className="sm:text-lg pb-5 font-light">
-            {t('facilitiesIntro')}
-          </p>
+          <p className="sm:text-lg pb-5 font-light">{t('facilitiesIntro')}</p>
 
           <LocationCard
+            id="myset"
+            onToggle={() => setOpenCard(openCard === 'myset' ? null : 'myset')}
+            isOpen={openCard === 'myset'}
             image="/img/history/myset.png"
             title={tDetail('mysetTitle')}
             icon={<TreePine className="w-6 h-6" />}
@@ -100,7 +103,12 @@ const ContactInfosection = () => {
           />
 
           <LocationCard
-            image="/img/contact/ruffen.jpg"
+            id="ruffen"
+            isOpen={openCard === 'ruffen'}
+            onToggle={() =>
+              setOpenCard(openCard === 'ruffen' ? null : 'ruffen')
+            }
+            image="/img/contact/ruffen.webp"
             title={tDetail('ruffenTitle')}
             icon={<Sailboat className="w-6 h-6" />}
             description={tDetail('ruffenDescription')}

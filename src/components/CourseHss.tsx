@@ -9,7 +9,7 @@ const CourseHss = () => {
   const t = useTranslations('forLedare');
 
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-14 my-5 sm:py-10 md:py-20">
+    <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-14 my-5 sm:py-5 md:py-10">
       <div className="flex flex-col justify-start order-2 px-4 md:px-0 lg:order-1">
         <motion.h1
           {...fadeUpAnimation}

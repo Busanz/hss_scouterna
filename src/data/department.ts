@@ -2,10 +2,10 @@ export const departmentsIntro = [
   {
     id: 0,
     key: 'sjöhumlor',
-    image: '/img/departments/intro/sjohumlor.png',
+    image: '/img/departments/intro/sjohumlor.webp',
     color: '#3FAE2A',
     moreDetails: {
-      image: '/img/departments/intro-more/badge_sjohumlor.png',
+      image: '/img/departments/intro-more/badge_sjohumlor.webp',
     },
   },
   {

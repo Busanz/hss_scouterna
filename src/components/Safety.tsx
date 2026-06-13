@@ -11,7 +11,7 @@ const Safety = () => {
     <section className="flex flex-col lg:flex-row gap-8 md:gap-10 lg:gap-14 my-5 sm:my-10 md:my-20">
       <div className="w-full lg:w-1/2 order-1">
         <Image
-          src="/img/ourboats-section/DSCF1955.jpg"
+          src="/img/ourboats-section/ourboats_02.webp"
           alt="Image boats and scouts"
           width={350}
           height={270}

@@ -1,16 +1,17 @@
-"use client";
+'use client';
 
-import { useEffect, useState } from "react";
-import type { CategoryType, FaqItemType } from "@/types/types";
-import Question from "@/components/Question";
-import Link from "next/link";
-import { categories, faqData } from "@/data/faq";
-import { useLocale, useTranslations } from "next-intl";
+import { useEffect, useRef, useState } from 'react';
+import type { CategoryType, FaqItemType } from '@/types/types';
+import Question from '@/components/Question';
+import Link from 'next/link';
+import { categories, faqData } from '@/data/faq';
+import { useLocale, useTranslations } from 'next-intl';
 
 export default function FaqSection() {
-  const t = useTranslations("faq");
+  const t = useTranslations('faq');
   const locale = useLocale();
-  const defaultCategory = t("categories.all") as CategoryType;
+  const prevLocale = useRef(locale);
+  const defaultCategory = t('categories.all') as CategoryType;
 
   const [activeCategory, setActiveCategory] =
     useState<CategoryType>(defaultCategory);
@@ -18,9 +19,12 @@ export default function FaqSection() {
   const [openRight, setOpenRight] = useState<number | null>(null);
 
   useEffect(() => {
-    setActiveCategory(t("categories.all") as CategoryType);
-    setOpenLeft(null);
-    setOpenRight(null);
+    if (prevLocale.current !== locale) {
+      setActiveCategory(t('categories.all') as CategoryType);
+      setOpenLeft(null);
+      setOpenRight(null);
+      prevLocale.current = locale;
+    }
   }, [locale, t]);
 
   const questions = faqData.filter((item: FaqItemType) => {
@@ -43,10 +47,10 @@ export default function FaqSection() {
       <div className="flex flex-col w-full h-full max-w-360 px-4 md:px-6 lg:px-5 xl:px-10 pb-10 md:pb-20 rounded-sm bg-primary">
         <div className="text-center mt-6 sm:mt-8">
           <h1 className="text-text-primary text-2xl sm:text-3xl lg:text-4xl pt-5">
-            {t("header")}
+            {t('header')}
           </h1>
           <p className="leading-relaxed mb-5 sm:text-xl text-text-primary">
-            {t("subHeader")}
+            {t('subHeader')}
           </p>
         </div>
 
@@ -63,8 +67,8 @@ export default function FaqSection() {
                 }}
                 className={`min-w-30 px-3 py-2 rounded-sm text-lg font-light cursor-pointer ${
                   activeCategory === t(category)
-                    ? "font-medium text-secondary"
-                    : "underline underline-offset-4 decoration-0 decoration-text-primary text-text-primary hover:text-secondary hover:no-underline"
+                    ? 'font-medium text-secondary'
+                    : 'underline underline-offset-4 decoration-0 decoration-text-primary text-text-primary hover:text-secondary hover:no-underline'
                 }`}
               >
                 {categoryLabel}
@@ -111,12 +115,12 @@ export default function FaqSection() {
 
         <div className="text-center pt-5 mt-5">
           <p className="text-white text-sm">
-            {t("anyotherquestion")}{" "}
+            {t('anyotherquestion')}{' '}
             <Link
               href="/kontakta-oss"
               className="font-semibold underline underline-offset-2 text-white hover:text-white"
             >
-              {t("contactus")}
+              {t('contactus')}
             </Link>
           </p>
         </div>

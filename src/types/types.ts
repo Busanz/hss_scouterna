@@ -1,10 +1,3 @@
-type IntroLink = {
-  label: string;
-  href: string;
-  url: string;
-  description?: string;
-};
-
 type OmHSSLinks = {
   id: number;
   href: string;
@@ -69,7 +62,6 @@ type InstagramPostType = {
   permalink: string;
   mediaType: string;
   mediaUrl: string;
-  timestamp: string;
   sizes: {
     small: {
       mediaUrl: string;
