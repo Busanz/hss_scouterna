@@ -29,7 +29,7 @@ const LocationCard = ({
   const t = useTranslations('locationCardDetail');
 
   return (
-    <div className="group bg-background text-text-secondary rounded-sm p-4 md:p-6">
+    <div className="bg-background text-text-secondary rounded-sm p-4 md:p-6">
       <div
         onClick={(e) => {
           e.preventDefault();
@@ -43,7 +43,9 @@ const LocationCard = ({
             {title}
           </h3>
         </div>
-        <span className="text-sm text-text-secondary group-open:rotate-180 transition-transform">
+        <span
+          className={`text-sm text-text-secondary transition-transform duration-700 origin-center ${isOpen ? 'rotate-180 ' : 'rotate-0'}`}
+        >
           {<ChevronDown />}
         </span>
       </div>
