@@ -24,19 +24,21 @@ const BoatCard = ({ boat }: BoatCardProps) => {
           className="w-full h-full object-cover rounded-sm"
         />
       </div>
-      <p className="text-text-secondary mb-3">{t(`${boatKey}.description`)}</p>
+      <p className="text-text-secondary mb-3 font-normal pt-5">
+        {t(`${boatKey}.description`)}
+      </p>
       <div className="py-3 text-text-secondary/80">
-        <p>
+        <p className="text-text-secondary font-normal">
           <span>{t('year')}</span> {t(`${boatKey}.year`)}
         </p>
-        <p>
+        <p className="text-text-secondary font-normal">
           <span>{t('speed')}</span> {t(`${boatKey}.speed`)}
         </p>
-        <p>
+        <p className="text-text-secondary font-normal">
           <span>{t('width')}</span>
           {boat.width}
         </p>
-        <p>
+        <p className="text-text-secondary font-normal">
           <span>{t('length')}</span>
           {boat.length}
         </p>

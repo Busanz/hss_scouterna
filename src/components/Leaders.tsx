@@ -1,9 +1,9 @@
 'use client';
 
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { fadeUpAnimation } from '@/utils/animation';
+import { useTranslations } from 'next-intl';
 
 const Leaders = () => {
   const t = useTranslations('forLedare');
