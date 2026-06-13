@@ -1,4 +1,5 @@
 'use client';
+
 import Image from 'next/image';
 import { departmentLogos } from '@/data/data';
 import { departmentsIntro } from '@/data/department';

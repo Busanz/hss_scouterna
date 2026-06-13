@@ -1,3 +1,5 @@
+'use client';
+
 import CourseHss from '@/components/CourseHss';
 import CourseTrygga from '@/components/CourseTrygga';
 import Leaders from '@/components/Leaders';

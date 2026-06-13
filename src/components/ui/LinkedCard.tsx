@@ -33,7 +33,7 @@ const LinkedCard = ({ href, label, url, description }: LinkedCardProps) => {
           />
         </div>
         {description && (
-          <p className="text-text-secondary text-lg">{description}</p>
+          <p className="text-text-secondary text-lg py-5">{description}</p>
         )}
       </Link>
     </motion.div>
