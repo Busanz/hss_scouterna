@@ -12,20 +12,20 @@ const OldBoats = () => {
       <div className="ms:text-lg mb-5">
         <BoatCardLeft
           image="/img/history/boats.jpg"
-          name="Båtnamn:"
-          years="I HSS ägo: xxxx-xxxx"
+          name="Ingalunda"
+          years="HSS"
           description={t("title_three_paragraph_one")}
         />
         <BoatCardRight
           image="/img/history/oldBoat.jpg"
-          name="Båtnamn:"
-          years="I HSS ägo: xxxx-xxxx"
+          name="Ingalunda"
+          years="HSS"
           description={t("title_three_paragraph_two")}
         />
         <BoatCardLeft
           image="/img/history/boats.jpg"
-          name="Båtnamn:"
-          years="I HSS ägo: xxxx-xxxx"
+          name="Ingalunda"
+          years="HSS"
           description={t("title_three_paragraph_three")}
         />
       </div>
