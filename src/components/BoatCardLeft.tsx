@@ -22,8 +22,8 @@ const BoatCardLeft = ({ image, name, years, description }: BoatCardProps) => {
         </div>
 
         <div className="max-w-3xl px-4 md:px-0 pr-10">
-          <p className="text-text-secondary">{name}</p>
-          <p className="text-text-secondary">{years}</p>
+          <p className="text-text-secondary font-normal">{name}</p>
+          <p className="text-text-secondary font-normal">{years}</p>
           <p className="my-2">{description}</p>
         </div>
       </div>
